@@ -1,0 +1,64 @@
+{
+  "title": "Dialogue Flow Designer",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners order six dialogue stages for a CFO sales-practice agent, choose transition conditions including a strong/weak coaching branch, and see a live flowchart of their design.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Dialogue Flow Designer",
+    "learningObjectives": [
+      "Design a dialogue flow for a sales conversation agent by arranging conversation stages and defining transitions."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "design",
+    "duration": "15 minutes",
+    "prerequisites": [
+      "Dialogue Systems and Conversation Flow sections of Chapter 5"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 720
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "reorderable stage list with arrow buttons",
+      "transition condition dropdowns",
+      "live SVG flow diagram",
+      "Submit Flow Design button",
+      "Reset button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Practice with immediate feedback",
+    "keyQuestions": [
+      "Design a dialogue flow for a sales conversation agent by arranging conversation stages and defining transitions."
+    ],
+    "commonMisconceptions": [
+      "Dialogue flow can be linear.",
+      "All conversations follow the same pattern.",
+      "Transitions don't matter."
+    ],
+    "assessmentOpportunities": [
+      "All six stages in a logical order.",
+      "Exactly one strong/weak branch, placed after Response evaluation.",
+      "Learner can explain where the conversation must wait for the salesperson."
+    ]
+  },
+  "chapter": "05-ai-story-generation-agents"
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Cognitive Bias Simulator",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Scenario-based simulator in which learners identify the cognitive bias behind a buyer's hesitation and select the story strategy that addresses it, with explanatory feedback and a summary table.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Cognitive Bias Simulator",
+    "learningObjectives": [
+      "Identify which cognitive bias influences a customer's decision and select the appropriate story strategy to address it."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "identify",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Cognitive Biases and Decision-Making section of Chapter 2"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 560
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "bias dropdown",
+      "strategy dropdown",
+      "Submit button",
+      "Next Scenario button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Practice with immediate feedback",
+    "keyQuestions": [
+      "Identify which cognitive bias influences a customer's decision and select the appropriate story strategy to address it."
+    ],
+    "commonMisconceptions": [
+      "All biases work the same way.",
+      "Biases are always negative.",
+      "Stories cannot overcome biases."
+    ],
+    "assessmentOpportunities": [
+      "Learner correctly identifies the bias and strategy for all three scenarios on the first attempt.",
+      "Learner can explain how loss aversion helps overcome status quo bias."
+    ]
+  },
+  "chapter": "02-storytelling-fundamentals-psychology"
+}

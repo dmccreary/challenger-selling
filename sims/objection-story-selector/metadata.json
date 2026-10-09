@@ -1,0 +1,62 @@
+{
+  "title": "Objection Story Selector",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Step-through practice in which learners match five common customer objections to the Price, Timing, Competitor, Risk or Authority story type and see an example story for each.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Objection Story Selector",
+    "learningObjectives": [
+      "Select the appropriate objection story type (Price, Timing, Competitor, Risk, Authority) for different customer objections."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "select",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Handling Objections with Stories section of Chapter 4"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 560
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Story Type dropdown",
+      "Submit button",
+      "Next button",
+      "Start Over button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Practice with immediate feedback",
+    "keyQuestions": [
+      "Select the appropriate objection story type (Price, Timing, Competitor, Risk, Authority) for different customer objections."
+    ],
+    "commonMisconceptions": [
+      "Any story can address any objection.",
+      "Arguments work better than stories for objections.",
+      "Objections should be countered directly."
+    ],
+    "assessmentOpportunities": [
+      "Correct story type for all five objections.",
+      "Learner can distinguish a Price objection from a Competitor objection that mentions price."
+    ]
+  },
+  "chapter": "04-objection-handling-portfolio"
+}

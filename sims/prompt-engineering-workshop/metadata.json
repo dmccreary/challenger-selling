@@ -1,0 +1,64 @@
+{
+  "title": "Prompt Engineering Workshop",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners select, order and refine prompt elements to build an AI prompt that generates a sales story for a manufacturing CTO, with feedback on completeness, focus and structure.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Prompt Engineering Workshop",
+    "learningObjectives": [
+      "Construct effective AI prompts for story generation by selecting and arranging prompt elements in the correct structure."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "construct",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Prompt Engineering section of Chapter 5"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 640
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "prompt element checkboxes",
+      "custom text input and Add button",
+      "reorderable prompt list with arrow and remove buttons",
+      "assembled prompt preview",
+      "Submit Prompt button",
+      "Reset button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Practice with immediate feedback",
+    "keyQuestions": [
+      "Construct effective AI prompts for story generation by selecting and arranging prompt elements in the correct structure."
+    ],
+    "commonMisconceptions": [
+      "More context is always better.",
+      "Any prompt structure works.",
+      "One iteration is sufficient."
+    ],
+    "assessmentOpportunities": [
+      "Final prompt includes persona, industry, insight, structure, tone and at least one specific requirement, with no distractors.",
+      "Elements ordered from context through requirements."
+    ]
+  },
+  "chapter": "05-ai-story-generation-agents"
+}
