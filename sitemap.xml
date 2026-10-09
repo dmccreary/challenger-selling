@@ -2,38 +2,138 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://dmccreary.github.io/challenger-selling/</loc>
-         <lastmod>2026-10-08</lastmod>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/challenger-selling/about/</loc>
-         <lastmod>2026-10-08</lastmod>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/challenger-selling/contact/</loc>
-         <lastmod>2026-10-08</lastmod>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/challenger-selling/course-description/</loc>
-         <lastmod>2026-10-08</lastmod>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/challenger-selling/license/</loc>
-         <lastmod>2026-10-08</lastmod>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/challenger-selling/chapters/</loc>
-         <lastmod>2026-10-08</lastmod>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/01-challenger-methodology-insights/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/02-storytelling-fundamentals-psychology/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/03-buyer-personas-segmentation/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/04-objection-handling-portfolio/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/05-ai-story-generation-agents/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/06-graph-database-fundamentals-stories/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/07-ai-framework-fundamentals-stories/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/08-intelligent-textbook-tools-stories/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/09-story-effectiveness-analytics/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/10-story-delivery-integration-coaching/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/11-story-libraries-customization-trust/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/12-story-creation-templates/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/13-story-innovation-strategy-crisis/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/14-story-planning-metrics-alignment/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/15-story-architecture-devops-testing/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/16-advanced-ai-immersive-experiences/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/chapters/17-capstone-project/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/img/mascot/character-sheet/</loc>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/challenger-selling/learning-graph/</loc>
-         <lastmod>2026-10-08</lastmod>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/learning-graph/concept-list/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/learning-graph/concept-taxonomy/</loc>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/challenger-selling/learning-graph/course-description-assessment/</loc>
-         <lastmod>2026-10-08</lastmod>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/learning-graph/mascot-test/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/learning-graph/quality-metrics/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/learning-graph/taxonomy-distribution/</loc>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/learning-graph/logs/learning-graph-generator-1.07-2026-10-08/</loc>
+         <lastmod>2026-10-09</lastmod>
     </url>
     <url>
          <loc>https://dmccreary.github.io/challenger-selling/sims/</loc>
-         <lastmod>2026-10-08</lastmod>
+         <lastmod>2026-10-09</lastmod>
+    </url>
+    <url>
+         <loc>https://dmccreary.github.io/challenger-selling/sims/graph-viewer/</loc>
+         <lastmod>2026-10-09</lastmod>
     </url>
 </urlset>

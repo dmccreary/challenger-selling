@@ -1,0 +1,401 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Challenger Sales Methodology,,CHAL
+2,Teaching Principle,1,CHAL
+3,Tailoring Principle,1,CHAL
+4,Taking Control Principle,1,CHAL
+5,Relationship Builder Profile,1,CHAL
+6,Hard Worker Profile,1,CHAL
+7,Lone Wolf Profile,1,CHAL
+8,Reactive Problem Solver Profile,1,CHAL
+9,Challenger Profile,1,CHAL
+10,Sales Insight,1,CHAL
+11,Commercial Insight,10,CHAL
+12,Teaching Perspective,2,CHAL
+13,Reframing Customer Business Problems,10,CHAL
+14,Warmer Insight,10,CHAL
+15,Rational Drowning Insight,10,CHAL
+16,Rock Star Insight,10,CHAL
+17,Customer Priority Map,3,CHAL
+18,Stakeholder Analysis,17,CHAL
+19,Economic Buyer,18,CHAL
+20,Technical Buyer,18,CHAL
+21,User Buyer,18,CHAL
+22,Coach,18,CHAL
+23,Mobilizer,18,CHAL
+24,Skeptic,18,CHAL
+25,Friend,18,CHAL
+26,Storytelling Fundamentals,,STORY
+27,Hero's Journey,26,STORY
+28,Story Arc,26,STORY
+29,Narrative Structure,26,STORY
+30,Story Conflict,28,STORY
+31,Story Resolution,28,STORY
+32,Emotional Resonance,26,STORY
+33,Memory Retention,26,PSYCH
+34,Working Memory,33,PSYCH
+35,Long-Term Memory,33,PSYCH
+36,Episodic Memory,35,PSYCH
+37,Semantic Memory,35,PSYCH
+38,Story Memory Effect,36,PSYCH
+39,Neural Coupling,32,PSYCH
+40,Narrative Transportation,32,PSYCH
+41,Story Identification,32,PSYCH
+42,Emotional Connection,32,PSYCH
+43,Cognitive Ease,33,PSYCH
+44,Decision Fatigue,43,PSYCH
+45,Choice Architecture,44,PSYCH
+46,Anchoring Effect,45,PSYCH
+47,Availability Heuristic,45,PSYCH
+48,Confirmation Bias,45,PSYCH
+49,Loss Aversion,45,PSYCH
+50,Status Quo Bias,45,PSYCH
+51,Sales Story Components,26,STORY
+52,Opening Hook,51,STORY
+53,Problem Statement,51,STORY
+54,Agitation,53,STORY
+55,Solution Presentation,51,STORY
+56,Social Proof,55,STORY
+57,Call to Action,55,STORY
+58,Story Persona,51,STORY
+59,Voice and Tone,58,STORY
+60,Story Timing,51,STORY
+61,Buyer Persona Mapping,3,PERSONA
+62,CIO Persona,61,PERSONA
+63,CTO Persona,61,PERSONA
+64,CFO Persona,61,PERSONA
+65,CEO Persona,61,PERSONA
+66,VP of Sales Persona,61,PERSONA
+67,IT Director Persona,61,PERSONA
+68,Procurement Manager Persona,61,PERSONA
+69,Business Stakeholder Persona,61,PERSONA
+70,Technical Stakeholder Persona,61,PERSONA
+71,Industry Vertical Segmentation,61,PERSONA
+72,Healthcare Vertical,71,PERSONA
+73,Financial Services Vertical,71,PERSONA
+74,Manufacturing Vertical,71,PERSONA
+75,Retail Vertical,71,PERSONA
+76,Technology Vertical,71,PERSONA
+77,Government Vertical,71,PERSONA
+78,Education Vertical,71,PERSONA
+79,Story Objection Handling,51,OBJEC
+80,Price Objection Stories,79,OBJEC
+81,Timing Objection Stories,79,OBJEC
+82,Competitor Objection Stories,79,OBJEC
+83,Risk Objection Stories,79,OBJEC
+84,Authority Objection Stories,79,OBJEC
+85,Story Portfolio Management,51,PORTF
+86,Story Library,85,PORTF
+87,Story Tags,86,PORTF
+88,Story Metadata,86,PORTF
+89,Story Versioning,86,PORTF
+90,Story Analytics,86,PORTF
+91,AI-Assisted Story Generation,,AIGEN
+92,Large Language Models,91,AIGEN
+93,Prompt Engineering,92,AIGEN
+94,Story Prompt Templates,93,AIGEN
+95,AI Content Generation,92,AIGEN
+96,Human-AI Collaboration,95,AIGEN
+97,AI Ethical Considerations,91,AIGEN
+98,AI Bias Detection,97,AIGEN
+99,AI Content Verification,95,AIGEN
+100,AI Hallucination,99,AIGEN
+101,Interactive Sales Agents,91,AGENT
+102,Conversational AI,101,AGENT
+103,Chatbot Architecture,102,AGENT
+104,Dialogue Systems,102,AGENT
+105,Intent Recognition,104,AGENT
+106,Entity Extraction,104,AGENT
+107,Context Management,104,AGENT
+108,Conversation Flow,107,AGENT
+109,Sales Simulation,101,AGENT
+110,Role-Playing Scenarios,109,AGENT
+111,Objection Handling Scripts,79,AGENT
+112,Agent Training Data,104,AGENT
+113,Agent Performance Metrics,90,AGENT
+114,Natural Language Understanding,102,AGENT
+115,Natural Language Generation,102,AGENT
+116,Sentiment Analysis,114,AGENT
+117,Emotion Detection,116,AGENT
+118,Graph Database Fundamentals,,GRAPH
+119,Graph Data Model,118,GRAPH
+120,Nodes and Edges,119,GRAPH
+121,Property Graph,120,GRAPH
+122,LPG Graph,120,GRAPH
+123,Graph Traversal,122,GRAPH
+124,Graph Query Languages,123,GRAPH
+125,Cypher Query Language,124,GRAPH
+126,Gremlin Query Language,124,GRAPH
+127,Graph Query Language,124,GRAPH
+128,Graph Use Cases,118,MISC
+129,Social Network Analysis,128,MISC
+130,Fraud Detection,128,MISC
+131,Recommendation Engines,128,MISC
+132,Knowledge Graphs,128,MISC
+133,Graph Database Sales Stories,26|118,GSALE
+134,Relational vs Graph Databases,133,GSALE
+135,Data Relationship Stories,133,GSALE
+136,Performance Comparison Stories,133,GSALE
+137,Scalability Stories,133,GSALE
+138,Graph Database Implementation Stories,133,GSALE
+139,AI Framework Fundamentals,,AIFRAME
+140,Machine Learning Frameworks,139,AIFRAME
+141,Deep Learning Frameworks,140,AIFRAME
+142,TensorFlow,141,AIFRAME
+143,PyTorch,141,AIFRAME
+144,Scikit-learn,140,AIFRAME
+145,Keras,141,AIFRAME
+146,Neural Network Architecture,141,AIFRAME
+147,Model Training,146,AIFRAME
+148,Model Deployment,147,AIFRAME
+149,MLOps,148,AIFRAME
+150,AI Framework Sales Stories,26|139,AISALE
+151,AI Adoption Stories,150,AISALE
+152,AI ROI Stories,150,AISALE
+153,AI Implementation Stories,150,AISALE
+154,AI Success Case Studies,150,AISALE
+155,Intelligent Textbook Tools,,ITEXT
+156,Educational Technology,155,ITEXT
+157,Adaptive Learning,156,ITEXT
+158,Learning Analytics,157,ITEXT
+159,xAPI,158,ITEXT
+160,LRS,159,ITEXT
+161,MicroSims,155,ITEXT
+162,Interactive Content,161,ITEXT
+163,Educational AI,162,ITEXT
+164,Textbook Generation,163,ITEXT
+165,Content Automation,164,ITEXT
+166,Learning Graphs,165,ITEXT
+167,Concept Dependencies,166,ITEXT
+168,Intelligent Textbook Sales Stories,26|155,ITSALE
+169,Educational Transformation Stories,168,ITSALE
+170,Student Engagement Stories,168,ITSALE
+171,Learning Outcome Stories,168,ITSALE
+172,Story Effectiveness Measurement,,METRIC
+173,Story Impact Metrics,172,METRIC
+174,Engagement Metrics,173,METRIC
+175,Retention Metrics,173,METRIC
+176,Conversion Metrics,173,METRIC
+177,A/B Testing Stories,172,METRIC
+178,Story Optimization,177,METRIC
+179,Data-Driven Storytelling,178,METRIC
+180,Sales Cycle Analysis,172,METRIC
+181,Pipeline Velocity,180,METRIC
+182,Deal Size Impact,180,METRIC
+183,Close Rate Improvement,180,METRIC
+184,Story Attribution,179,METRIC
+185,Challenger Insight Delivery,1,DELIV
+186,Insight Framing,185,DELIV
+187,Insight Timing,185,DELIV
+188,Insight Personalization,3,DELIV
+189,Insight Reinforcement,186,DELIV
+190,Multi-Channel Story Delivery,185,DELIV
+191,Email Storytelling,190,DELIV
+192,Presentation Storytelling,190,DELIV
+193,Video Storytelling,190,DELIV
+194,Social Media Storytelling,190,DELIV
+195,Story Integration,185,DELIV
+196,CRM Integration,195,DELIV
+197,Sales Enablement Platforms,195,DELIV
+198,Content Management Systems,195,DELIV
+199,Story Scheduling,195,DELIV
+200,Story Automation,199,DELIV
+201,Story-Based Coaching,185,COACH
+202,Sales Team Training,201,COACH
+203,Story Workshops,202,COACH
+204,Peer Story Sharing,203,COACH
+205,Story Best Practices,204,COACH
+206,Story Feedback Loops,205,COACH
+207,Story Performance Reviews,206,COACH
+208,Story Libraries,85,LIBRY
+209,Industry-Specific Stories,208,LIBRY
+210,Persona-Specific Stories,208,LIBRY
+211,Objection-Specific Stories,208,LIBRY
+212,Stage-Specific Stories,208,LIBRY
+213,Product-Specific Stories,208,LIBRY
+214,Story Customization,188,LIBRY
+215,Dynamic Story Adaptation,214,LIBRY
+216,Real-Time Story Selection,215,LIBRY
+217,Context-Aware Storytelling,216,LIBRY
+218,Customer Journey Mapping,217,MISC
+219,Touchpoint Analysis,218,MISC
+220,Story Sequencing,219,MISC
+221,Story Flow Design,220,MISC
+222,Cross-Selling Stories,51,LIBRY
+223,Up-Selling Stories,222,LIBRY
+224,Renewal Stories,222,LIBRY
+225,Expansion Stories,222,LIBRY
+226,Story Trust Building,26,TRUST
+227,Credibility Stories,226,TRUST
+228,Authority Stories,227,TRUST
+229,Vulnerability Stories,226,TRUST
+230,Authenticity in Storytelling,226,TRUST
+231,Story Ethics,97,ETHIC
+232,Truth in Storytelling,231,ETHIC
+233,Exaggeration Avoidance,232,ETHIC
+234,Customer Privacy,231,ETHIC
+235,Story Transparency,232,ETHIC
+236,Legal Compliance,231,ETHIC
+237,Story Creation Process,,CREATE
+238,Story Ideation,237,CREATE
+239,Story Drafting,238,CREATE
+240,Story Refinement,239,CREATE
+241,Story Testing,240,CREATE
+242,Story Approval,241,CREATE
+243,Story Deployment,242,CREATE
+244,Story Maintenance,243,CREATE
+245,Story Retirement,244,CREATE
+246,Story Templates,237,TEMPL
+247,Modular Story Components,246,TEMPL
+248,Story Building Blocks,247,TEMPL
+249,Story Patterns,248,TEMPL
+250,Story Frameworks,249,TEMPL
+251,Story Scripting,239,TEMPL
+252,Story Storyboarding,251,TEMPL
+253,Story Visualization,252,TEMPL
+254,Story Analytics Dashboard,,DASHB
+255,Story Performance Tracking,254,DASHB
+256,Story ROI Calculation,255,DASHB
+257,Story Benchmarking,256,DASHB
+258,Story Competitive Analysis,257,DASHB
+259,Story Innovation,,INNOV
+260,Story Differentiation,259,INNOV
+261,Story Brand Alignment,260,INNOV
+262,Corporate Story Guidelines,261,INNOV
+263,Brand Voice Consistency,262,INNOV
+264,Style Guides,263,INNOV
+265,Story Governance,,INNOV
+266,Story Ownership,265,INNOV
+267,Story Approval Workflows,266,INNOV
+268,Story Compliance,267,INNOV
+269,Story Risk Management,265,INNOV
+270,Story Crisis Communication,,CRISIS
+271,Story Crisis Response,270,CRISIS
+272,Story Reputation Management,271,CRISIS
+273,Story Damage Control,272,CRISIS
+274,Story Recovery,273,CRISIS
+275,Story Learning from Failure,274,CRISIS
+276,Story Post-Mortem Analysis,275,CRISIS
+277,Story Continuous Improvement,,IMPRO
+278,Story Innovation Labs,277,IMPRO
+279,Story Experimentation,278,IMPRO
+280,Story A/B Testing,279,IMPRO
+281,Story User Research,280,IMPRO
+282,Story Customer Interviews,281,IMPRO
+283,Story Voice of Customer,282,IMPRO
+284,Story Market Research,283,IMPRO
+285,Story Trend Analysis,284,IMPRO
+286,Story Future Planning,285,STRAT
+287,Story Roadmap Development,286,STRAT
+288,Story Strategic Planning,287,STRAT
+289,Story Resource Allocation,288,STRAT
+290,Story Budget Planning,289,STRAT
+291,Story Team Structure,290,STRAT
+292,Story Roles and Responsibilities,291,STRAT
+293,Story Skill Development,292,STRAT
+294,Story Training Programs,293,STRAT
+295,Story Onboarding,294,STRAT
+296,Story Knowledge Management,295,STRAT
+297,Story Documentation,296,MISC
+298,Story Knowledge Sharing,297,MISC
+299,Story Communities of Practice,298,MISC
+300,Story Mentoring,299,COACH
+301,Story Coaching Programs,300,COACH
+302,Story Performance Recognition,301,COACH
+303,Story Incentive Programs,302,COACH
+304,Story Culture Building,303,COACH
+305,Story Leadership,304,COACH
+306,Story Change Management,305,COACH
+307,Story Adoption,306,COACH
+308,Story Change Resistance,307,COACH
+309,Story Communication,306,COACH
+310,Story Stakeholder Management,309,COACH
+311,Story Executive Sponsorship,310,COACH
+312,Story Success Metrics,,SUCCE
+313,Story KPIs,312,SUCCE
+314,Story OKRs,313,SUCCE
+315,Story Balanced Scorecard,314,SUCCE
+316,Story Dashboards,315,SUCCE
+317,Story Reporting,316,SUCCE
+318,Story Executive Summaries,317,SUCCE
+319,Story Business Reviews,318,SUCCE
+320,Story Strategic Alignment,,ALIGN
+321,Story Business Value,320,ALIGN
+322,Story ROI Models,321,ALIGN
+323,Story Cost-Benefit Analysis,322,ALIGN
+324,Story Investment Prioritization,323,ALIGN
+325,Story Portfolio Management,324,ALIGN
+326,Story Resource Optimization,325,ALIGN
+327,Story Capacity Planning,326,ALIGN
+328,Story Demand Management,327,ALIGN
+329,Story Supply Chain,328,ALIGN
+330,Story Vendor Management,329,ALIGN
+331,Story Partnerships,330,ALIGN
+332,Story Ecosystem,331,ALIGN
+333,Story Integration Architecture,,ARCH
+334,Story Technology Stack,333,ARCH
+335,Story Data Architecture,334,ARCH
+336,Story Security Architecture,335,ARCH
+337,Story Privacy Architecture,336,ARCH
+338,Story Compliance Architecture,337,ARCH
+339,Story Scalability Architecture,338,ARCH
+340,Story Performance Architecture,339,ARCH
+341,Story Reliability Architecture,340,ARCH
+342,Story Availability Architecture,341,ARCH
+343,Story Disaster Recovery,,DISAS
+344,Story Business Continuity,343,DISAS
+345,Story Incident Management,344,DISAS
+346,Story Problem Management,345,DISAS
+347,Story Change Management,346,DISAS
+348,Story Release Management,347,DISAS
+349,Story Configuration Management,348,DISAS
+350,Story Asset Management,349,DEVOP
+351,Story Version Control,350,DISAS
+352,Story Build and Deploy,351,DISAS
+353,Story CI/CD,352,DISAS
+354,Story Testing Strategy,,DEVOP
+355,Story Quality Assurance,354,DEVOP
+356,Story User Acceptance Testing,355,DEVOP
+357,Story Performance Testing,356,DEVOP
+358,Story Security Testing,357,DEVOP
+359,Story Compliance Testing,358,DEVOP
+360,Story Accessibility Testing,,DEVOP
+361,Story Internationalization,360,DEVOP
+362,Story Localization,361,DEVOP
+363,Story Globalization,362,DEVOP
+364,Story Cultural Adaptation,363,DEVOP
+365,Story Translation,364,DEVOP
+366,Story Transcreation,365,DEVOP
+367,Story Personalization,214,LIBRY
+368,Story Segmentation,367,LIBRY
+369,Story Targeting,368,LIBRY
+370,Story Recommendations,369,AIADV
+371,Story Predictive Analytics,370,AIADV
+372,Story Machine Learning,371,AIADV
+373,Story Artificial Intelligence,372,AIADV
+374,Story Natural Language Processing,373,AIADV
+375,Story Computer Vision,373,AIADV
+376,Story Speech Recognition,374,AIADV
+377,Story Text-to-Speech,376,AIADV
+378,Story Speech-to-Text,377,AIADV
+379,Story Translation AI,378,AIADV
+380,Story Sentiment AI,379,AIADV
+381,Story Emotion AI,380,AIADV
+382,Story Behavior AI,381,AIADV
+383,Story Pattern Recognition,382,AIADV
+384,Story Anomaly Detection,383,AIADV
+385,Story Predictive Modeling,384,AIADV
+386,Story Classification,385,AIADV
+387,Story Clustering,386,AIADV
+388,Story Regression,385,AIADV
+389,Story Time Series Analysis,385,AIADV
+390,Story Forecasting,389,AIADV
+391,Story Optimization,390,AIADV
+392,Story Simulation,391,AIADV
+393,Story Digital Twin,392,AIADV
+394,Story Virtual Reality,393,IMM
+395,Story Augmented Reality,394,IMM
+396,Story Mixed Reality,395,IMM
+397,Story Immersive Experience,396,IMM
+398,Story Gamification,397,IMM
+399,Story Serious Games,398,IMM
+400,Capstone Project,237|185|91|118|139|155|172|254|259|265|270|277|312|320|333|343|345|353|354|360|373|398,MISC
