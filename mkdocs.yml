@@ -69,14 +69,25 @@ nav:
 
   - MicroSims:
     - List of MicroSims: sims/index.md
+    - A/B Test Designer: sims/ab-test-designer/index.md
+    - Adaptive Learning Path Designer: sims/adaptive-learning-path-designer/index.md
     - Challenger Principles Explorer: sims/challenger-principles-explorer/index.md
+    - Channel Story Adapter: sims/channel-story-adapter/index.md
     - Cognitive Bias Simulator: sims/cognitive-bias-simulator/index.md
     - Customer Priority Map Builder: sims/customer-priority-map-builder/index.md
     - Dialogue Flow Designer: sims/dialogue-flow-designer/index.md
+    - Framework Comparison Chart: sims/framework-comparison-chart/index.md
+    - Graph Data Model Visualizer: sims/graph-data-model-visualizer/index.md
+    - Graph Traversal Explorer: sims/graph-traversal-explorer/index.md
     - Hero's Journey Interactive Map: sims/heros-journey-interactive-map/index.md
+    - Insight Personalizer: sims/insight-personalizer/index.md
     - Insight Type Selector: sims/insight-type-selector/index.md
+    - Integration Architect: sims/integration-architect/index.md
     - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Learning Graph Visualizer: sims/learning-graph-visualizer/index.md
     - Memory Retention Experiment: sims/memory-retention-experiment/index.md
+    - Metrics Selector: sims/metrics-selector/index.md
+    - MicroSim Type Explorer: sims/microsim-type-explorer/index.md
     - Objection Story Selector: sims/objection-story-selector/index.md
     - Persona Matcher: sims/persona-matcher/index.md
     - Prompt Engineering Workshop: sims/prompt-engineering-workshop/index.md
@@ -84,7 +95,10 @@ nav:
     - Stakeholder Mapping Tool: sims/stakeholder-mapping-tool/index.md
     - Story Arc Builder: sims/story-arc-builder/index.md
     - Story Component Builder: sims/story-component-builder/index.md
+    - Training Program Designer: sims/training-program-designer/index.md
+    - Use Case Matcher: sims/graph-use-case-matcher/index.md
     - Vertical Insight Tailorer: sims/vertical-insight-tailorer/index.md
+    - xAPI Statement Builder: sims/xapi-statement-builder/index.md
 
 
 

@@ -68,12 +68,16 @@ When selling graph databases, the data model is your primary differentiator. Con
 
 #### Diagram: Graph Data Model Visualizer
 
+
+<iframe src="../../sims/graph-data-model-visualizer/main.html" width="100%" height="722px" scrolling="no"></iframe>
+[Run Graph Data Model Visualizer Fullscreen](../../sims/graph-data-model-visualizer/main.html)
+
 <details markdown="1">
 <summary>Graph Data Model Visualizer</summary>
 Type: infographic
 **sim-id:** graph-data-model-visualizer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Understand<br/>
 **Bloom Verb:** explain<br/>
 **Learning Objective:** The learner will explain the graph data model by identifying nodes, edges, and properties in a visual graph representation.
@@ -158,12 +162,16 @@ When selling graph databases, traversal performance is a key differentiator. Sho
 
 #### Diagram: Graph Traversal Explorer
 
+
+<iframe src="../../sims/graph-traversal-explorer/main.html" width="100%" height="702px" scrolling="no"></iframe>
+[Run Graph Traversal Explorer Fullscreen](../../sims/graph-traversal-explorer/main.html)
+
 <details markdown="1">
 <summary>Graph Traversal Explorer</summary>
 Type: infographic
 **sim-id:** graph-traversal-explorer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** perform<br/>
 **Learning Objective:** The learner will perform graph traversals by selecting starting nodes and traversal patterns to find connected nodes.
@@ -252,12 +260,16 @@ When selling graph databases, map your prospect's industry to relevant use cases
 
 #### Diagram: Use Case Matcher
 
+
+<iframe src="../../sims/graph-use-case-matcher/main.html" width="100%" height="522px" scrolling="no"></iframe>
+[Run Use Case Matcher Fullscreen](../../sims/graph-use-case-matcher/main.html)
+
 <details markdown="1">
 <summary>Use Case Matcher</summary>
 Type: infographic
 **sim-id:** graph-use-case-matcher<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** identify<br/>
 **Learning Objective:** The learner will identify which graph database use case (Social Network Analysis, Fraud Detection, Recommendation Engines, Knowledge Graphs) applies to different business scenarios.

@@ -87,12 +87,16 @@ The highest CIS concept in this chapter, Insight Personalization (CIS 44), deser
 
 #### Diagram: Insight Personalizer
 
+
+<iframe src="../../sims/insight-personalizer/main.html" width="100%" height="702px" scrolling="no"></iframe>
+[Run Insight Personalizer Fullscreen](../../sims/insight-personalizer/main.html)
+
 <details markdown="1">
 <summary>Insight Personalizer</summary>
 Type: infographic
 **sim-id:** insight-personalizer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** tailor<br/>
 **Learning Objective:** The learner will tailor a Challenger insight for different stakeholders by selecting which aspects to emphasize and which context to provide.
@@ -176,12 +180,16 @@ Email stories work best for nurturing relationships between meetings, following 
 
 #### Diagram: Channel Story Adapter
 
+
+<iframe src="../../sims/channel-story-adapter/main.html" width="100%" height="672px" scrolling="no"></iframe>
+[Run Channel Story Adapter Fullscreen](../../sims/channel-story-adapter/main.html)
+
 <details markdown="1">
 <summary>Channel Story Adapter</summary>
 Type: infographic
 **sim-id:** channel-story-adapter<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** adapt<br/>
 **Learning Objective:** The learner will adapt a story for different channels (email, presentation, video, social media) by selecting appropriate length, format, and focus.
@@ -284,12 +292,16 @@ When integrating stories into the CRM, ensure the integration enhances rather th
 
 #### Diagram: Integration Architect
 
+
+<iframe src="../../sims/integration-architect/main.html" width="100%" height="762px" scrolling="no"></iframe>
+[Run Integration Architect Fullscreen](../../sims/integration-architect/main.html)
+
 <details markdown="1">
 <summary>Integration Architect</summary>
 Type: infographic
 **sim-id:** integration-architect<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** design<br/>
 **Learning Objective:** The learner will design a story integration architecture by selecting which systems to integrate (CRM, LMS, CMS) and defining the data flow between them.
@@ -393,12 +405,16 @@ When designing training, balance theory with practice. Conceptual understanding 
 
 #### Diagram: Training Program Designer
 
+
+<iframe src="../../sims/training-program-designer/main.html" width="100%" height="762px" scrolling="no"></iframe>
+[Run Training Program Designer Fullscreen](../../sims/training-program-designer/main.html)
+
 <details markdown="1">
 <summary>Training Program Designer</summary>
 Type: infographic
 **sim-id:** training-program-designer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** design<br/>
 **Learning Objective:** The learner will design a storytelling training program by selecting training components, sequencing them appropriately, and defining practice activities.

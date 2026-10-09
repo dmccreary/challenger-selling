@@ -72,12 +72,16 @@ When selling intelligent textbooks, emphasize that adaptive learning improves ou
 
 #### Diagram: Adaptive Learning Path Designer
 
+
+<iframe src="../../sims/adaptive-learning-path-designer/main.html" width="100%" height="562px" scrolling="no"></iframe>
+[Run Adaptive Learning Path Designer Fullscreen](../../sims/adaptive-learning-path-designer/main.html)
+
 <details markdown="1">
 <summary>Adaptive Learning Path Designer</summary>
 Type: infographic
 **sim-id:** adaptive-learning-path-designer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** design<br/>
 **Learning Objective:** The learner will design adaptive learning paths by selecting content recommendations based on student performance scenarios.
@@ -144,12 +148,16 @@ When selling intelligent textbooks, xAPI is the technical foundation that makes 
 
 #### Diagram: xAPI Statement Builder
 
+
+<iframe src="../../sims/xapi-statement-builder/main.html" width="100%" height="712px" scrolling="no"></iframe>
+[Run xAPI Statement Builder Fullscreen](../../sims/xapi-statement-builder/main.html)
+
 <details markdown="1">
 <summary>xAPI Statement Builder</summary>
 Type: infographic
 **sim-id:** xapi-statement-builder<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** construct<br/>
 **Learning Objective:** The learner will construct valid xAPI statements by selecting actors, verbs, and objects for different learning scenarios.
@@ -222,12 +230,16 @@ When selling intelligent textbooks, MicroSims are a key differentiator. Static t
 
 #### Diagram: MicroSim Type Explorer
 
+
+<iframe src="../../sims/microsim-type-explorer/main.html" width="100%" height="542px" scrolling="no"></iframe>
+[Run MicroSim Type Explorer Fullscreen](../../sims/microsim-type-explorer/main.html)
+
 <details markdown="1">
 <summary>MicroSim Type Explorer</summary>
 Type: infographic
 **sim-id:** microsim-type-explorer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Understand<br/>
 **Bloom Verb:** identify<br/>
 **Learning Objective:** The learner will identify different types of MicroSims (p5.js, Chart.js, vis-network, causal-loop, concept-classifier) and their appropriate use cases.
@@ -326,12 +338,16 @@ When selling intelligent textbooks, learning graphs provide the structure that m
 
 #### Diagram: Learning Graph Visualizer
 
+
+<iframe src="../../sims/learning-graph-visualizer/main.html" width="100%" height="722px" scrolling="no"></iframe>
+[Run Learning Graph Visualizer Fullscreen](../../sims/learning-graph-visualizer/main.html)
+
 <details markdown="1">
 <summary>Learning Graph Visualizer</summary>
 Type: infographic
 **sim-id:** learning-graph-visualizer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Understand<br/>
 **Bloom Verb:** explain<br/>
 **Learning Objective:** The learner will explain how learning graphs represent concept dependencies by identifying prerequisite relationships in a visual graph.

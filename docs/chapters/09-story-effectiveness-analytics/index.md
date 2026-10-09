@@ -67,12 +67,16 @@ When measuring story impact, establish baseline metrics without stories and comp
 
 #### Diagram: Metrics Selector
 
+
+<iframe src="../../sims/metrics-selector/main.html" width="100%" height="522px" scrolling="no"></iframe>
+[Run Metrics Selector Fullscreen](../../sims/metrics-selector/main.html)
+
 <details markdown="1">
 <summary>Metrics Selector</summary>
 Type: infographic
 **sim-id:** metrics-selector<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** select<br/>
 **Learning Objective:** The learner will select appropriate story impact metrics (Engagement, Retention, Conversion, Pipeline Velocity) for different business objectives.
@@ -159,12 +163,16 @@ When running A/B tests, change one variable at a time. If you change multiple va
 
 #### Diagram: A/B Test Designer
 
+
+<iframe src="../../sims/ab-test-designer/main.html" width="100%" height="742px" scrolling="no"></iframe>
+[Run A/B Test Designer Fullscreen](../../sims/ab-test-designer/main.html)
+
 <details markdown="1">
 <summary>A/B Test Designer</summary>
 Type: infographic
 **sim-id:** ab-test-designer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** design<br/>
 **Learning Objective:** The learner will design an A/B test by selecting the variable to test, defining the hypothesis, and identifying the success metric.

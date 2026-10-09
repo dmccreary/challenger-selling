@@ -61,12 +61,16 @@ Without frameworks, building a machine learning system would require implementin
 
 #### Diagram: Framework Comparison Chart
 
+
+<iframe src="../../sims/framework-comparison-chart/main.html" width="100%" height="642px" scrolling="no"></iframe>
+[Run Framework Comparison Chart Fullscreen](../../sims/framework-comparison-chart/main.html)
+
 <details markdown="1">
 <summary>Framework Comparison Chart</summary>
 Type: infographic
 **sim-id:** framework-comparison-chart<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Understand<br/>
 **Bloom Verb:** compare<br/>
 **Learning Objective:** The learner will compare AI/ML frameworks (TensorFlow, PyTorch, Scikit-learn) based on their characteristics and use cases.
