@@ -1,0 +1,64 @@
+{
+  "title": "Training Program Designer",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners design an 8-week storytelling training program by selecting 4-6 components, sequencing them, and choosing practice formats, then see the resulting weekly schedule.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Training Program Designer",
+    "learningObjectives": [
+      "Design a storytelling training program by selecting training components, sequencing them appropriately, and defining practice activities."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "design",
+    "duration": "12 minutes",
+    "prerequisites": [
+      "Sales Team Training and Story Workshops sections of Chapter 10"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 760
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Component checkboxes",
+      "Sequence up/down buttons",
+      "Practice format dropdowns",
+      "Build Schedule button",
+      "Edit Program button",
+      "Start Over button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Design task with generated schedule",
+    "keyQuestions": [
+      "Design a storytelling training program by selecting training components, sequencing them appropriately, and defining practice activities."
+    ],
+    "commonMisconceptions": [
+      "Training is one-time.",
+      "Theory is sufficient.",
+      "All training is the same."
+    ],
+    "assessmentOpportunities": [
+      "A valid program: theory and practice present, a progressive sequence, and a mix of individual and group practice.",
+      "Learner can explain why coaching works best as expert feedback."
+    ]
+  },
+  "chapter": "10-story-delivery-integration-coaching"
+}
