@@ -59,6 +59,72 @@ Machine Learning Frameworks are software libraries that provide tools for buildi
 
 Without frameworks, building a machine learning system would require implementing algorithms from scratch—linear regression, decision trees, neural networks—along with data preprocessing, model evaluation, and deployment infrastructure. This is feasible for researchers but impractical for most organizations. Frameworks provide battle-tested implementations of these components, enabling rapid experimentation and production deployment.
 
+#### Diagram: Framework Comparison Chart
+
+<details markdown="1">
+<summary>Framework Comparison Chart</summary>
+Type: infographic
+**sim-id:** framework-comparison-chart<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** compare<br/>
+**Learning Objective:** The learner will compare AI/ML frameworks (TensorFlow, PyTorch, Scikit-learn) based on their characteristics and use cases.
+
+**Prerequisites:** Machine Learning Frameworks, TensorFlow, PyTorch, Scikit-learn concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a comparison chart of frameworks. The learner answers questions about which framework is best for different scenarios. The learner must correctly answer 3 of 3 questions.
+
+**Misconceptions:** (1) All frameworks are the same (each has different strengths and use cases). (2) One framework is best for everything (different frameworks excel at different tasks). (3) Frameworks are only for data scientists (frameworks serve different users and use cases).
+
+**Instructional Rationale:** An interactive comparison chart allows the learner to explore framework differences and apply that knowledge to scenario-based questions. This supports the Understand objective by enabling exploration followed by application.
+
+**Content:**
+
+A comparison chart displays:
+
+| Framework | Strengths | Best For | Skill Level |
+|-----------|-----------|----------|-------------|
+| TensorFlow | Production deployment, scalability | Large-scale ML, production systems | Intermediate-Advanced |
+| PyTorch | Research flexibility, ease of use | Research, experimentation, rapid prototyping | Beginner-Intermediate |
+| Scikit-learn | Simplicity, broad algorithm coverage | Traditional ML, quick prototyping | Beginner |
+
+The learner answers questions:
+
+**Question 1:** "A team wants to quickly prototype a traditional ML model for a proof-of-concept. Which framework is best?"
+- Options: TensorFlow / PyTorch / Scikit-learn
+- Correct: Scikit-learn
+
+**Question 2:** "A research team is experimenting with new neural network architectures. Which framework is best?"
+- Options: TensorFlow / PyTorch / Scikit-learn
+- Correct: PyTorch
+
+**Question 3:** "A company needs to deploy a large-scale ML system in production. Which framework is best?"
+- Options: TensorFlow / PyTorch / Scikit-learn
+- Correct: TensorFlow
+
+After answering, the learner sees a summary of framework selection criteria.
+
+**Provenance:** The framework characteristics are from the chapter's framework definitions. The scenarios are illustrative common use cases.
+
+**Rules:** The learner must answer all 3 questions before seeing the summary. The learner can retry questions.
+
+**Learner Activity:**
+1. The learner reviews the comparison chart.
+2. The learner answers Question 1.
+3. The learner answers Questions 2 and 3.
+4. The learner submits answers and sees feedback.
+5. After all questions, the learner sees a summary of framework selection guidelines.
+
+**Feedback:**
+- After each question: "Correct! [Framework] is best for [scenario] because [reason]." or "Not quite. [Correct framework] would be better because [reason]."
+- Summary: "Framework selection depends on use case, team skill level, and deployment requirements. Choose based on your specific needs."
+
+**Starting State:** The learner sees the comparison chart and Question 1 with option buttons.
+
+**Chapter Anchors:** The frameworks are defined in the Machine Learning Frameworks section above. The scenarios are illustrative for framework selection.
+</details>
+
 When selling machine learning frameworks, emphasize productivity and time-to-value. A Challenger insight might be that most organizations spend their AI budget on reinventing infrastructure rather than solving business problems. Frameworks shift investment from infrastructure to innovation, enabling teams to deliver business value faster.
 
 ### Deep Learning Frameworks

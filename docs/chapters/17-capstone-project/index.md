@@ -39,6 +39,66 @@ Your capstone project is to design a complete sales strategy for selling an inte
 
 The intelligent textbook generation platform enables organizations to create interactive, AI-powered educational content with MicroSims, learning graphs, and adaptive learning features. Your customer is either a university looking to modernize their course materials or a corporate training department seeking to improve employee training effectiveness.
 
+<!-- The two snippet markers around this diagram let capstone-flow.md (the fullscreen page) reuse it. Keep them. -->
+<!-- --8<-- [start:capstone-flow] -->
+
+```mermaid
+flowchart TD
+    A[Start Capstone Project] --> B[Part 1: Customer Analysis]
+    B --> C[Part 2: Challenger Insight Development]
+    C --> D[Part 3: Story Portfolio Creation]
+    D --> E[Part 4: Story Delivery Strategy]
+    E --> F[Part 5: Analytics and Measurement]
+    F --> G[Part 6: AI Augmentation]
+    G --> H[Part 7: Implementation Roadmap]
+    H --> I[Complete Capstone Deliverables]
+    
+    B --> B1[Industry Context]
+    B --> B2[Stakeholder Mapping]
+    B --> B3[Persona Profiles]
+    
+    C --> C1[Insight Statement]
+    C --> C2[Supporting Research]
+    C --> C3[Reframing Explanation]
+    
+    D --> D1[Insight Stories]
+    D --> D2[Objection Stories]
+    D --> D3[Persona-Specific Stories]
+    D --> D4[Stage-Specific Stories]
+    
+    E --> E1[Multi-Channel Delivery]
+    E --> E2[Integration Plan]
+    E --> E3[Coaching Plan]
+    
+    F --> F1[Metrics Definition]
+    F --> F2[Dashboard Design]
+    F --> F3[A/B Testing Plan]
+    
+    G --> G1[AI-Assisted Generation]
+    G --> G2[Interactive Agents]
+    G --> G3[Analytics AI]
+    
+    H --> H1[Phase 1: Foundation]
+    H --> H2[Phase 2: Optimization]
+    H --> H3[Phase 3: Scale]
+    
+    I --> I1[Executive Summary]
+    I --> I2[Customer Analysis]
+    I --> I3[Challenger Insight]
+    I --> I4[Story Portfolio]
+    I --> I5[Delivery Strategy]
+    I --> I6[Analytics Framework]
+    I --> I7[AI Augmentation]
+    I --> I8[Implementation Roadmap]
+    I --> J[Submit Capstone Project]
+```
+
+<!-- --8<-- [end:capstone-flow] -->
+
+[Show Fullscreen](capstone-flow.md){ .md-button .md-button--primary }
+
+The diagram above shows the sequential flow of the capstone project, with each part breaking down into key deliverables.
+
 ## Project Requirements
 
 ### Part 1: Customer Analysis

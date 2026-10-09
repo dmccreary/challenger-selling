@@ -1,0 +1,63 @@
+{
+  "title": "Hero's Journey Interactive Map",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Click-to-explore circular map of the 11 stages of Campbell's Hero's Journey, each translated into a stage of a customer's buying journey, followed by a three-question comprehension check.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Hero's Journey Interactive Map",
+    "learningObjectives": [
+      "Explain the stages of the Hero's Journey and how they apply to sales storytelling."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "bloomVerb": "explain",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Hero's Journey section of Chapter 2",
+      "Basic familiarity with a B2B sales cycle"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 500
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "clickable stage nodes",
+      "quiz option buttons",
+      "retry button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore then check",
+    "keyQuestions": [
+      "Explain the stages of the Hero's Journey and how they apply to sales storytelling."
+    ],
+    "commonMisconceptions": [
+      "The Hero's Journey is only for epic myths.",
+      "All stages must appear in every story.",
+      "The salesperson is the hero."
+    ],
+    "assessmentOpportunities": [
+      "Learner identifies the Call to Adventure as the customer recognizing a problem.",
+      "Learner identifies the customer, not the seller, as the hero.",
+      "Learner maps a pilot agreement to Crossing the Threshold."
+    ]
+  },
+  "chapter": "02-storytelling-fundamentals-psychology"
+}

@@ -65,6 +65,66 @@ Key impact metrics include story conversion rate (the percentage of meetings whe
 
 When measuring story impact, establish baseline metrics without stories and compare against metrics with stories. This comparison isolates the story's effect from other factors. If your baseline win rate is 30% and your story-attributed win rate is 45%, you have evidence that stories contribute to success.
 
+#### Diagram: Metrics Selector
+
+<details markdown="1">
+<summary>Metrics Selector</summary>
+Type: infographic
+**sim-id:** metrics-selector<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** select<br/>
+**Learning Objective:** The learner will select appropriate story impact metrics (Engagement, Retention, Conversion, Pipeline Velocity) for different business objectives.
+
+**Prerequisites:** Story Impact Metrics, Engagement Metrics, Retention Metrics, Conversion Metrics concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with 4 business objectives. For each objective, the learner selects the most relevant metric to track. The learner must correctly select metrics for all 4 objectives.
+
+**Misconceptions:** (1) All metrics are equally important (different metrics serve different objectives). (2) One metric tells the whole story (multiple metrics provide a complete picture). (3) Metrics are only for reporting (metrics guide optimization decisions).
+
+**Instructional Rationale:** An interactive selector allows the learner to apply metrics knowledge to business objectives. This supports the Apply objective by requiring the learner to select appropriate measurement approaches.
+
+**Content:**
+
+**Objective 1:** "We want to know if stories are keeping customers engaged during presentations."
+- Learner selects: [Engagement Metrics / Retention Metrics / Conversion Metrics / Pipeline Velocity]
+- Correct: Engagement Metrics
+
+**Objective 2:** "We want to know if customers remember our Challenger insights weeks later."
+- Learner selects: [Engagement Metrics / Retention Metrics / Conversion Metrics / Pipeline Velocity]
+- Correct: Retention Metrics
+
+**Objective 3:** "We want to know if stories are increasing our win rate."
+- Learner selects: [Engagement Metrics / Retention Metrics / Conversion Metrics / Pipeline Velocity]
+- Correct: Conversion Metrics
+
+**Objective 4:** "We want to know if stories are accelerating our sales cycle."
+- Learner selects: [Engagement Metrics / Retention Metrics / Conversion Metrics / Pipeline Velocity]
+- Correct: Pipeline Velocity
+
+After each selection, the learner sees why that metric aligns with the objective.
+
+**Provenance:** The metrics are from the Story Impact Metrics section above. The objectives are illustrative business goals.
+
+**Rules:** The learner must select a metric for each objective before proceeding. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads Objective 1.
+2. The learner selects a metric from the dropdown menu.
+3. The learner submits and sees feedback.
+4. The learner repeats for Objectives 2-4.
+5. After all four, the learner sees a summary of metric-objective alignments.
+
+**Feedback:**
+- Correct: "Correct! [Metric] aligns with [objective] because [reason]."
+- Incorrect: "Not quite. [Objective] is better measured by [correct metric] because [reason]."
+
+**Starting State:** The learner sees Objective 1 and a dropdown menu (Metric) initially unselected.
+
+**Chapter Anchors:** The metrics are defined in the Story Impact Metrics section above. The objectives are illustrative for business measurement.
+</details>
+
 ### Engagement Metrics
 
 Engagement Metrics measure how customers interact with stories during sales presentations. These metrics indicate whether stories are capturing attention and maintaining interest, which are prerequisites for persuasion.
@@ -96,6 +156,65 @@ A/B Testing Stories is the practice of systematically testing different story va
 A/B testing works by randomly assigning similar prospects to different story versions and measuring outcomes. Version A might emphasize cost savings, while Version B emphasizes competitive advantage. If Version A generates a 40% conversion rate and Version B generates a 60% conversion rate, you have evidence that competitive advantage is more compelling than cost savings for that audience.
 
 When running A/B tests, change one variable at a time. If you change multiple variables at once (angle, length, examples), you won't know which change caused the difference. Test one hypothesis at a time, learn from the result, and test the next hypothesis iteratively.
+
+#### Diagram: A/B Test Designer
+
+<details markdown="1">
+<summary>A/B Test Designer</summary>
+Type: infographic
+**sim-id:** ab-test-designer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** design<br/>
+**Learning Objective:** The learner will design an A/B test by selecting the variable to test, defining the hypothesis, and identifying the success metric.
+
+**Prerequisites:** A/B Testing Stories concept defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a story optimization scenario. The learner selects the variable to test, defines the hypothesis, and selects the success metric. The learner must correctly design a valid A/B test.
+
+**Misconceptions:** (1) A/B testing compares everything at once (test one variable at a time). (2) A/B testing requires large sample sizes (can start small and scale). (3) Any difference matters (statistical significance is required).
+
+**Instructional Rationale:** An interactive designer allows the learner to apply A/B testing knowledge by designing tests. This supports the Apply objective by requiring the learner to make experimental design decisions.
+
+**Content:**
+
+Scenario: "You want to optimize a price objection story. Design an A/B test."
+
+**Step 1:** Select variable to test:
+- [Opening hook / Agitation approach / Social proof example / Call to action]
+- Correct: Any single variable (not all at once)
+
+**Step 2:** Define hypothesis:
+- "Story A (current) will outperform Story B (variation) on [metric]"
+- Learner writes a hypothesis
+
+**Step 3:** Select success metric:
+- [Conversion rate / Engagement rate / Story completion / Customer recall]
+- Correct: Conversion rate (business outcome)
+
+After designing the test, the learner sees the test summary.
+
+**Provenance:** The A/B testing concept is from the section above. The scenario is illustrative for story optimization.
+
+**Rules:** The learner must complete all 3 steps before seeing the summary. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads the scenario.
+2. The learner selects the variable to test.
+3. The learner writes a hypothesis in the text area.
+4. The learner selects the success metric.
+5. The learner submits the test design.
+6. The system shows the test summary with the hypothesis and metric.
+
+**Feedback:**
+- After submitting: "Your A/B test will compare [variable]. Hypothesis: [hypothesis]. Success metric: [metric]. This is a valid test design."
+- Summary: "A/B testing requires testing one variable at a time to isolate its effect. Test, measure, and iterate."
+
+**Starting State:** The learner sees the scenario description and 3 step sections with controls.
+
+**Chapter Anchors:** The A/B Testing Stories concept is defined in the section above. The scenario is illustrative for story optimization.
+</details>
 
 ### Story Optimization
 

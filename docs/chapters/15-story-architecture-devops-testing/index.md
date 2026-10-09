@@ -63,6 +63,67 @@ This chapter builds on concepts from:
 
 Story Architecture is the technical foundation that enables storytelling systems to function reliably, securely, and at scale. Good architecture is invisible—storytelling just works. Bad architecture causes constant problems: stories aren't available, performance is slow, security is compromised, and scaling is impossible.
 
+#### Diagram: Architecture Layer Designer
+
+<details markdown="1">
+<summary>Architecture Layer Designer</summary>
+Type: infographic
+**sim-id:** architecture-layer-designer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** design<br/>
+**Learning Objective:** The learner will design a storytelling system architecture by selecting appropriate components for each layer (integration, data, security, scalability).
+
+**Prerequisites:** Story Integration Architecture, Story Data Architecture, Story Security Architecture concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with 4 architecture layers. For each layer, the learner selects the appropriate component. The learner must design a complete architecture.
+
+**Misconceptions:** (1) All layers are the same (each layer serves a different purpose). (2) Security is optional (security is essential at all layers). (3) Architecture is static (architecture evolves with requirements).
+
+**Instructional Rationale:** An interactive designer allows the learner to apply architecture knowledge by designing systems. This supports the Apply objective by requiring the learner to make architectural decisions.
+
+**Content:**
+
+**Architecture Layers:**
+
+**Layer 1: Integration Architecture**
+- Options: [API-based / Event-driven / Batch / All three]
+- Correct: All three (different use cases require different patterns)
+
+**Layer 2: Data Architecture**
+- Options: [Centralized database / Distributed data lake / Hybrid approach / Data warehouse]
+- Correct: Hybrid approach (balance consistency and flexibility)
+
+**Layer 3: Security Architecture**
+- Options: [Authentication only / Encryption only / Defense in depth / Perimeter security]
+- Correct: Defense in depth (multiple security layers)
+
+**Layer 4: Scalability Architecture**
+- Options: [Vertical scaling / Horizontal scaling / Auto-scaling / Manual scaling]
+- Correct: Auto-scaling (responds to demand automatically)
+
+After designing, the learner sees the complete architecture diagram.
+
+**Provenance:** The architecture concepts are from the Story Architecture section above. The components are illustrative for a storytelling system.
+
+**Rules:** The learner must select a component for each layer before seeing the architecture diagram. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner sees the 4 architecture layers.
+2. For each layer, the learner selects a component from the options.
+3. The learner submits the architecture design.
+4. The system shows the architecture diagram with layers and selected components.
+
+**Feedback:**
+- After submitting: "Your architecture design: [components]. This creates a [robust/secure/scalable] storytelling system."
+- Architecture diagram shows layers as boxes with selected components and connections between layers.
+
+**Starting State:** The learner sees 4 architecture layers with option buttons for each.
+
+**Chapter Anchors:** The Story Architecture concepts are defined in the section above. The components are illustrative.
+</details>
+
 ### Story Integration Architecture
 
 Story Integration Architecture defines how storytelling systems connect with other enterprise systems: CRM, marketing automation, content management, and analytics platforms. Integration enables seamless data flow and unified storytelling across systems.
@@ -235,6 +296,63 @@ CI pipelines run tests on every commit. CD pipelines automatically deploy passin
 
 Implement CI/CD incrementally. Start with automated testing, then add automated deployment. Each step reduces manual effort and increases reliability.
 
+#### Diagram: CI/CD Pipeline Builder
+
+<details markdown="1">
+<summary>CI/CD Pipeline Builder</summary>
+Type: infographic
+**sim-id:** cicd-pipeline-builder<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** design<br/>
+**Learning Objective:** The learner will design a CI/CD pipeline by selecting appropriate stages (build, test, deploy) and defining the automated actions for each stage.
+
+**Prerequisites:** Story CI/CD, Story Build and Deploy concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a pipeline scenario. The learner selects pipeline stages and defines automated actions for each stage. The learner must design a complete CI/CD pipeline.
+
+**Misconceptions:** (1) CI/CD is only for code (CI/CD applies to all storytelling assets). (2) Manual steps are acceptable (automation is essential for CI/CD). (3) Testing is optional (testing is required at the CI stage).
+
+**Instructional Rationale:** An interactive builder allows the learner to apply CI/CD knowledge by designing pipelines. This supports the Apply objective by requiring the learner to make pipeline design decisions.
+
+**Content:**
+
+**Pipeline Scenario:** "Design a CI/CD pipeline for story library updates."
+
+**Stage 1: Build**
+- Actions: [Code compilation / Asset validation / Dependency check / All three]
+- Correct: All three
+
+**Stage 2: Test**
+- Actions: [Unit tests / Integration tests / Story validation / All three]
+- Correct: All three
+
+**Stage 3: Deploy**
+- Actions: [Staging deployment / Production deployment / Rollback capability / All three]
+- Correct: Staging deployment → Production deployment with Rollback capability
+
+After designing, the learner sees the complete pipeline flow.
+
+**Provenance:** The CI/CD concept is from the Story CI/CD section above. The scenario is illustrative for story library updates.
+
+**Rules:** The learner must select actions for each stage before seeing the pipeline flow. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads the pipeline scenario.
+2. For each stage, the learner selects actions from the options.
+3. The learner submits the pipeline design.
+4. The system shows the pipeline flow with stages and actions.
+
+**Feedback:**
+- After submitting: "Your CI/CD pipeline: [stages] with [actions]. This pipeline automates [benefits]."
+- Pipeline flow shows stages as boxes with arrows and action labels.
+
+**Starting State:** The learner sees the pipeline scenario and 3 stage sections with action checkboxes.
+
+**Chapter Anchors:** The Story CI/CD concept is defined in the section above. The scenario is illustrative.
+</details>
+
 ## Story Testing
 
 Story Testing ensures storytelling systems function correctly, perform well, and meet user needs. Testing is not optional—it's essential for quality and reliability.
@@ -246,6 +364,66 @@ Story Testing Strategy defines the overall approach to testing storytelling syst
 Testing types include: unit testing (individual components), integration testing (component interactions), system testing (end-to-end functionality), and user acceptance testing (real-world usage). Each type catches different kinds of defects.
 
 Document the testing strategy and communicate it to the team. Everyone should understand what testing is required and who is responsible for each type.
+
+#### Diagram: Testing Strategy Selector
+
+<details markdown="1">
+<summary>Testing Strategy Selector</summary>
+Type: infographic
+**sim-id:** testing-strategy-selector<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** select<br/>
+**Learning Objective:** The learner will select appropriate testing types (unit, integration, system, UAT) for different testing scenarios and objectives.
+
+**Prerequisites:** Story Testing Strategy, Story Quality Assurance concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with 4 testing scenarios. For each scenario, the learner selects the appropriate testing type. The learner must correctly select testing types for all 4 scenarios.
+
+**Misconceptions:** (1) All testing is the same (different types catch different defects). (2) Unit testing is sufficient (integration and system testing are also essential). (3) UAT is optional (UAT validates real-world usage).
+
+**Instructional Rationale:** An interactive selector allows the learner to apply testing strategy knowledge by selecting appropriate tests. This supports the Apply objective by requiring the learner to match tests to scenarios.
+
+**Content:**
+
+**Scenario 1:** "Testing a new story component in isolation"
+- Learner selects: [Unit Test / Integration Test / System Test / UAT]
+- Correct: Unit Test
+
+**Scenario 2:** "Testing how story components interact with the CRM"
+- Learner selects: [Unit Test / Integration Test / System Test / UAT]
+- Correct: Integration Test
+
+**Scenario 3:** "Testing the complete story creation workflow end-to-end"
+- Learner selects: [Unit Test / Integration Test / System Test / UAT]
+- Correct: System Test
+
+**Scenario 4:** "Testing with actual salespeople before deployment"
+- Learner selects: [Unit Test / Integration Test / System Test / UAT]
+- Correct: UAT
+
+After each selection, the learner sees why that testing type is appropriate.
+
+**Provenance:** The testing types are from the Story Testing Strategy section above. The scenarios are illustrative for different testing contexts.
+
+**Rules:** The learner must select a testing type for each scenario before proceeding. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads Scenario 1.
+2. The learner selects a testing type from the dropdown menu.
+3. The learner submits and sees feedback.
+4. The learner repeats for Scenarios 2-4.
+5. After all four, the learner sees a summary of testing type applications.
+
+**Feedback:**
+- Correct: "Correct! This scenario calls for [type] testing because [reason]."
+- Incorrect: "Not quite. This scenario is better addressed by [correct type] testing because [reason]."
+
+**Starting State:** The learner sees Scenario 1 and a dropdown menu (Testing Type) initially unselected.
+
+**Chapter Anchors:** The Story Testing Strategy concept is defined in the section above. The scenarios are illustrative.
+</details>
 
 ### Story Quality Assurance
 

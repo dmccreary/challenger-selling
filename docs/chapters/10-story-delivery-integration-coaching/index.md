@@ -79,6 +79,73 @@ Also consider the competitive timing. If you know a competitor is engaging the c
 
 ### Insight Personalization
 
+Insight Personalization is the practice of tailoring Challenger insights to specific stakeholders, situations, and contexts. Personalization increases relevance by addressing the specific priorities, concerns, and decision criteria of the individual you're engaging.
+
+Personalization involves more than just swapping a name or company name into a template. True personalization requires understanding the stakeholder's metrics, challenges, competitive landscape, and strategic priorities. It means emphasizing different aspects of the insight for different audiences and providing context that resonates with their specific situation.
+
+The highest CIS concept in this chapter, Insight Personalization (CIS 44), deserves full treatment. When personalizing insights, consider what this stakeholder is measured on, what keeps them up at night, what they've recently tried that failed, and what success looks like in their organization. The more specific your personalization, the more compelling your insight.
+
+#### Diagram: Insight Personalizer
+
+<details markdown="1">
+<summary>Insight Personalizer</summary>
+Type: infographic
+**sim-id:** insight-personalizer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** tailor<br/>
+**Learning Objective:** The learner will tailor a Challenger insight for different stakeholders by selecting which aspects to emphasize and which context to provide.
+
+**Prerequisites:** Insight Personalization concept defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a base Challenger insight and 3 stakeholder scenarios. For each stakeholder, the learner selects which aspect of the insight to emphasize and which context to provide. The learner must correctly personalize the insight for all 3 stakeholders.
+
+**Misconceptions:** (1) Personalization is just adding a name (true personalization requires content adaptation). (2) The same insight works for everyone (different stakeholders need different emphasis). (3) Personalization is optional (personalization significantly increases impact).
+
+**Instructional Rationale:** An interactive personalizer allows the learner to apply insight personalization knowledge by adapting content for different stakeholders. This supports the Apply objective by requiring the learner to make tailoring decisions.
+
+**Content:**
+
+**Base Insight:** "Organizations that maintain legacy data systems spend 40% of their IT budget on maintenance rather than innovation, blocking their ability to compete effectively."
+
+**Stakeholder 1:** "CFO at a manufacturing company - focused on cost reduction and ROI"
+- Learner selects emphasis: [Cost savings / Competitive advantage / Operational efficiency / Strategic positioning]
+- Learner selects context: [Industry benchmark / Financial metrics / Case study / Risk scenario]
+- Correct: Cost savings, Financial metrics
+
+**Stakeholder 2:** "CTO at a technology startup - focused on innovation capability and speed"
+- Learner selects emphasis: [Cost savings / Competitive advantage / Operational efficiency / Strategic positioning]
+- Learner selects context: [Industry benchmark / Financial metrics / Case study / Risk scenario]
+- Correct: Competitive advantage, Case study
+
+**Stakeholder 3:** "COO at a healthcare company - focused on operational efficiency and compliance"
+- Learner selects emphasis: [Cost savings / Competitive advantage / Operational efficiency / Strategic positioning]
+- Learner selects context: [Industry benchmark / Financial metrics / Case study / Risk scenario]
+- Correct: Operational efficiency, Risk scenario
+
+After each selection, the learner sees the personalized insight with the selected emphasis and context.
+
+**Provenance:** The Insight Personalization concept is from the section above. The scenarios are illustrative for different stakeholder types.
+
+**Rules:** The learner must select emphasis and context for each stakeholder before proceeding. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads the base insight.
+2. For Stakeholder 1, the learner selects emphasis and context.
+3. The learner submits and sees the personalized insight.
+4. The learner repeats for Stakeholders 2 and 3.
+5. After all three, the learner sees a summary of personalization principles.
+
+**Feedback:**
+- After submitting: "For [stakeholder], emphasize [emphasis] with [context]. This addresses their priority of [priority]."
+- Summary: "Insight personalization requires understanding stakeholder priorities and adapting emphasis and context accordingly."
+
+**Starting State:** The learner sees the base insight and Stakeholder 1 with two dropdown menus (Emphasis, Context) initially unselected.
+
+**Chapter Anchors:** The Insight Personalization concept is defined in the section above. The scenarios are illustrative for different stakeholders.
+</details>
+
 Insight Personalization adapts the insight to the specific customer's situation, industry, and challenges. Generic insights that could apply to any company feel impersonal and fail to create urgency. Personalized insights that reference the customer's specific context feel relevant and create immediate engagement.
 
 Personalization involves researching the customer's industry, recent announcements, competitive landscape, and known challenges. Use this research to customize the insight with specific examples, industry benchmarks, and references to the customer's situation. The more specific the insight, the more compelling it becomes.
@@ -106,6 +173,76 @@ Email Storytelling adapts stories for the email format, which is text-based, oft
 Structure email stories with a clear subject line that hints at the insight, a brief opening that hooks attention, the core story in three to five short paragraphs, and a clear call to action. Use formatting—bolding, bullet points, short paragraphs—to make the story skimmable.
 
 Email stories work best for nurturing relationships between meetings, following up on conversations, and introducing insights when in-person meetings aren't possible. They shouldn't replace in-person delivery but should complement it.
+
+#### Diagram: Channel Story Adapter
+
+<details markdown="1">
+<summary>Channel Story Adapter</summary>
+Type: infographic
+**sim-id:** channel-story-adapter<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** adapt<br/>
+**Learning Objective:** The learner will adapt a story for different channels (email, presentation, video, social media) by selecting appropriate length, format, and focus.
+
+**Prerequisites:** Multi-Channel Story Delivery, Email Storytelling, Presentation Storytelling concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a base story and 4 channel scenarios. For each channel, the learner selects the appropriate length, format, and focus. The learner must correctly adapt the story for all 4 channels.
+
+**Misconceptions:** (1) The same story works across all channels (each channel requires adaptation). (2) Shorter is always better (appropriate length depends on channel). (3) Visuals are optional (visuals are essential for some channels).
+
+**Instructional Rationale:** An interactive adapter allows the learner to apply multi-channel knowledge by adapting stories. This supports the Apply objective by requiring the learner to make channel-specific decisions.
+
+**Content:**
+
+**Base Story:** "A manufacturing company reduced downtime by 60% using predictive maintenance, saving $2M annually."
+
+**Channel 1: Email**
+- Length: [100-200 words / 300-500 words / 500-1000 words]
+- Format: [Text with bullets / Visual-rich / Hybrid]
+- Focus: [Brief summary / Full detail / Hook only]
+- Correct: 100-200 words, Text with bullets, Brief summary
+
+**Channel 2: Presentation**
+- Length: [100-200 words / 300-500 words / 500-1000 words]
+- Format: [Text with bullets / Visual-rich / Hybrid]
+- Focus: [Brief summary / Full detail / Hook only]
+- Correct: 300-500 words, Visual-rich, Full detail
+
+**Channel 3: Video**
+- Length: [100-200 words / 300-500 words / 500-1000 words]
+- Format: [Script only / Visual with narration / Hybrid]
+- Focus: [Brief summary / Full detail / Hook only]
+- Correct: 300-500 words (equivalent), Visual with narration, Full detail
+
+**Channel 4: Social Media**
+- Length: [100-200 words / 300-500 words / 500-1000 words]
+- Format: [Text with bullets / Visual-rich / Short punchy]
+- Focus: [Brief summary / Full detail / Hook only]
+- Correct: 100-200 words, Visual-rich, Hook only
+
+After each selection, the learner sees the adapted story summary.
+
+**Provenance:** The channel adaptations are from the Multi-Channel Story Delivery section above. The base story is illustrative.
+
+**Rules:** The learner must select length, format, and focus for each channel before proceeding. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads the base story.
+2. For Email, the learner selects length, format, and focus.
+3. The learner submits and sees the adapted story.
+4. The learner repeats for Presentation, Video, and Social Media.
+5. After all four, the learner sees a summary of channel adaptation principles.
+
+**Feedback:**
+- After submitting: "For [channel], [length] with [format] and [focus] is appropriate because [reason]."
+- Summary: "Each channel has different constraints. Adapt length, format, and focus to fit the medium while preserving the core message."
+
+**Starting State:** The learner sees the base story and Channel 1 with three dropdown menus (Length, Format, Focus) initially unselected.
+
+**Chapter Anchors:** The channel concepts are defined in the Multi-Channel Story Delivery section above. The base story is illustrative.
+</details>
 
 ### Presentation Storytelling
 
@@ -144,6 +281,69 @@ CRM Integration connects your story library to your customer relationship manage
 Integration features include: story recommendations based on opportunity stage, persona, and industry; automatic logging of which stories were told to which customers; and reporting on story-attributed outcomes. These features make story selection easier and enable performance tracking.
 
 When integrating stories into the CRM, ensure the integration enhances rather than disrupts the sales workflow. Stories should be one click away from where the salesperson is working, not buried in a separate system that requires context switching.
+
+#### Diagram: Integration Architect
+
+<details markdown="1">
+<summary>Integration Architect</summary>
+Type: infographic
+**sim-id:** integration-architect<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** design<br/>
+**Learning Objective:** The learner will design a story integration architecture by selecting which systems to integrate (CRM, LMS, CMS) and defining the data flow between them.
+
+**Prerequisites:** Story Integration, CRM Integration, Sales Enablement Platforms concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a sales technology landscape. The learner selects which systems to integrate and defines the data flow between them. The learner must correctly design a valid integration architecture.
+
+**Misconceptions:** (1) Integration is only about CRM (multiple systems require integration). (2) All integrations are the same (different systems have different integration needs). (3) Integration is one-time (integration requires ongoing maintenance).
+
+**Instructional Rationale:** An interactive architect allows the learner to apply integration knowledge by designing system connections. This supports the Apply objective by requiring the learner to make architectural decisions.
+
+**Content:**
+
+Available systems:
+- CRM (Customer Relationship Management)
+- LMS (Learning Management System)
+- CMS (Content Management System)
+- Sales Enablement Platform
+- Analytics Platform
+
+The learner selects which systems to integrate and defines data flow:
+
+**Step 1:** Select systems to integrate (select 3-4)
+- Options: CRM, LMS, CMS, Sales Enablement, Analytics
+- Correct: CRM + Sales Enablement + Analytics (core for storytelling)
+
+**Step 2:** Define data flow:
+- Story library → [CRM]
+- Story usage data → [Analytics]
+- Story performance → [Sales Enablement]
+- Learner selects target systems for each data source
+
+After designing the architecture, the learner sees a visual diagram of the integration.
+
+**Provenance:** The integration concepts are from the Story Integration section above. The systems are illustrative for a typical sales tech stack.
+
+**Rules:** The learner must select 3-4 systems and define data flow before seeing the diagram. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner sees available systems.
+2. The learner selects 3-4 systems to integrate.
+3. For each data source, the learner selects the target system.
+4. The learner submits the architecture design.
+5. The system shows a visual diagram of the integration with data flow arrows.
+
+**Feedback:**
+- After submitting: "Your integration connects [systems]. Data flows: [data flows]. This is a valid architecture."
+- Visual diagram shows systems as boxes with arrows showing data flow.
+
+**Starting State:** The learner sees available systems as checkboxes and data flow mapping questions.
+
+**Chapter Anchors:** The integration concepts are defined in the Story Integration section above. The systems are illustrative for sales technology.
+</details>
 
 ### Sales Enablement Platforms
 
@@ -190,6 +390,64 @@ Sales Team Training provides systematic instruction in storytelling fundamentals
 Training components include: workshops on storytelling fundamentals, sessions on Challenger insight development, practice sessions with role-playing and simulation, and individual coaching on delivery style. Training should be ongoing rather than one-time, with refresher sessions and advanced training as skills develop.
 
 When designing training, balance theory with practice. Conceptual understanding of storytelling principles is necessary but insufficient. Salespeople must practice telling stories, receive feedback, and refine their approach through repetition.
+
+#### Diagram: Training Program Designer
+
+<details markdown="1">
+<summary>Training Program Designer</summary>
+Type: infographic
+**sim-id:** training-program-designer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** design<br/>
+**Learning Objective:** The learner will design a storytelling training program by selecting training components, sequencing them appropriately, and defining practice activities.
+
+**Prerequisites:** Sales Team Training, Story Workshops concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a training objective. The learner selects training components, sequences them in a logical order, and defines practice activities. The learner must correctly design a valid training program.
+
+**Misconceptions:** (1) Training is one-time (training should be ongoing). (2) Theory is sufficient (practice is essential). (3) All training is the same (training should be progressive).
+
+**Instructional Rationale:** An interactive designer allows the learner to apply training knowledge by designing programs. This supports the Apply objective by requiring the learner to make training design decisions.
+
+**Content:**
+
+**Training Objective:** "Bring a sales team from novice to intermediate storytelling proficiency in 8 weeks."
+
+**Step 1:** Select training components (select 4-6):
+- Options: [Storytelling fundamentals workshop / Challenger insight development session / Role-playing practice / Story delivery coaching / Peer story sharing / Advanced techniques workshop]
+- Correct: Mix of theory and practice components
+
+**Step 2:** Sequence the components:
+- Learner arranges selected components in logical order (theory → practice → feedback → advanced)
+
+**Step 3:** Define practice activities:
+- For each practice component, select: [Individual practice / Small group / Team-wide / Cross-team / Expert feedback]
+- Correct: Mix of individual and group practice
+
+After designing the program, the learner sees the training schedule.
+
+**Provenance:** The training concepts are from the Sales Team Training section above. The objective is illustrative for a typical training program.
+
+**Rules:** The learner must select 4-6 components, sequence them, and define practice before seeing the schedule. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads the training objective.
+2. The learner selects 4-6 training components.
+3. The learner arranges components in sequence.
+4. For each practice component, the learner selects practice type.
+5. The learner submits the program design.
+6. The system shows the training schedule with phases.
+
+**Feedback:**
+- After submitting: "Your training program includes [components] in [sequence]. Practice activities: [activities]. This is a valid program."
+- Schedule shows weekly phases with theory and practice sessions.
+
+**Starting State:** The learner sees the training objective and component checkboxes, sequence canvas, and practice type selectors.
+
+**Chapter Anchors:** The training concepts are defined in the Sales Team Training section above. The objective is illustrative.
+</details>
 
 ### Story Workshops
 

@@ -68,12 +68,16 @@ Mastering these components lets you craft stories systematically rather than sta
 
 #### Diagram: Story Component Builder
 
+
+<iframe src="../../sims/story-component-builder/main.html" width="100%" height="642px" scrolling="no"></iframe>
+[Run Story Component Builder Fullscreen](../../sims/story-component-builder/main.html)
+
 <details markdown="1">
 <summary>Story Component Builder</summary>
 Type: infographic
 **sim-id:** story-component-builder<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** construct<br/>
 **Learning Objective:** The learner will construct a sales story by arranging the six story components in the correct sequence and writing content for each component.
@@ -217,12 +221,16 @@ Story-based objection handling works because it provides social proof, emotional
 
 #### Diagram: Objection Story Selector
 
+
+<iframe src="../../sims/objection-story-selector/main.html" width="100%" height="562px" scrolling="no"></iframe>
+[Run Objection Story Selector Fullscreen](../../sims/objection-story-selector/main.html)
+
 <details markdown="1">
 <summary>Objection Story Selector</summary>
 Type: infographic
 **sim-id:** objection-story-selector<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** select<br/>
 **Learning Objective:** The learner will select the appropriate objection story type (Price, Timing, Competitor, Risk, Authority) for different customer objections.

@@ -54,7 +54,9 @@ nav:
       - 14. Story Planning, Metrics & Alignment: chapters/14-story-planning-metrics-alignment/index.md
       - 15. Story Architecture, DevOps & Testing: chapters/15-story-architecture-devops-testing/index.md
       - 16. Advanced AI & Immersive Experiences: chapters/16-advanced-ai-immersive-experiences/index.md
-      - 17. Capstone Project: chapters/17-capstone-project/index.md
+      - 17. Capstone Project:
+          - Content: chapters/17-capstone-project/index.md
+          - Project Flow Diagram: chapters/17-capstone-project/capstone-flow.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
@@ -66,11 +68,34 @@ nav:
       - Mascot Test: learning-graph/mascot-test.md
 
   - MicroSims:
-      - List of MicroSims: sims/index.md
-      - Learning Graph Viewer: sims/graph-viewer/index.md
+    - List of MicroSims: sims/index.md
+    - Challenger Principles Explorer: sims/challenger-principles-explorer/index.md
+    - Cognitive Bias Simulator: sims/cognitive-bias-simulator/index.md
+    - Customer Priority Map Builder: sims/customer-priority-map-builder/index.md
+    - Dialogue Flow Designer: sims/dialogue-flow-designer/index.md
+    - Hero's Journey Interactive Map: sims/heros-journey-interactive-map/index.md
+    - Insight Type Selector: sims/insight-type-selector/index.md
+    - Learning Graph Viewer: sims/graph-viewer/index.md
+    - Memory Retention Experiment: sims/memory-retention-experiment/index.md
+    - Objection Story Selector: sims/objection-story-selector/index.md
+    - Persona Matcher: sims/persona-matcher/index.md
+    - Prompt Engineering Workshop: sims/prompt-engineering-workshop/index.md
+    - Sales Profiles Comparison: sims/sales-profiles-comparison/index.md
+    - Stakeholder Mapping Tool: sims/stakeholder-mapping-tool/index.md
+    - Story Arc Builder: sims/story-arc-builder/index.md
+    - Story Component Builder: sims/story-component-builder/index.md
+    - Vertical Insight Tailorer: sims/vertical-insight-tailorer/index.md
+
+
+
+
+
+
 
   - License: license.md
   - Contact: contact.md
+  - Diagram Summary: diagram-summary.md
+  - Glossary: glossary.md
 
 # Theme configuration
 theme:
@@ -126,7 +151,11 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span

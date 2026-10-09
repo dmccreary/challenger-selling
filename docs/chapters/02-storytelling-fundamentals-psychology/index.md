@@ -81,12 +81,16 @@ While you don't need to rigidly apply every stage of the Hero's Journey to every
 
 #### Diagram: Hero's Journey Interactive Map
 
+
+<iframe src="../../sims/heros-journey-interactive-map/main.html" width="100%" height="502px" scrolling="no"></iframe>
+[Run Hero's Journey Interactive Map Fullscreen](../../sims/heros-journey-interactive-map/main.html)
+
 <details markdown="1">
 <summary>Hero's Journey Interactive Map</summary>
 Type: infographic
 **sim-id:** heros-journey-interactive-map<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Understand<br/>
 **Bloom Verb:** explain<br/>
 **Learning Objective:** The learner will explain the stages of the Hero's Journey and how they apply to sales storytelling.
@@ -160,12 +164,16 @@ Understanding story arcs helps you structure case studies and success stories ef
 
 #### Diagram: Story Arc Builder
 
+
+<iframe src="../../sims/story-arc-builder/main.html" width="100%" height="772px" scrolling="no"></iframe>
+[Run Story Arc Builder Fullscreen](../../sims/story-arc-builder/main.html)
+
 <details markdown="1">
 <summary>Story Arc Builder</summary>
 Type: infographic
 **sim-id:** story-arc-builder<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** construct<br/>
 **Learning Objective:** The learner will construct a story arc by sequencing story elements (setup, rising action, climax, resolution) for a given sales scenario.
@@ -258,12 +266,16 @@ Another reason is that stories engage emotion, and emotion strengthens memory fo
 
 #### Diagram: Memory Retention Experiment
 
+
+<iframe src="../../sims/memory-retention-experiment/main.html" width="100%" height="642px" scrolling="no"></iframe>
+[Run Memory Retention Experiment Fullscreen](../../sims/memory-retention-experiment/main.html)
+
 <details markdown="1">
 <summary>Memory Retention Experiment</summary>
 Type: infographic
 **sim-id:** memory-retention-experiment<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Understand<br/>
 **Bloom Verb:** compare<br/>
 **Learning Objective:** The learner will compare memory retention between story-based and fact-based presentations to understand why stories enhance memory.
@@ -460,12 +472,16 @@ For Challengers, overcoming status quo bias is essential. The methodology explic
 
 #### Diagram: Cognitive Bias Simulator
 
+
+<iframe src="../../sims/cognitive-bias-simulator/main.html" width="100%" height="562px" scrolling="no"></iframe>
+[Run Cognitive Bias Simulator Fullscreen](../../sims/cognitive-bias-simulator/main.html)
+
 <details markdown="1">
 <summary>Cognitive Bias Simulator</summary>
 Type: infographic
 **sim-id:** cognitive-bias-simulator<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** identify<br/>
 **Learning Objective:** The learner will identify which cognitive bias influences a customer's decision and select the appropriate story strategy to address it.

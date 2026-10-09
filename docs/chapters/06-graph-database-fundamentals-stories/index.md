@@ -66,6 +66,64 @@ The graph model is particularly powerful for data where relationships are as imp
 
 When selling graph databases, the data model is your primary differentiator. Contrast the relational approach—storing relationships implicitly through JOIN operations—with the graph approach—storing relationships explicitly as edges. Show how this difference translates to business value: faster queries, more flexible schema, and the ability to ask questions that relational databases cannot answer efficiently.
 
+#### Diagram: Graph Data Model Visualizer
+
+<details markdown="1">
+<summary>Graph Data Model Visualizer</summary>
+Type: infographic
+**sim-id:** graph-data-model-visualizer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** explain<br/>
+**Learning Objective:** The learner will explain the graph data model by identifying nodes, edges, and properties in a visual graph representation.
+
+**Prerequisites:** Graph Data Model, Nodes and Edges concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a visual graph showing nodes and edges. The learner identifies which elements are nodes, which are edges, and describes their properties. The learner must correctly identify all elements.
+
+**Misconceptions:** (1) Nodes and edges are the same (nodes are entities, edges are relationships). (2) Properties are optional (both nodes and edges typically have properties). (3) Graph models are the same as relational models (graph models store relationships explicitly).
+
+**Instructional Rationale:** A visual graph allows the learner to explore the graph data model interactively. This supports the Understand objective by enabling visual exploration followed by identification tasks.
+
+**Content:**
+
+A visual graph displays:
+- Node A: "Customer" with properties {name: "Acme Corp", industry: "Manufacturing"}
+- Node B: "Product" with properties {name: "Widget X", price: "$100"}
+- Node C: "Order" with properties {date: "2024-01-15", quantity: 50}
+- Edge 1: From Customer to Order labeled "placed" with property {value: "$5,000"}
+- Edge 2: From Order to Product labeled "contains" with property {quantity: 50}
+
+The learner interacts with the graph:
+1. Click on elements to reveal their type and properties
+2. Answer: "Which elements are nodes?" (select A, B, C)
+3. Answer: "Which elements are edges?" (select Edge 1, Edge 2)
+4. Answer: "What property does the Customer node have?" (name, industry)
+5. Answer: "What relationship does Edge 1 represent?" (placed order)
+
+After completing the identification tasks, the learner sees a summary of the graph structure.
+
+**Provenance:** The graph data model is from the chapter's definitions. The example is illustrative for a typical business graph.
+
+**Rules:** The learner must click on all elements before answering questions. The learner can retry identification tasks.
+
+**Learner Activity:**
+1. The learner sees the visual graph with labeled elements.
+2. The learner clicks on each element to reveal its type and properties.
+3. The learner answers 5 identification questions.
+4. The learner submits answers and sees feedback.
+5. After all questions, the learner sees a summary of the graph structure.
+
+**Feedback:**
+- After clicking: "This is a [node/edge] with properties: [properties]."
+- After questions: "You correctly identified X of 5 elements. Graph data models use nodes for entities and edges for relationships."
+
+**Starting State:** The learner sees a visual graph with 3 nodes and 2 edges. Elements are clickable but initially don't show properties.
+
+**Chapter Anchors:** The Graph Data Model and Nodes and Edges concepts are defined in the section above. The example is illustrative for a business graph.
+</details>
+
 ### Nodes and Edges
 
 Nodes and Edges are the two fundamental building blocks of graph databases. Nodes represent entities or objects in your domain. Edges represent relationships or connections between nodes. Both nodes and edges can have properties—key-value pairs that store additional information.
@@ -98,6 +156,68 @@ Consider a query to find all products that depend on a particular component in a
 
 When selling graph databases, traversal performance is a key differentiator. Show concrete examples of multi-hop queries that would be slow or complex in relational databases but are fast and simple in graph databases. The ability to ask relationship questions is the core value proposition.
 
+#### Diagram: Graph Traversal Explorer
+
+<details markdown="1">
+<summary>Graph Traversal Explorer</summary>
+Type: infographic
+**sim-id:** graph-traversal-explorer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** perform<br/>
+**Learning Objective:** The learner will perform graph traversals by selecting starting nodes and traversal patterns to find connected nodes.
+
+**Prerequisites:** Graph Traversal concept defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a visual graph. The learner selects a starting node and a traversal pattern (neighbors, neighbors of neighbors, shortest path). The learner must correctly identify the traversal results.
+
+**Misconceptions:** (1) All traversals are the same (different patterns yield different results). (2) Traversal performance doesn't depend on graph size (graph databases maintain performance as graphs grow). (3) Traversal is the same as JOIN (traversal follows edges directly, JOIN requires table lookups).
+
+**Instructional Rationale:** An interactive explorer allows the learner to apply graph traversal knowledge by performing actual traversals. This supports the Apply objective by requiring the learner to execute traversal patterns.
+
+**Content:**
+
+A visual graph displays:
+- Nodes: A, B, C, D, E, F
+- Edges: A-B, B-C, C-D, D-E, E-F, A-C, B-D
+
+The learner performs traversals:
+1. Select starting node (e.g., A)
+2. Select traversal pattern:
+   - "Neighbors" (directly connected nodes)
+   - "Neighbors of neighbors" (2 hops)
+   - "Shortest path to" (select target node)
+3. See the traversal result highlighted
+
+Example traversals:
+- Starting at A, neighbors: B, C
+- Starting at A, neighbors of neighbors: B, C, D (via B or C)
+- Shortest path from A to E: A-C-D-E (3 hops)
+
+After each traversal, the learner sees the path highlighted and the number of hops.
+
+**Provenance:** The traversal patterns are from the Graph Traversal section above. The graph is illustrative for demonstrating traversal concepts.
+
+**Rules:** The learner must select a starting node and traversal pattern before seeing results. The learner can try multiple traversals.
+
+**Learner Activity:**
+1. The learner sees the visual graph.
+2. The learner selects a starting node by clicking.
+3. The learner selects a traversal pattern from buttons.
+4. The learner sees the traversal result highlighted.
+5. The learner can try different starting nodes and patterns.
+6. After several traversals, the learner sees a summary of traversal patterns.
+
+**Feedback:**
+- After traversal: "Starting from [node], [pattern] traversal found: [result]. This took [hops] hops."
+- Summary: "Graph traversals efficiently find connected nodes by following edges directly, unlike JOIN operations in relational databases."
+
+**Starting State:** The learner sees a visual graph with labeled nodes and edges. Controls show traversal pattern buttons.
+
+**Chapter Anchors:** The Graph Traversal concept is defined in the section above. The example graph is illustrative for demonstrating traversal.
+</details>
+
 ### Graph Query Languages
 
 Graph Query Languages provide the syntax and semantics for querying graph databases. Unlike SQL, which is designed for relational databases with table-based operations, graph query languages are designed for pattern matching and traversal across nodes and edges.
@@ -129,6 +249,66 @@ Graph Database Use Cases span many industries and problem domains. Understanding
 Common use cases include social networks (finding connections and influence), recommendation engines (suggesting products based on purchase patterns), fraud detection (identifying suspicious transaction patterns), supply chain optimization (tracing dependencies and bottlenecks), knowledge management (connecting documents and concepts), and network IT operations (managing infrastructure dependencies).
 
 When selling graph databases, map your prospect's industry to relevant use cases. A financial services prospect might care about fraud detection and risk analysis. A healthcare prospect might care about knowledge graphs and patient outcome correlations. A retail prospect might care about recommendation engines and supply chain optimization. Use industry-specific use cases to make your Challenger insight relevant.
+
+#### Diagram: Use Case Matcher
+
+<details markdown="1">
+<summary>Use Case Matcher</summary>
+Type: infographic
+**sim-id:** graph-use-case-matcher<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** identify<br/>
+**Learning Objective:** The learner will identify which graph database use case (Social Network Analysis, Fraud Detection, Recommendation Engines, Knowledge Graphs) applies to different business scenarios.
+
+**Prerequisites:** Graph Use Cases concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with 4 business scenarios. For each scenario, the learner identifies the appropriate graph database use case. The learner must correctly identify the use case for all 4 scenarios.
+
+**Misconceptions:** (1) All use cases are the same (each use case addresses different business problems). (2) Any use case works for any problem (matching the right use case to the problem is essential). (3) Use cases are technical only (use cases address business problems).
+
+**Instructional Rationale:** An interactive matcher allows the learner to apply use case knowledge to realistic scenarios. This supports the Apply objective by requiring the learner to identify appropriate applications.
+
+**Content:**
+
+**Scenario 1:** "A bank wants to detect suspicious transaction patterns that might indicate fraud rings where multiple accounts coordinate to launder money."
+- Learner selects: [Social Network Analysis / Fraud Detection / Recommendation Engines / Knowledge Graphs]
+- Correct: Fraud Detection
+
+**Scenario 2:** "A social media platform wants to identify influencers and communities to improve content targeting and engagement."
+- Learner selects: [Social Network Analysis / Fraud Detection / Recommendation Engines / Knowledge Graphs]
+- Correct: Social Network Analysis
+
+**Scenario 3:** "An e-commerce site wants to recommend products based on what similar customers purchased and viewed."
+- Learner selects: [Social Network Analysis / Fraud Detection / Recommendation Engines / Knowledge Graphs]
+- Correct: Recommendation Engines
+
+**Scenario 4:** "A pharmaceutical company wants to organize and query relationships between drugs, diseases, genes, and clinical trials."
+- Learner selects: [Social Network Analysis / Fraud Detection / Recommendation Engines / Knowledge Graphs]
+- Correct: Knowledge Graphs
+
+After each selection, the learner sees why that use case applies to the scenario.
+
+**Provenance:** The use cases are from the Graph Use Cases section above. The scenarios are illustrative common business problems.
+
+**Rules:** The learner must select a use case for each scenario before proceeding. The learner can retry with different selections.
+
+**Learner Activity:**
+1. The learner reads Scenario 1.
+2. The learner selects a use case from the dropdown menu.
+3. The learner submits and sees feedback.
+4. The learner repeats for Scenarios 2-4.
+5. After all four, the learner sees a summary of use case applications.
+
+**Feedback:**
+- Correct: "Correct! This scenario is a [use case] problem because [reason]."
+- Incorrect: "Not quite. This scenario is better addressed by [correct use case] because [reason]."
+
+**Starting State:** The learner sees Scenario 1 and a dropdown menu (Use Case) initially unselected.
+
+**Chapter Anchors:** The use cases are defined in the Graph Use Cases section above. The scenarios are illustrative for common business applications.
+</details>
 
 #### Social Network Analysis
 

@@ -104,6 +104,73 @@ Building a Customer Priority Map involves researching the organization's strateg
     ![Story with a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
     Before your first meeting, spend 15 minutes reviewing the prospect's recent quarterly earnings call transcript, press releases, and leadership speeches. The language they use reveals their priorities—and the specific words you should echo back when you tailor your insight.
 
+#### Diagram: Customer Priority Map Builder
+
+
+<iframe src="../../sims/customer-priority-map-builder/main.html" width="100%" height="852px" scrolling="no"></iframe>
+[Run Customer Priority Map Builder Fullscreen](../../sims/customer-priority-map-builder/main.html)
+
+<details markdown="1">
+<summary>Customer Priority Map Builder</summary>
+Type: infographic
+**sim-id:** customer-priority-map-builder<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** construct<br/>
+**Learning Objective:** The learner will construct a Customer Priority Map by ranking competing priorities for different stakeholders and identifying where a teaching insight aligns or creates tension.
+
+**Prerequisites:** Customer Priority Map concept defined in the section above. Stakeholder types (CFO, CTO, CEO, etc.) defined earlier in the chapter.
+
+**Evidence of Mastery:** The learner is presented with a scenario with 3 stakeholders and 5 competing priorities. The learner ranks priorities for each stakeholder, then identifies where the teaching insight aligns. The learner must correctly complete the map and alignment analysis.
+
+**Misconceptions:** (1) All stakeholders prioritize the same things (priorities often conflict in complex organizations). (2) Priorities are static (priorities change with strategic initiatives and competitive pressure). (3) Insight alignment is always perfect (insights often create tension that must be addressed).
+
+**Instructional Rationale:** An interactive map builder allows the learner to apply the Customer Priority Map concept to a realistic scenario. This supports the Apply objective by requiring the learner to construct a map and analyze insight alignment.
+
+**Content:**
+
+Scenario: "You're selling data infrastructure to a manufacturing company. Here are the key stakeholders and potential priorities:"
+
+Stakeholders:
+- CFO: Focuses on cost control, ROI, financial risk
+- CTO: Focuses on technical fit, security, innovation capability
+- COO: Focuses on operational efficiency, reliability, supply chain optimization
+
+Priorities to rank for each stakeholder:
+1. Reduce IT infrastructure costs
+2. Improve system reliability and uptime
+3. Enable faster product launches
+4. Strengthen cybersecurity
+5. Support innovation and R&D
+
+The learner drags and drops priorities to rank them for each stakeholder (1 = highest priority, 5 = lowest priority).
+
+After ranking, the learner sees the completed map and answers: "Your teaching insight is that 'brittle data infrastructure blocks innovation.' Which stakeholders does this insight align with, and where does it create tension?"
+
+Learner selects alignment and tension for each stakeholder, then sees analysis of how to tailor the insight.
+
+**Provenance:** The Customer Priority Map concept is from CEB/Gartner Challenger research. The scenario and priorities are illustrative for a data infrastructure sale.
+
+**Rules:** The learner must rank all priorities for all stakeholders before proceeding. Rankings can be adjusted by dragging. The learner must answer the alignment question before seeing the analysis.
+
+**Learner Activity:**
+1. The learner reads the scenario and stakeholder descriptions.
+2. The learner drags priorities to rank them for each stakeholder (3 stakeholders × 5 priorities).
+3. The learner submits their rankings.
+4. The system displays the completed priority map.
+5. The learner answers which stakeholders the insight aligns with and where it creates tension.
+6. The learner sees tailored messaging suggestions based on their analysis.
+
+**Feedback:**
+- After submitting rankings: "Here's your Customer Priority Map. Notice where priorities align and where they conflict."
+- After answering alignment: "Your insight aligns with [stakeholders] because [reason]. It creates tension with [stakeholders] because [reason]. Here's how to address that tension..."
+
+**Starting State:** The learner sees the scenario description, three stakeholder sections, and five priority items that can be dragged into ranking slots for each stakeholder.
+
+**Chapter Anchors:** The Customer Priority Map concept is defined in the "Tailoring Principle" section above. The teaching insight example is adapted from the chapter's graph database example.
+</details>
+
 #### Stakeholder Analysis
 
 Stakeholder Analysis identifies all the individuals who will influence or be affected by the purchase decision. In complex B2B sales, decisions rarely involve a single buyer. Challengers map the stakeholder landscape to understand who holds formal authority, who holds informal influence, and who might block or accelerate the decision process.
@@ -152,6 +219,74 @@ A Friend is a stakeholder who supports the initiative but doesn't actively drive
 
 Challengers appreciate friends but don't rely on them as primary champions. Friends can become mobilizers if given the right motivation and support, but this requires understanding what would enable them to move from passive support to active advocacy—often a deeper connection between the teaching insight and their personal or professional goals.
 
+#### Diagram: Stakeholder Mapping Tool
+
+
+<iframe src="../../sims/stakeholder-mapping-tool/main.html" width="100%" height="752px" scrolling="no"></iframe>
+[Run Stakeholder Mapping Tool Fullscreen](../../sims/stakeholder-mapping-tool/main.html)
+
+<details markdown="1">
+<summary>Stakeholder Mapping Tool</summary>
+Type: infographic
+**sim-id:** stakeholder-mapping-tool<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** categorize<br/>
+**Learning Objective:** The learner will categorize stakeholders into buyer types (Economic, Technical, User) and influence types (Coach, Mobilizer, Skeptic, Friend) for a given sales scenario.
+
+**Prerequisites:** Stakeholder definitions (Economic Buyer, Technical Buyer, User Buyer, Coach, Mobilizer, Skeptic, Friend) defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a scenario with 4-5 stakeholder descriptions. The learner categorizes each stakeholder by buyer type and influence type. The learner must correctly categorize all stakeholders.
+
+**Misconceptions:** (1) Economic buyers are always the most important (all stakeholder types matter in complex sales). (2) Mobilizers and friends are the same (mobilizers actively drive change, friends provide passive support). (3) Skeptics are opponents (skeptics can become advocates when armed with data).
+
+**Instructional Rationale:** An interactive categorization tool allows the learner to apply stakeholder knowledge to realistic scenarios. This supports the Apply objective by requiring the learner to classify stakeholders based on their descriptions.
+
+**Content:**
+
+Scenario description: "You're selling an intelligent textbook platform to a university. Here are the key stakeholders you've identified:"
+
+Stakeholder cards with descriptions:
+
+**Stakeholder 1:** "Dr. Martinez, CFO of the university. Controls the budget for all technology purchases. Asks about ROI and cost savings every conversation."
+- Learner selects: Buyer type (Economic/Technical/User) and Influence type (Coach/Mobilizer/Skeptic/Friend)
+- Correct: Economic Buyer, Skeptic
+
+**Stakeholder 2:** "Professor Chen, Chair of the Computer Science department. Wants to improve student engagement and outcomes. Actively advocates for modernizing course materials."
+- Learner selects: Buyer type and Influence type
+- Correct: User Buyer, Mobilizer
+
+**Stakeholder 3:** "Director Johnson, CTO. Evaluates technical fit, security, and integration with existing LMS. Will your system work with our current infrastructure?"
+- Learner selects: Buyer type and Influence type
+- Correct: Technical Buyer, Skeptic
+
+**Stakeholder 4:** "Sarah, Instructional Designer in the Center for Teaching Excellence. Provides feedback on the demo and introduces you to other department chairs. She's been helpful throughout the process."
+- Learner selects: Buyer type and Influence type
+- Correct: User Buyer, Coach
+
+After categorizing all stakeholders, the learner sees a summary showing which stakeholders to prioritize (Mobilizers and Coaches) and how to engage each buyer type.
+
+**Provenance:** The stakeholder types and characteristics are from CEB/Gartner Challenger research. The scenario is illustrative for an intelligent textbook sale.
+
+**Rules:** The learner must categorize each stakeholder before seeing the summary. Each categorization must be correct to proceed. If incorrect, feedback shows the correct categorization with explanation.
+
+**Learner Activity:**
+1. The learner reads the scenario and stakeholder descriptions.
+2. For each stakeholder, the learner selects the buyer type and influence type from dropdown menus.
+3. After categorizing all stakeholders, the learner submits their answers.
+4. The system shows which categorizations were correct/incorrect with explanations.
+5. If all correct, the learner sees a prioritization summary.
+
+**Feedback:**
+- Correct categorization: "Correct! This stakeholder is a [type] because [reason]."
+- Incorrect categorization: "Not quite. This stakeholder is actually a [correct type] because [reason]."
+
+**Starting State:** The learner sees the scenario description and 4 stakeholder cards. Each card has two dropdown menus (Buyer Type, Influence Type) initially unselected.
+
+**Chapter Anchors:** The stakeholder types are defined in the "Stakeholder Analysis" section above. The scenario is illustrative for the course's intelligent textbook context.
+</details>
+
 ### Taking Control Principle
 
 The Taking Control Principle focuses on guiding the customer toward a decision rather than waiting for them to navigate their own path. In complex organizations, decision-making naturally stalls due to competing priorities, risk aversion, and organizational inertia. Challengers intervene to provide structure, clarity, and momentum.
@@ -160,79 +295,11 @@ Taking control doesn't mean being pushy or disregarding customer input. It means
 
 The Taking Control Principle is particularly important after delivering a teaching insight. Customers often recognize the validity of the insight but don't know how to act on it. Challengers bridge this gap by proposing a concrete path forward: a pilot project, a proof-of-concept, a business case, or a roadmap. This converts intellectual agreement into practical action.
 
-## Sales Profiles and the Challenger Profile
-
-Research identified five distinct sales profiles based on how salespeople approach customer interactions: Relationship Builders, Hard Workers, Lone Wolves, Reactive Problem Solvers, and Challengers. Each profile represents a consistent pattern of behaviors, strengths, and weaknesses. Understanding these profiles helps sales professionals recognize their own tendencies and develop the skills needed to adopt Challenger behaviors.
-
-### Relationship Builder Profile
-
-Relationship Builders focus on building personal connections with customers. They invest heavily in rapport, responsiveness, and customer satisfaction. They're likable, trustworthy, and deeply committed to meeting customer needs. Historically, Relationship Builders were considered the ideal sales profile, but research shows they underperform in complex, consultative sales environments.
-
-The weakness of the Relationship Builder profile is that personal relationships alone don't drive complex decisions. Customers may like and trust a Relationship Builder, but they won't change their business approach simply because someone asks nicely. Relationship Builders often avoid disruption for fear of damaging relationships, which means they miss opportunities to teach customers something new.
-
-### Hard Worker Profile
-
-Hard Workers succeed through sheer effort and persistence. They make more calls, attend more meetings, and follow up more diligently than their peers. They're organized, disciplined, and willing to put in long hours. Hard Workers often achieve respectable results, but they struggle to scale their effectiveness.
-
-The weakness of the Hard Worker profile is that effort alone cannot compensate for ineffective approach. Working harder at the wrong activities—repeatedly delivering product-focused presentations, accommodating rather than challenging customer assumptions—produces diminishing returns. Hard Workers often burn out because they're working harder, not smarter.
-
-### Lone Wolf Profile
-
-Lone Wolves rely on exceptional individual capability and deep product knowledge. They're technically brilliant, articulate, and persuasive. They often achieve high performance, but their success is difficult to replicate across the organization. Lone Wolves follow their own instincts and often resist sales processes and coaching.
-
-The weakness of the Lone Wolf profile is that their approach is idiosyncratic and non-scalable. What works for a Lone Wolf doesn't transfer to other salespeople. Lone Wolves also struggle with team selling and complex multi-stakeholder deals where coordination and consistency matter more than individual brilliance.
-
-### Reactive Problem Solver Profile
-
-Reactive Problem Solvers excel at addressing customer requests and resolving issues. They're responsive, service-oriented, and highly reliable. When customers have a problem, Reactive Problem Solvers jump to fix it. Customers appreciate their dedication, but this profile struggles to drive proactive value.
-
-The weakness of the Reactive Problem Solver profile is that they're always reacting rather than leading. They solve the problems customers articulate, but they don't help customers identify problems they didn't know they had. In complex sales, the most valuable solutions address unanticipated problems, which requires proactive teaching rather than reactive problem-solving.
-
-### Challenger Profile
-
-Challengers combine deep knowledge of their customer's business with the ability to teach, tailor, and take control. They're not necessarily the most likable salespeople, but they're the most effective in complex sales environments. Challengers push customers out of their comfort zones—not to be difficult, but because that's where real learning and change happen.
-
-The strength of the Challenger profile is that it directly addresses the core challenge of complex B2B sales: helping customers understand problems they didn't know they had and solutions they hadn't considered. Challengers don't just sell products—they sell new ways of thinking about the customer's business. This creates differentiated value that competitors cannot easily replicate.
-
-## Creating and Delivering Sales Insights
-
-At the heart of the Challenger methodology is the sales insight—a piece of information that teaches customers something new about their business. Not all insights are equally effective. The best insights are commercial insights that connect a specific business problem to a broader organizational outcome, backed by data and research.
-
-### Sales Insight
-
-A Sales Insight is any piece of information that disrupts customer thinking and creates urgency for change. Sales insights can range from industry benchmarks to proprietary research to case studies from similar organizations. What matters is that the insight is relevant, surprising, and actionable.
-
-Effective sales insights share three characteristics. First, they address a problem the customer recognizes but hasn't solved. Second, they provide a new perspective on why the problem persists. Third, they point toward a solution that the customer hadn't previously considered. An insight that simply restates a problem the customer already knows about adds no value—it must reframe the problem in a new light.
-
-### Commercial Insight
-
-A Commercial Insight is a specific type of sales insight that connects a business problem to a financial or strategic outcome. Commercial insights focus on impact: revenue, cost, risk, speed, or competitive advantage. They translate technical or operational challenges into business language that resonates with economic buyers and executives.
-
-For example, instead of saying "Your database queries are slow," a commercial insight might say "Your current data infrastructure adds 45 days to your product development cycle, which delays revenue recognition and gives competitors a time-to-market advantage." The same underlying problem is now framed in terms that executives care about.
-
-#### Insight Types
-
-Challenger research identified several patterns of effective insights, each suited to different situations. Understanding these patterns helps sales professionals craft insights tailored to their specific customers and contexts.
-
-##### Warmer Insight
-
-A Warmer Insight creates urgency by showing the customer that they're falling behind peers or competitors. Warmer insights use benchmarking data to demonstrate that similar organizations have already addressed a problem that the customer is still struggling with. The insight leverages social proof and competitive pressure to motivate action.
-
-A warmer insight might show that 70% of companies in the customer's industry have adopted a technology that the customer hasn't considered, or that competitors are achieving 30% faster time-to-market using an approach the customer hasn't tried. The message is "you're not alone in facing this problem, but you are behind in solving it."
-
-##### Rational Drowning Insight
-
-A Rational Drowning Insight acknowledges that customers are overwhelmed by information and complexity. These insights simplify by identifying the one or two factors that actually matter amid the noise. They help customers cut through analysis paralysis and focus on the decisions that will drive the most impact.
-
-A rational drowning insight might show that while the customer is evaluating 15 different features, only 3 of them correlate with the business outcome they care about. The insight helps the customer stop drowning in data and start making progress on the few variables that actually drive results.
-
-##### Rock Star Insight
-
-A Rock Star Insight positions the customer as a leader in their industry or organization. These insights frame a problem as an opportunity for the customer to differentiate themselves and achieve breakthrough performance. Rather than highlighting a gap, they highlight a potential for exceptional achievement.
-
-A rock star insight might show that if the customer addresses a specific operational challenge, they could achieve performance metrics that place them in the top 10% of their industry. The insight appeals to ambition and pride—leaders want to be first, not just catch up.
-
 #### Diagram: Challenger Principles Explorer
+
+
+<iframe src="../../sims/challenger-principles-explorer/main.html" width="100%" height="652px" scrolling="no"></iframe>
+[Run Challenger Principles Explorer Fullscreen](../../sims/challenger-principles-explorer/main.html)
 
 <details markdown="1">
 <summary>Challenger Principles Explorer</summary>
@@ -298,7 +365,45 @@ Quiz questions (randomized order):
 **Chapter Anchors:** The three principles are defined in the section "The Three Core Principles" above. The example scenarios are illustrative and not anchored to specific chapter claims.
 </details>
 
+## Sales Profiles and the Challenger Profile
+
+Research identified five distinct sales profiles based on how salespeople approach customer interactions: Relationship Builders, Hard Workers, Lone Wolves, Reactive Problem Solvers, and Challengers. Each profile represents a consistent pattern of behaviors, strengths, and weaknesses. Understanding these profiles helps sales professionals recognize their own tendencies and develop the skills needed to adopt Challenger behaviors.
+
+### Relationship Builder Profile
+
+Relationship Builders focus on building personal connections with customers. They invest heavily in rapport, responsiveness, and customer satisfaction. They're likable, trustworthy, and deeply committed to meeting customer needs. Historically, Relationship Builders were considered the ideal sales profile, but research shows they underperform in complex, consultative sales environments.
+
+The weakness of the Relationship Builder profile is that personal relationships alone don't drive complex decisions. Customers may like and trust a Relationship Builder, but they won't change their business approach simply because someone asks nicely. Relationship Builders often avoid disruption for fear of damaging relationships, which means they miss opportunities to teach customers something new.
+
+### Hard Worker Profile
+
+Hard Workers succeed through sheer effort and persistence. They make more calls, attend more meetings, and follow up more diligently than their peers. They're organized, disciplined, and willing to put in long hours. Hard Workers often achieve respectable results, but they struggle to scale their effectiveness.
+
+The weakness of the Hard Worker profile is that effort alone cannot compensate for ineffective approach. Working harder at the wrong activities—repeatedly delivering product-focused presentations, accommodating rather than challenging customer assumptions—produces diminishing returns. Hard Workers often burn out because they're working harder, not smarter.
+
+### Lone Wolf Profile
+
+Lone Wolves rely on exceptional individual capability and deep product knowledge. They're technically brilliant, articulate, and persuasive. They often achieve high performance, but their success is difficult to replicate across the organization. Lone Wolves follow their own instincts and often resist sales processes and coaching.
+
+The weakness of the Lone Wolf profile is that their approach is idiosyncratic and non-scalable. What works for a Lone Wolf doesn't transfer to other salespeople. Lone Wolves also struggle with team selling and complex multi-stakeholder deals where coordination and consistency matter more than individual brilliance.
+
+### Reactive Problem Solver Profile
+
+Reactive Problem Solvers excel at addressing customer requests and resolving issues. They're responsive, service-oriented, and highly reliable. When customers have a problem, Reactive Problem Solvers jump to fix it. Customers appreciate their dedication, but this profile struggles to drive proactive value.
+
+The weakness of the Reactive Problem Solver profile is that they're always reacting rather than leading. They solve the problems customers articulate, but they don't help customers identify problems they didn't know they had. In complex sales, the most valuable solutions address unanticipated problems, which requires proactive teaching rather than reactive problem-solving.
+
+### Challenger Profile
+
+Challengers combine deep knowledge of their customer's business with the ability to teach, tailor, and take control. They're not necessarily the most likable salespeople, but they're the most effective in complex sales environments. Challengers push customers out of their comfort zones—not to be difficult, but because that's where real learning and change happen.
+
+The strength of the Challenger profile is that it directly addresses the core challenge of complex B2B sales: helping customers understand problems they didn't know they had and solutions they hadn't considered. Challengers don't just sell products—they sell new ways of thinking about the customer's business. This creates differentiated value that competitors cannot easily replicate.
+
 #### Diagram: Sales Profiles Comparison
+
+
+<iframe src="../../sims/sales-profiles-comparison/main.html" width="100%" height="702px" scrolling="no"></iframe>
+[Run Sales Profiles Comparison Fullscreen](../../sims/sales-profiles-comparison/main.html)
 
 <details markdown="1">
 <summary>Sales Profiles Comparison</summary>
@@ -379,134 +484,49 @@ Quiz questions (randomized order):
 **Chapter Anchors:** The profiles are defined in the "Sales Profiles and the Challenger Profile" section above. Performance data is from CEB/Gartner research mentioned in that section.
 </details>
 
-#### Diagram: Stakeholder Mapping Tool
+## Creating and Delivering Sales Insights
 
-<details markdown="1">
-<summary>Stakeholder Mapping Tool</summary>
-Type: infographic
-**sim-id:** stakeholder-mapping-tool<br/>
-**Library:** html<br/>
-**Status:** Specified<br/>
-**Bloom Level:** Apply<br/>
-**Bloom Verb:** categorize<br/>
-**Learning Objective:** The learner will categorize stakeholders into buyer types (Economic, Technical, User) and influence types (Coach, Mobilizer, Skeptic, Friend) for a given sales scenario.
+At the heart of the Challenger methodology is the sales insight—a piece of information that teaches customers something new about their business. Not all insights are equally effective. The best insights are commercial insights that connect a specific business problem to a broader organizational outcome, backed by data and research.
 
-**Prerequisites:** Stakeholder definitions (Economic Buyer, Technical Buyer, User Buyer, Coach, Mobilizer, Skeptic, Friend) defined in the section above.
+### Sales Insight
 
-**Evidence of Mastery:** The learner is presented with a scenario with 4-5 stakeholder descriptions. The learner categorizes each stakeholder by buyer type and influence type. The learner must correctly categorize all stakeholders.
+A Sales Insight is any piece of information that disrupts customer thinking and creates urgency for change. Sales insights can range from industry benchmarks to proprietary research to case studies from similar organizations. What matters is that the insight is relevant, surprising, and actionable.
 
-**Misconceptions:** (1) Economic buyers are always the most important (all stakeholder types matter in complex sales). (2) Mobilizers and friends are the same (mobilizers actively drive change, friends provide passive support). (3) Skeptics are opponents (skeptics can become advocates when armed with data).
+Effective sales insights share three characteristics. First, they address a problem the customer recognizes but hasn't solved. Second, they provide a new perspective on why the problem persists. Third, they point toward a solution that the customer hadn't previously considered. An insight that simply restates a problem the customer already knows about adds no value—it must reframe the problem in a new light.
 
-**Instructional Rationale:** An interactive categorization tool allows the learner to apply stakeholder knowledge to realistic scenarios. This supports the Apply objective by requiring the learner to classify stakeholders based on their descriptions.
+### Commercial Insight
 
-**Content:**
+A Commercial Insight is a specific type of sales insight that connects a business problem to a financial or strategic outcome. Commercial insights focus on impact: revenue, cost, risk, speed, or competitive advantage. They translate technical or operational challenges into business language that resonates with economic buyers and executives.
 
-Scenario description: "You're selling an intelligent textbook platform to a university. Here are the key stakeholders you've identified:"
+For example, instead of saying "Your database queries are slow," a commercial insight might say "Your current data infrastructure adds 45 days to your product development cycle, which delays revenue recognition and gives competitors a time-to-market advantage." The same underlying problem is now framed in terms that executives care about.
 
-Stakeholder cards with descriptions:
+#### Insight Types
 
-**Stakeholder 1:** "Dr. Martinez, CFO of the university. Controls the budget for all technology purchases. Asks about ROI and cost savings every conversation."
-- Learner selects: Buyer type (Economic/Technical/User) and Influence type (Coach/Mobilizer/Skeptic/Friend)
-- Correct: Economic Buyer, Skeptic
+Challenger research identified several patterns of effective insights, each suited to different situations. Understanding these patterns helps sales professionals craft insights tailored to their specific customers and contexts.
 
-**Stakeholder 2:** "Professor Chen, Chair of the Computer Science department. Wants to improve student engagement and outcomes. Actively advocates for modernizing course materials."
-- Learner selects: Buyer type and Influence type
-- Correct: User Buyer, Mobilizer
+##### Warmer Insight
 
-**Stakeholder 3:** "Director Johnson, CTO. Evaluates technical fit, security, and integration with existing LMS. Will your system work with our current infrastructure?"
-- Learner selects: Buyer type and Influence type
-- Correct: Technical Buyer, Skeptic
+A Warmer Insight creates urgency by showing the customer that they're falling behind peers or competitors. Warmer insights use benchmarking data to demonstrate that similar organizations have already addressed a problem that the customer is still struggling with. The insight leverages social proof and competitive pressure to motivate action.
 
-**Stakeholder 4:** "Sarah, Instructional Designer in the Center for Teaching Excellence. Provides feedback on the demo and introduces you to other department chairs. She's been helpful throughout the process."
-- Learner selects: Buyer type and Influence type
-- Correct: User Buyer, Coach
+A warmer insight might show that 70% of companies in the customer's industry have adopted a technology that the customer hasn't considered, or that competitors are achieving 30% faster time-to-market using an approach the customer hasn't tried. The message is "you're not alone in facing this problem, but you are behind in solving it."
 
-After categorizing all stakeholders, the learner sees a summary showing which stakeholders to prioritize (Mobilizers and Coaches) and how to engage each buyer type.
+##### Rational Drowning Insight
 
-**Provenance:** The stakeholder types and characteristics are from CEB/Gartner Challenger research. The scenario is illustrative for an intelligent textbook sale.
+A Rational Drowning Insight acknowledges that customers are overwhelmed by information and complexity. These insights simplify by identifying the one or two factors that actually matter amid the noise. They help customers cut through analysis paralysis and focus on the decisions that will drive the most impact.
 
-**Rules:** The learner must categorize each stakeholder before seeing the summary. Each categorization must be correct to proceed. If incorrect, feedback shows the correct categorization with explanation.
+A rational drowning insight might show that while the customer is evaluating 15 different features, only 3 of them correlate with the business outcome they care about. The insight helps the customer stop drowning in data and start making progress on the few variables that actually drive results.
 
-**Learner Activity:**
-1. The learner reads the scenario and stakeholder descriptions.
-2. For each stakeholder, the learner selects the buyer type and influence type from dropdown menus.
-3. After categorizing all stakeholders, the learner submits their answers.
-4. The system shows which categorizations were correct/incorrect with explanations.
-5. If all correct, the learner sees a prioritization summary.
+##### Rock Star Insight
 
-**Feedback:**
-- Correct categorization: "Correct! This stakeholder is a [type] because [reason]."
-- Incorrect categorization: "Not quite. This stakeholder is actually a [correct type] because [reason]."
+A Rock Star Insight positions the customer as a leader in their industry or organization. These insights frame a problem as an opportunity for the customer to differentiate themselves and achieve breakthrough performance. Rather than highlighting a gap, they highlight a potential for exceptional achievement.
 
-**Starting State:** The learner sees the scenario description and 4 stakeholder cards. Each card has two dropdown menus (Buyer Type, Influence Type) initially unselected.
-
-**Chapter Anchors:** The stakeholder types are defined in the "Stakeholder Analysis" section above. The scenario is illustrative for the course's intelligent textbook context.
-</details>
-
-#### Diagram: Customer Priority Map Builder
-
-<details markdown="1">
-<summary>Customer Priority Map Builder</summary>
-Type: infographic
-**sim-id:** customer-priority-map-builder<br/>
-**Library:** html<br/>
-**Status:** Specified<br/>
-**Bloom Level:** Apply<br/>
-**Bloom Verb:** construct<br/>
-**Learning Objective:** The learner will construct a Customer Priority Map by ranking competing priorities for different stakeholders and identifying where a teaching insight aligns or creates tension.
-
-**Prerequisites:** Customer Priority Map concept defined in the section above. Stakeholder types (CFO, CTO, CEO, etc.) defined earlier in the chapter.
-
-**Evidence of Mastery:** The learner is presented with a scenario with 3 stakeholders and 5 competing priorities. The learner ranks priorities for each stakeholder, then identifies where the teaching insight aligns. The learner must correctly complete the map and alignment analysis.
-
-**Misconceptions:** (1) All stakeholders prioritize the same things (priorities often conflict in complex organizations). (2) Priorities are static (priorities change with strategic initiatives and competitive pressure). (3) Insight alignment is always perfect (insights often create tension that must be addressed).
-
-**Instructional Rationale:** An interactive map builder allows the learner to apply the Customer Priority Map concept to a realistic scenario. This supports the Apply objective by requiring the learner to construct a map and analyze insight alignment.
-
-**Content:**
-
-Scenario: "You're selling data infrastructure to a manufacturing company. Here are the key stakeholders and potential priorities:"
-
-Stakeholders:
-- CFO: Focuses on cost control, ROI, financial risk
-- CTO: Focuses on technical fit, security, innovation capability
-- COO: Focuses on operational efficiency, reliability, supply chain optimization
-
-Priorities to rank for each stakeholder:
-1. Reduce IT infrastructure costs
-2. Improve system reliability and uptime
-3. Enable faster product launches
-4. Strengthen cybersecurity
-5. Support innovation and R&D
-
-The learner drags and drops priorities to rank them for each stakeholder (1 = highest priority, 5 = lowest priority).
-
-After ranking, the learner sees the completed map and answers: "Your teaching insight is that 'brittle data infrastructure blocks innovation.' Which stakeholders does this insight align with, and where does it create tension?"
-
-Learner selects alignment and tension for each stakeholder, then sees analysis of how to tailor the insight.
-
-**Provenance:** The Customer Priority Map concept is from CEB/Gartner Challenger research. The scenario and priorities are illustrative for a data infrastructure sale.
-
-**Rules:** The learner must rank all priorities for all stakeholders before proceeding. Rankings can be adjusted by dragging. The learner must answer the alignment question before seeing the analysis.
-
-**Learner Activity:**
-1. The learner reads the scenario and stakeholder descriptions.
-2. The learner drags priorities to rank them for each stakeholder (3 stakeholders × 5 priorities).
-3. The learner submits their rankings.
-4. The system displays the completed priority map.
-5. The learner answers which stakeholders the insight aligns with and where it creates tension.
-6. The learner sees tailored messaging suggestions based on their analysis.
-
-**Feedback:**
-- After submitting rankings: "Here's your Customer Priority Map. Notice where priorities align and where they conflict."
-- After answering alignment: "Your insight aligns with [stakeholders] because [reason]. It creates tension with [stakeholders] because [reason]. Here's how to address that tension..."
-
-**Starting State:** The learner sees the scenario description, three stakeholder sections, and five priority items that can be dragged into ranking slots for each stakeholder.
-
-**Chapter Anchors:** The Customer Priority Map concept is defined in the "Tailoring Principle" section above. The teaching insight example is adapted from the chapter's graph database example.
-</details>
+A rock star insight might show that if the customer addresses a specific operational challenge, they could achieve performance metrics that place them in the top 10% of their industry. The insight appeals to ambition and pride—leaders want to be first, not just catch up.
 
 #### Diagram: Insight Type Selector
+
+
+<iframe src="../../sims/insight-type-selector/main.html" width="100%" height="802px" scrolling="no"></iframe>
+[Run Insight Type Selector Fullscreen](../../sims/insight-type-selector/main.html)
 
 <details markdown="1">
 <summary>Insight Type Selector</summary>

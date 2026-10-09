@@ -82,12 +82,16 @@ Iterative refinement is often necessary. The first prompt may produce a story th
 
 #### Diagram: Prompt Engineering Workshop
 
+
+<iframe src="../../sims/prompt-engineering-workshop/main.html" width="100%" height="642px" scrolling="no"></iframe>
+[Run Prompt Engineering Workshop Fullscreen](../../sims/prompt-engineering-workshop/main.html)
+
 <details markdown="1">
 <summary>Prompt Engineering Workshop</summary>
 Type: infographic
 **sim-id:** prompt-engineering-workshop<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** construct<br/>
 **Learning Objective:** The learner will construct effective AI prompts for story generation by selecting and arranging prompt elements in the correct structure.
@@ -231,6 +235,74 @@ Effective architecture balances sophistication with maintainability. The agent s
 Dialogue Systems manage the flow of conversation, ensuring that interactions feel natural and coherent. These systems track what has been discussed, maintain context across multiple turns of dialogue, and determine appropriate responses based on the current state of the conversation.
 
 In sales agents, dialogue systems enable scenario-based practice. The agent can guide the conversation through a structured scenario: introducing a customer persona, presenting a business challenge, delivering a Challenger insight, raising objections, and responding to the salesperson's handling of those objections.
+
+#### Diagram: Dialogue Flow Designer
+
+
+<iframe src="../../sims/dialogue-flow-designer/main.html" width="100%" height="722px" scrolling="no"></iframe>
+[Run Dialogue Flow Designer Fullscreen](../../sims/dialogue-flow-designer/main.html)
+
+<details markdown="1">
+<summary>Dialogue Flow Designer</summary>
+Type: infographic
+**sim-id:** dialogue-flow-designer<br/>
+**Library:** html<br/>
+**Status:** Built<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** design<br/>
+**Learning Objective:** The learner will design a dialogue flow for a sales conversation agent by arranging conversation stages and defining transitions.
+
+**Prerequisites:** Dialogue Systems, Conversation Flow concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a sales practice scenario and 5 dialogue stages. The learner arranges the stages in a logical flow and defines transitions between stages. The learner must create a coherent dialogue flow.
+
+**Misconceptions:** (1) Dialogue flow can be linear (real conversations branch based on responses). (2) All conversations follow the same pattern (different personas require different flows). (3) Transitions don't matter (smooth transitions maintain conversation coherence).
+
+**Instructional Rationale:** An interactive designer allows the learner to apply dialogue system knowledge by designing conversation flows. This supports the Apply objective by requiring the learner to structure realistic conversations.
+
+**Content:**
+
+Scenario: "Design a dialogue flow for a sales practice agent simulating a CFO conversation."
+
+Dialogue stages (arrange in flow):
+- "Introduction: Agent introduces CFO persona and company context"
+- "Challenge presentation: Agent presents business challenge"
+- "Insight delivery: Agent delivers Challenger insight"
+- "Objection raising: Agent raises price objection"
+- "Response evaluation: Agent evaluates salesperson's objection handling"
+- "Closing: Agent summarizes conversation and provides feedback"
+
+The learner arranges the stages in a logical sequence and defines conditions for transitions (e.g., "If salesperson's response is strong, proceed to closing. If weak, provide coaching.")
+
+**Example flow:**
+1. Introduction → Challenge presentation
+2. Challenge presentation → Insight delivery
+3. Insight delivery → Objection raising
+4. Objection raising → Response evaluation
+5. Response evaluation → (if strong) Closing OR (if weak) Coaching loop
+
+After designing the flow, the learner sees a visual representation of the dialogue structure.
+
+**Provenance:** The dialogue system concepts are from the chapter's Dialogue Systems section. The scenario is illustrative for agent design.
+
+**Rules:** The learner must arrange all stages before proceeding. The learner can add branching paths. The learner can define transition conditions.
+
+**Learner Activity:**
+1. The learner reads the scenario.
+2. The learner drags dialogue stages to arrange them in a flow.
+3. The learner defines transition conditions between stages.
+4. The learner can add branching paths if desired.
+5. The learner submits the flow design.
+6. The system shows a visual representation of the dialogue flow.
+
+**Feedback:**
+- After submitting: "Your dialogue flow includes [stages]. The transitions are [logical/need refinement]. Consider [suggestion]."
+- Visual representation shows the flow with arrows and conditional branches.
+
+**Starting State:** The learner sees the scenario description and draggable dialogue stage elements. A canvas shows the flow as elements are arranged.
+
+**Chapter Anchors:** The Dialogue Systems concept is defined in the section above. The scenario is illustrative for sales agent design.
+</details>
 
 Good dialogue systems balance structure with flexibility. They provide enough structure to ensure the practice experience is valuable and consistent, but enough flexibility to adapt to the salesperson's input. If the salesperson takes an unexpected approach, the agent should respond in a way that feels natural rather than breaking character.
 

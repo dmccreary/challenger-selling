@@ -60,6 +60,62 @@ Story Libraries are organized collections of stories that salespeople can draw o
 
 Effective story libraries are comprehensive, searchable, and systematically maintained. They cover all the situations your sales team encounters: different industries, personas, objections, stages of the sales cycle, and products. When a salesperson faces a new situation, the library should have a story ready.
 
+#### Diagram: Story Library Organizer
+
+<details markdown="1">
+<summary>Story Library Organizer</summary>
+Type: infographic
+**sim-id:** story-library-organizer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** organize<br/>
+**Learning Objective:** The learner will organize a story library by categorizing stories according to different dimensions (industry, persona, objection, stage, product).
+
+**Prerequisites:** Story Libraries, Industry-Specific Stories, Persona-Specific Stories concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with 6 uncategorized stories. The learner categorizes each story by selecting the appropriate industry, persona, objection, stage, and product tags. The learner must correctly categorize all 6 stories.
+
+**Misconceptions:** (1) Stories fit only one category (stories can have multiple tags). (2) Categorization is optional (categorization enables efficient story retrieval). (3) All dimensions are equally important (some dimensions are more critical for specific contexts).
+
+**Instructional Rationale:** An interactive organizer allows the learner to apply library organization knowledge by categorizing stories. This supports the Apply objective by requiring the learner to make categorization decisions.
+
+**Content:**
+
+**Story 1:** "A healthcare CIO reduced patient wait times by 30% using predictive analytics."
+- Learner selects: Industry [Healthcare], Persona [CIO], Objection [Timing], Stage [Mid], Product [Analytics]
+- Correct: Industry=Healthcare, Persona=CIO
+
+**Story 2:** "A manufacturing CFO saved $2M annually through predictive maintenance."
+- Learner selects: Industry [Manufacturing], Persona [CFO], Objection [Price], Stage [Late], Product [IoT]
+- Correct: Industry=Manufacturing, Persona=CFO
+
+**Story 3:** "A retail VP of Sales increased conversion by 25% with personalized recommendations."
+- Learner selects: Industry [Retail], Persona [VP Sales], Objection [Competitor], Stage [Early], Product [AI]
+- Correct: Industry=Retail, Persona=VP Sales
+
+After categorizing each story, the learner sees the story with its tags.
+
+**Provenance:** The story dimensions are from the Story Libraries section above. The stories are illustrative for different categories.
+
+**Rules:** The learner must select at least 2 tags per story before proceeding. The learner can retry categorizations.
+
+**Learner Activity:**
+1. The learner reads Story 1.
+2. The learner selects tags from dropdown menus.
+3. The learner submits and sees the categorized story.
+4. The learner repeats for Stories 2-6.
+5. After all six, the learner sees a summary of the organized library.
+
+**Feedback:**
+- After submitting: "Story categorized as [tags]. This story will be retrievable when salespeople search for [key dimensions]."
+- Summary: "Organized libraries enable efficient story retrieval by multiple dimensions."
+
+**Starting State:** The learner sees Story 1 and dropdown menus for each dimension initially unselected.
+
+**Chapter Anchors:** The library dimensions are defined in the Story Libraries section above. The stories are illustrative.
+</details>
+
 ### Industry-Specific Stories
 
 Industry-Specific Stories are tailored to the unique challenges, terminology, and regulatory environments of different industries. A healthcare story references HIPAA compliance and patient outcomes. A financial services story references regulatory requirements and risk management. A retail story references supply chain and customer experience.
@@ -67,6 +123,70 @@ Industry-Specific Stories are tailored to the unique challenges, terminology, an
 Industry-specific stories increase relevance by using industry language and addressing industry-specific concerns. When customers hear stories from their own industry, they feel understood and the insight feels immediately applicable.
 
 Build industry-specific stories by researching each target industry's challenges, interviewing subject matter experts, and collecting case studies from customers in that industry. Maintain a library of stories for each major industry you sell to.
+
+#### Diagram: Industry Story Translator
+
+<details markdown="1">
+<summary>Industry Story Translator</summary>
+Type: infographic
+**sim-id:** industry-story-translator<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** adapt<br/>
+**Learning Objective:** The learner will adapt a base story for different industries by selecting industry-specific language, challenges, and regulatory references.
+
+**Prerequisites:** Industry-Specific Stories concept defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a base story and 3 industry scenarios. For each industry, the learner selects the appropriate language, challenge, and regulatory reference. The learner must correctly adapt the story for all 3 industries.
+
+**Misconceptions:** (1) The same story works across industries (industry-specific adaptation is essential). (2) Industry terminology is superficial (language demonstrates understanding). (3) Regulatory references are optional (regulatory compliance is critical in some industries).
+
+**Instructional Rationale:** An interactive translator allows the learner to apply industry-specific knowledge by adapting stories. This supports the Apply objective by requiring the learner to make industry adaptation decisions.
+
+**Content:**
+
+**Base Story:** "A company achieved [result] by addressing [challenge] while maintaining [compliance]."
+
+**Industry 1: Healthcare**
+- Language: [Medical terminology / Business terminology / Technical terminology]
+- Challenge: [Patient outcomes / Cost reduction / Operational efficiency]
+- Regulatory: [HIPAA compliance / SOX compliance / GDPR compliance]
+- Correct: Medical terminology, Patient outcomes, HIPAA compliance
+
+**Industry 2: Financial Services**
+- Language: [Medical terminology / Financial terminology / Technical terminology]
+- Challenge: [Patient outcomes / Risk management / Operational efficiency]
+- Regulatory: [HIPAA compliance / Regulatory requirements / GDPR compliance]
+- Correct: Financial terminology, Risk management, Regulatory requirements
+
+**Industry 3: Manufacturing**
+- Language: [Medical terminology / Business terminology / Technical terminology]
+- Challenge: [Patient outcomes / Production efficiency / Operational efficiency]
+- Regulatory: [HIPAA compliance / Safety compliance / GDPR compliance]
+- Correct: Technical terminology, Production efficiency, Safety compliance
+
+After adapting, the learner sees the industry-specific story.
+
+**Provenance:** The industry adaptation concept is from the Industry-Specific Stories section above. The scenarios are illustrative for different industries.
+
+**Rules:** The learner must select language, challenge, and regulatory reference for each industry before proceeding. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads the base story.
+2. For Healthcare, the learner selects language, challenge, and regulatory reference.
+3. The learner submits and sees the adapted story.
+4. The learner repeats for Financial Services and Manufacturing.
+5. After all three, the learner sees a summary of industry adaptation principles.
+
+**Feedback:**
+- After submitting: "For [industry], use [language] to address [challenge] while ensuring [compliance]."
+- Summary: "Industry-specific stories use appropriate language, challenges, and regulatory references to increase relevance."
+
+**Starting State:** The learner sees the base story and Industry 1 with three dropdown menus initially unselected.
+
+**Chapter Anchors:** The Industry-Specific Stories concept is defined in the section above. The scenarios are illustrative.
+</details>
 
 ### Persona-Specific Stories
 
@@ -105,6 +225,67 @@ Maintain a library of product stories for each major product or solution. Update
 Story Customization adapts stories to specific customers, situations, and contexts in real-time. While a story library provides a foundation, effective storytelling requires customization to feel authentic and relevant to the specific customer.
 
 Customization ranges from light adaptation (changing industry references) to deep personalization (inserting customer-specific data and examples). The right level of customization balances relevance with efficiency—you can't craft a completely unique story for every interaction.
+
+#### Diagram: Story Customizer
+
+<details markdown="1">
+<summary>Story Customizer</summary>
+Type: infographic
+**sim-id:** story-customizer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** adapt<br/>
+**Learning Objective:** The learner will adapt a base story for different customers by selecting customization elements (industry reference, persona language, specific examples) and adjusting the level of personalization.
+
+**Prerequisites:** Story Customization, Dynamic Story Adaptation concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a base story and 3 customer scenarios. For each scenario, the learner selects which elements to customize and the level of personalization. The learner must correctly adapt the story for all 3 scenarios.
+
+**Misconceptions:** (1) The same story works for everyone (customization increases relevance). (2) Deep personalization is always better (balance relevance with efficiency). (3) Customization is only about names (true customization adapts content, not just labels).
+
+**Instructional Rationale:** An interactive customizer allows the learner to apply customization knowledge by adapting stories. This supports the Apply objective by requiring the learner to make personalization decisions.
+
+**Content:**
+
+**Base Story:** "A company in [industry] achieved [result] by addressing [challenge]. They used [solution] to overcome [obstacle]."
+
+**Scenario 1:** "CFO at a healthcare company - busy, data-driven, needs financial justification"
+- Learner selects customization: [Industry reference / Persona language / Specific examples / All three]
+- Learner selects level: [Light / Medium / Deep]
+- Correct: Industry reference + Persona language, Medium
+
+**Scenario 2:** "CTO at a technology startup - innovative, time-constrained, values speed"
+- Learner selects customization: [Industry reference / Persona language / Specific examples / All three]
+- Learner selects level: [Light / Medium / Deep]
+- Correct: Industry reference + Specific examples, Medium
+
+**Scenario 3:** "CEO at a manufacturing company - strategic, relationship-focused, wants competitive advantage"
+- Learner selects customization: [Industry reference / Persona language / Specific examples / All three]
+- Learner selects level: [Light / Medium / Deep]
+- Correct: All three, Deep
+
+After customizing, the learner sees the adapted story.
+
+**Provenance:** The customization concept is from the Story Customization section above. The scenarios are illustrative for different customer types.
+
+**Rules:** The learner must select customization elements and level before proceeding. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads the base story.
+2. For Scenario 1, the learner selects customization elements and level.
+3. The learner submits and sees the adapted story.
+4. The learner repeats for Scenarios 2 and 3.
+5. After all three, the learner sees a summary of customization principles.
+
+**Feedback:**
+- After submitting: "For [scenario], [customization] at [level] level is appropriate because [reason]."
+- Summary: "Story customization balances relevance with efficiency. Adapt content, not just labels, to make stories feel authentic."
+
+**Starting State:** The learner sees the base story and Scenario 1 with customization checkboxes and level buttons.
+
+**Chapter Anchors:** The Story Customization concept is defined in the section above. The scenarios are illustrative.
+</details>
 
 ### Dynamic Story Adaptation
 
@@ -209,6 +390,66 @@ Story Trust Building uses stories strategically to develop trust over the course
 Trust-building stories address different aspects of trust: competence (you know what you're doing), reliability (you deliver on promises), integrity (you're honest and ethical), and benevolence (you care about the customer's success).
 
 Build trust by choosing stories that demonstrate these qualities and by delivering them authentically. Trust comes from consistency between what you say and what you do.
+
+#### Diagram: Trust Story Selector
+
+<details markdown="1">
+<summary>Trust Story Selector</summary>
+Type: infographic
+**sim-id:** trust-story-selector<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** select<br/>
+**Learning Objective:** The learner will select the appropriate trust story type (Credibility, Authority, Vulnerability, Authenticity) for different customer trust concerns.
+
+**Prerequisites:** Story Trust Building, Credibility Stories, Authority Stories concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with 4 customer trust concerns. For each concern, the learner selects the appropriate trust story type. The learner must correctly select the story type for all 4 concerns.
+
+**Misconceptions:** (1) All trust stories are the same (different concerns require different trust approaches). (2) Authority is always best (vulnerability can build deeper trust). (3) Trust is built instantly (trust develops over time through consistent stories).
+
+**Instructional Rationale:** An interactive selector allows the learner to apply trust-building knowledge by selecting appropriate story types. This supports the Apply objective by requiring the learner to match stories to concerns.
+
+**Content:**
+
+**Concern 1:** "The customer is skeptical about whether you have the expertise to solve their complex problem."
+- Learner selects: [Credibility Story / Authority Story / Vulnerability Story / Authenticity Story]
+- Correct: Credibility Story
+
+**Concern 2:** "The customer questions whether your company has the track record to deliver reliably."
+- Learner selects: [Credibility Story / Authority Story / Vulnerability Story / Authenticity Story]
+- Correct: Authority Story
+
+**Concern 3:** "The customer feels you're being too perfect and wants to see the real you."
+- Learner selects: [Credibility Story / Authority Story / Vulnerability Story / Authenticity Story]
+- Correct: Vulnerability Story
+
+**Concern 4:** "The customer wonders if you're being honest about limitations and risks."
+- Learner selects: [Credibility Story / Authority Story / Vulnerability Story / Authenticity Story]
+- Correct: Authenticity Story
+
+After each selection, the learner sees why that story type addresses the concern.
+
+**Provenance:** The trust story types are from the Story Trust Building section above. The concerns are illustrative customer trust issues.
+
+**Rules:** The learner must select a story type for each concern before proceeding. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads Concern 1.
+2. The learner selects a trust story type from the dropdown menu.
+3. The learner submits and sees feedback.
+4. The learner repeats for Concerns 2-4.
+5. After all four, the learner sees a summary of trust-building strategies.
+
+**Feedback:**
+- Correct: "Correct! This concern calls for a [type] story because [reason]."
+- Incorrect: "Not quite. This concern is better addressed by a [correct type] story because [reason]."
+
+**Starting State:** The learner sees Concern 1 and a dropdown menu (Trust Story Type) initially unselected.
+
+**Chapter Anchors:** The trust story types are defined in the Story Trust Building section above. The concerns are illustrative.
+</details>
 
 ### Credibility Stories
 

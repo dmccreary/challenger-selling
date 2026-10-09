@@ -54,6 +54,74 @@ The Story Creation Process is a systematic approach to developing stories from c
 
 A well-defined process includes ideation, drafting, refinement, testing, approval, deployment, maintenance, and eventual retirement. Each stage has specific objectives, deliverables, and gate criteria. Following this process reduces variability, catches issues early, and produces stories that are more effective and more aligned with business objectives.
 
+#### Diagram: Story Process Flow
+
+<details markdown="1">
+<summary>Story Process Flow</summary>
+Type: infographic
+**sim-id:** story-process-flow<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** explain<br/>
+**Learning Objective:** The learner will explain the story creation process by identifying the correct sequence of stages and the gate criteria between stages.
+
+**Prerequisites:** Story Creation Process concept defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with the 8 story creation stages out of order. The learner arranges them in the correct sequence and identifies the gate criteria between stages. The learner must correctly sequence all stages.
+
+**Misconceptions:** (1) Stages can be skipped (each stage is essential for quality). (2) Testing is optional (testing validates story effectiveness). (3) Deployment is the end (maintenance and retirement are also important).
+
+**Instructional Rationale:** An interactive flow allows the learner to explore the process structure. This supports the Understand objective by requiring the learner to sequence stages correctly.
+
+**Content:**
+
+The 8 stages (shuffled):
+- Story Ideation
+- Story Drafting
+- Story Refinement
+- Story Testing
+- Story Approval
+- Story Deployment
+- Story Maintenance
+- Story Retirement
+
+The learner arranges the stages in sequence and identifies gate criteria:
+
+**Gate 1:** Ideation → Drafting
+- Criteria: [Concept approval / Story outline / Complete draft]
+- Correct: Concept approval
+
+**Gate 2:** Refinement → Testing
+- Criteria: [Refined draft / Customer feedback / Performance metrics]
+- Correct: Refined draft
+
+**Gate 3:** Testing → Approval
+- Criteria: [Test results / Stakeholder sign-off / Deployment plan]
+- Correct: Test results
+
+After sequencing, the learner sees the complete process flow with gates.
+
+**Provenance:** The process stages are from the Story Creation Process section above. The gate criteria are illustrative for quality gates.
+
+**Rules:** The learner must arrange all stages and answer gate questions before seeing the flow. The learner can retry sequencing.
+
+**Learner Activity:**
+1. The learner sees 8 draggable stage elements.
+2. The learner arranges stages in sequence on the canvas.
+3. The learner answers 3 gate criteria questions.
+4. The learner submits the process flow.
+5. The system shows the complete process with arrows and gate labels.
+
+**Feedback:**
+- After submitting: "Your process sequence: [sequence]. Gate criteria: [criteria]. This is the correct story creation process."
+- Visual flow shows stages as boxes with arrows and gate labels between them.
+
+**Starting State:** The learner sees 8 draggable stage elements and a blank canvas. Gate questions appear after sequencing.
+
+**Chapter Anchors:** The Story Creation Process concept is defined in the section above. The stages are from the process definition.
+</details>
+
 ### Story Ideation
 
 Story Ideation is the creative process of generating story concepts that support your Challenger insights and business objectives. Ideation should be intentional and targeted, not random brainstorming. Start with the insight you want to convey and the stakeholder you want to reach, then generate story concepts that effectively communicate that insight to that stakeholder.
@@ -67,6 +135,67 @@ When ideating, focus on the business outcome you want to achieve. A story might 
 Story Drafting is the initial writing of the story narrative. The first draft should focus on getting the core narrative down rather than perfection. Use the story components structure—hook, problem, agitation, solution, social proof, call to action—as a framework.
 
 Drafting tips: start with the hook to grab attention, be specific about the problem and agitation, show rather than tell, include concrete numbers and examples, and end with a clear call to action. Don't worry about polish at this stage—the goal is a complete narrative structure.
+
+#### Diagram: Story Draft Builder
+
+<details markdown="1">
+<summary>Story Draft Builder</summary>
+Type: infographic
+**sim-id:** story-draft-builder<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** construct<br/>
+**Learning Objective:** The learner will construct a story draft by writing content for each story component (hook, problem, agitation, solution, social proof, call to action) following drafting best practices.
+
+**Prerequisites:** Story Drafting concept defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a story scenario and the 6 component sections. The learner writes brief content for each component following drafting tips. The learner must complete all 6 components.
+
+**Misconceptions:** (1) Drafts should be perfect (first drafts focus on structure, not polish). (2) Components can be in any order (story structure follows a specific sequence). (3) Details are optional (specificity makes stories compelling).
+
+**Instructional Rationale:** An interactive builder allows the learner to apply drafting knowledge by constructing story content. This supports the Apply objective by requiring the learner to write component content.
+
+**Content:**
+
+**Scenario:** "Draft a story about a manufacturing company that reduced downtime by 60% using predictive maintenance."
+
+**Component sections:**
+1. **Hook:** Write a compelling opening (1-2 sentences)
+2. **Problem:** Describe the challenge (2-3 sentences)
+3. **Agitation:** Show the consequences (2-3 sentences)
+4. **Solution:** Present the solution (2-3 sentences)
+5. **Social Proof:** Provide evidence (1-2 sentences)
+6. **Call to Action:** Guide next steps (1 sentence)
+
+The learner writes content for each section. After writing, the learner sees the assembled draft.
+
+**Drafting tips provided:**
+- Hook: Start with a startling statistic or provocative question
+- Problem: Be specific and quantify when possible
+- Agitation: Show ripple effects and costs
+- Solution: Be concrete about implementation
+- Social Proof: Include specific numbers or quotes
+- CTA: Be specific and actionable
+
+**Provenance:** The drafting concept is from the Story Drafting section above. The scenario is illustrative for a manufacturing story.
+
+**Rules:** The learner must write content for all 6 components before seeing the assembled draft. The learner can edit content.
+
+**Learner Activity:**
+1. The learner reads the scenario and drafting tips.
+2. The learner writes content for each component section.
+3. The learner submits the draft.
+4. The system shows the assembled story with all components.
+
+**Feedback:**
+- After submitting: "Your draft includes all 6 components. The hook creates attention, the problem is specific, and the CTA is actionable. Well-structured draft."
+- Assembled story shows the complete narrative with component labels.
+
+**Starting State:** The learner sees the scenario description and 6 text input areas for each component.
+
+**Chapter Anchors:** The Story Drafting concept is defined in the section above. The scenario is illustrative.
+</details>
 
 When drafting, keep the target stakeholder in mind. A CFO story should be concise and data-driven. A CTO story should include technical depth. Adapting the draft to the stakeholder happens in refinement, but stakeholder awareness should guide the initial draft.
 
@@ -85,6 +214,73 @@ Story Testing validates that the story works in practice before full deployment.
 Testing approaches include: A/B testing with similar prospects, role-playing with internal stakeholders, presenting to friendly customers for feedback, and small-scale deployment with a subset of the sales team. Collect both quantitative data (conversion rates) and qualitative feedback (customer reactions).
 
 Use testing data to make final adjustments. Don't deploy a story until testing shows it performs at or above your baseline performance metrics.
+
+#### Diagram: Story Tester
+
+<details markdown="1">
+<summary>Story Tester</summary>
+Type: infographic
+**sim-id:** story-tester<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Evaluate<br/>
+**Bloom Verb:** evaluate<br/>
+**Learning Objective:** The learner will evaluate a story against testing criteria (clarity, relevance, effectiveness, authenticity) and provide feedback for improvement.
+
+**Prerequisites:** Story Testing concept defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a story draft and 4 testing criteria. The learner evaluates the story against each criterion and provides feedback. The learner must complete all 4 evaluations.
+
+**Misconceptions:** (1) Testing is optional (testing validates story effectiveness). (2) One criterion is sufficient (multiple criteria provide comprehensive evaluation). (3) Feedback is criticism (feedback is guidance for improvement).
+
+**Instructional Rationale:** An interactive tester allows the learner to apply testing knowledge by evaluating stories. This supports the Evaluate objective by requiring the learner to make evaluative judgments.
+
+**Content:**
+
+**Story Draft:** "A company faced challenges with legacy systems. They used our solution and achieved results. You should try it too."
+
+**Evaluation criteria:**
+
+**1. Clarity:** Is the message clear?
+- Learner selects: [Clear / Somewhat clear / Unclear]
+- Learner provides feedback: [text input]
+- Correct: Unclear (vague, lacks specifics)
+
+**2. Relevance:** Does it resonate with the target audience?
+- Learner selects: [Relevant / Somewhat relevant / Not relevant]
+- Learner provides feedback: [text input]
+- Correct: Not relevant (no industry or persona specificity)
+
+**3. Effectiveness:** Does it achieve the intended outcome?
+- Learner selects: [Effective / Somewhat effective / Not effective]
+- Learner provides feedback: [text input]
+- Correct: Not effective (no compelling hook or agitation)
+
+**4. Authenticity:** Does it feel genuine?
+- Learner selects: [Authentic / Somewhat authentic / Not authentic]
+- Learner provides feedback: [text input]
+- Correct: Not authentic (generic, no real details)
+
+After evaluating, the learner sees a summary of feedback and improvement suggestions.
+
+**Provenance:** The testing criteria are from the Story Testing section above. The story draft is illustrative of a weak story needing improvement.
+
+**Rules:** The learner must select a rating and provide feedback for each criterion before seeing the summary. The learner can edit feedback.
+
+**Learner Activity:**
+1. The learner reads the story draft.
+2. For each criterion, the learner selects a rating and writes feedback.
+3. The learner submits the evaluation.
+4. The system shows a summary of ratings, feedback, and improvement suggestions.
+
+**Feedback:**
+- After submitting: "Your evaluation shows [ratings]. Key feedback: [feedback]. This story needs improvement in [areas]."
+- Summary provides specific improvement suggestions based on the evaluation.
+
+**Starting State:** The learner sees the story draft and 4 evaluation sections with rating selectors and text input areas.
+
+**Chapter Anchors:** The Story Testing concept is defined in the section above. The story draft is illustrative.
+</details>
 
 ### Story Approval
 
@@ -123,6 +319,70 @@ When retiring a story, archive it rather than delete it. Archived stories may be
 Story Templates provide reusable structures that streamline story creation and ensure consistency. Templates encode best practices into a format that salespeople can use without reinventing the wheel each time.
 
 Templates should be flexible enough to accommodate different contexts while structured enough to ensure quality. The balance between rigidity and flexibility depends on your organization's needs—some organizations benefit from highly structured templates, others from more flexible frameworks.
+
+#### Diagram: Template Component Assembler
+
+<details markdown="1">
+<summary>Template Component Assembler</summary>
+Type: infographic
+**sim-id:** template-component-assembler<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** assemble<br/>
+**Learning Objective:** The learner will assemble a complete story by selecting and arranging modular story components (hook, problem, agitation, solution, social proof, call to action) from a component library.
+
+**Prerequisites:** Story Templates, Modular Story Components concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a component library and a story objective. The learner selects 6 components and arranges them in the correct story structure. The learner must correctly assemble a valid story.
+
+**Misconceptions:** (1) Components can be in any order (story structure matters). (2) Any components work together (components must align in theme and tone). (3) Assembly replaces creativity (assembly enables efficiency while allowing customization).
+
+**Instructional Rationale:** An interactive assembler allows the learner to apply modular component knowledge by building stories. This supports the Apply objective by requiring the learner to make assembly decisions.
+
+**Content:**
+
+**Story Objective:** "Create a story for a CFO about reducing IT costs through cloud migration."
+
+**Component Library:**
+- Hooks: [Hook A: Financial pressure / Hook B: Competitive threat / Hook C: Innovation opportunity]
+- Problems: [Problem A: Legacy systems / Problem B: Skill gap / Problem C: Security risk]
+- Agitations: [Agitation A: Budget waste / Agitation B: Slow time-to-market / Agitation C: Compliance risk]
+- Solutions: [Solution A: Cloud migration / Solution B: Training program / Solution C: Security audit]
+- Social Proofs: [Proof A: $2M savings / Proof B: 50% faster / Proof C: Zero breaches]
+- CTAs: [CTA A: ROI analysis / CTA B: Demo / CTA B: Proof of concept]
+
+The learner selects components and arranges them in story structure.
+
+**Correct assembly:**
+- Hook A (Financial pressure)
+- Problem A (Legacy systems)
+- Agitation A (Budget waste)
+- Solution A (Cloud migration)
+- Social Proof A ($2M savings)
+- CTA A (ROI analysis)
+
+After assembling, the learner sees the complete story.
+
+**Provenance:** The modular components concept is from the Story Templates section above. The objective is illustrative for a CFO story.
+
+**Rules:** The learner must select one component from each category and arrange them before proceeding. The learner can retry assembly.
+
+**Learner Activity:**
+1. The learner reads the story objective.
+2. The learner selects one component from each category.
+3. The learner arranges components in story structure.
+4. The learner submits the assembled story.
+5. The system shows the complete story with components in sequence.
+
+**Feedback:**
+- After submitting: "Your story uses [components]. This assembly aligns with the [objective]. The components work together coherently."
+- Complete story shows the assembled narrative with components highlighted.
+
+**Starting State:** The learner sees the story objective and component library with dropdown menus for each category.
+
+**Chapter Anchors:** The modular components concept is defined in the Story Templates section above. The objective is illustrative.
+</details>
 
 ### Modular Story Components
 

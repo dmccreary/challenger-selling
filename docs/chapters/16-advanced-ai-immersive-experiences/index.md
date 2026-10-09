@@ -61,6 +61,66 @@ This chapter builds on concepts from:
 
 Advanced AI technologies are transforming storytelling from a human art to an augmented capability where AI understands, generates, and adapts stories in real-time. These technologies enable personalized, responsive, and intelligent storytelling at scale.
 
+#### Diagram: AI Capability Selector
+
+<details markdown="1">
+<summary>AI Capability Selector</summary>
+Type: infographic
+**sim-id:** ai-capability-selector<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** select<br/>
+**Learning Objective:** The learner will select appropriate AI capabilities (NLP, Speech Recognition, Sentiment AI, Emotion AI) for different storytelling use cases.
+
+**Prerequisites:** Story Artificial Intelligence, Story Natural Language Processing, Story Sentiment AI concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with 4 storytelling use cases. For each use case, the learner selects the appropriate AI capability. The learner must correctly select AI capabilities for all 4 use cases.
+
+**Misconceptions:** (1) All AI is the same (different AI capabilities serve different purposes). (2) AI replaces humans (AI augments human capabilities). (3) Any AI works for any task (matching the right AI to the task is essential).
+
+**Instructional Rationale:** An interactive selector allows the learner to apply AI knowledge by selecting appropriate capabilities. This supports the Apply objective by requiring the learner to match AI to use cases.
+
+**Content:**
+
+**Use Case 1:** "Automatically analyzing customer feedback sentiment from sales calls"
+- Learner selects: [NLP / Speech Recognition / Sentiment AI / Emotion AI]
+- Correct: Sentiment AI
+
+**Use Case 2:** "Transcribing spoken sales conversations into text for analysis"
+- Learner selects: [NLP / Speech Recognition / Sentiment AI / Emotion AI]
+- Correct: Speech Recognition
+
+**Use Case 3:** "Detecting emotional cues in customer voice during story delivery"
+- Learner selects: [NLP / Speech Recognition / Sentiment AI / Emotion AI]
+- Correct: Emotion AI
+
+**Use Case 4:** "Generating story drafts from Challenger insights"
+- Learner selects: [NLP / Speech Recognition / Sentiment AI / Emotion AI]
+- Correct: NLP (specifically NLG)
+
+After each selection, the learner sees why that AI capability applies.
+
+**Provenance:** The AI capabilities are from the Advanced AI section above. The use cases are illustrative for different AI applications.
+
+**Rules:** The learner must select an AI capability for each use case before proceeding. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads Use Case 1.
+2. The learner selects an AI capability from the dropdown menu.
+3. The learner submits and sees feedback.
+4. The learner repeats for Use Cases 2-4.
+5. After all four, the learner sees a summary of AI capability applications.
+
+**Feedback:**
+- Correct: "Correct! This use case calls for [capability] because [reason]."
+- Incorrect: "Not quite. This use case is better addressed by [correct capability] because [reason]."
+
+**Starting State:** The learner sees Use Case 1 and a dropdown menu (AI Capability) initially unselected.
+
+**Chapter Anchors:** The AI capabilities are defined in the Advanced AI section above. The use cases are illustrative.
+</details>
+
 ### Story Artificial Intelligence
 
 Story Artificial Intelligence encompasses the full spectrum of AI technologies applied to storytelling: generation, analysis, personalization, and delivery. AI is not replacing human storytellers but augmenting their capabilities—generating drafts, analyzing performance, and adapting content for specific contexts.
@@ -108,6 +168,70 @@ Applications include: translating story libraries for international teams, gener
 Story Sentiment AI analyzes the emotional tone of stories and customer responses. Understanding sentiment enables tailoring stories to emotional context and measuring emotional impact.
 
 Applications include: analyzing customer reactions to stories during calls, optimizing story language for desired emotional response, and tracking sentiment changes across the sales cycle. Sentiment AI adds emotional intelligence to storytelling.
+
+#### Diagram: Sentiment Analyzer
+
+<details markdown="1">
+<summary>Sentiment Analyzer</summary>
+Type: infographic
+**sim-id:** sentiment-analyzer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Evaluate<br/>
+**Bloom Verb:** analyze<br/>
+**Learning Objective:** The learner will analyze the sentiment of story excerpts and customer responses by identifying emotional tone (positive, negative, neutral) and explaining the sentiment indicators.
+
+**Prerequisites:** Story Sentiment AI, Story Emotion AI concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with 4 text excerpts. For each excerpt, the learner identifies the sentiment and explains the indicators. The learner must correctly analyze sentiment for all 4 excerpts.
+
+**Misconceptions:** (1) Sentiment is obvious (sentiment can be subtle and mixed). (2) Words alone determine sentiment (context and tone matter). (3) Sentiment is static (sentiment can shift during conversation).
+
+**Instructional Rationale:** An interactive analyzer allows the learner to apply sentiment analysis knowledge by evaluating text. This supports the Evaluate objective by requiring the learner to make sentiment judgments.
+
+**Content:**
+
+**Excerpt 1:** "Our customers are thrilled with the results! They've seen 40% improvement and can't stop praising our team."
+- Learner selects: [Positive / Negative / Neutral]
+- Learner explains indicators: [text input]
+- Correct: Positive (thrilled, praise, improvement)
+
+**Excerpt 2:** "We're disappointed with the delays. The implementation took twice as long as promised and we're losing patience."
+- Learner selects: [Positive / Negative / Neutral]
+- Learner explains indicators: [text input]
+- Correct: Negative (disappointed, delays, losing patience)
+
+**Excerpt 3:** "The solution performs as expected. It meets our requirements and the team is responsive."
+- Learner selects: [Positive / Negative / Neutral]
+- Learner explains indicators: [text input]
+- Correct: Neutral (as expected, meets requirements, no strong emotion)
+
+**Excerpt 4:** "We're cautiously optimistic. Early results are promising but we need to see sustained performance over time."
+- Learner selects: [Positive / Negative / Neutral]
+- Learner explains indicators: [text input]
+- Correct: Positive (optimistic, promising, though cautious)
+
+After analyzing, the learner sees a summary of sentiment patterns.
+
+**Provenance:** The sentiment analysis concept is from the Story Sentiment AI section above. The excerpts are illustrative of different sentiments.
+
+**Rules:** The learner must select sentiment and explain indicators for each excerpt before seeing the summary. The learner can edit explanations.
+
+**Learner Activity:**
+1. The learner reads Excerpt 1.
+2. The learner selects sentiment and writes explanation.
+3. The learner submits and sees feedback.
+4. The learner repeats for Excerpts 2-4.
+5. After all four, the learner sees a summary of sentiment analysis principles.
+
+**Feedback:**
+- After submitting: "Correct! This excerpt is [sentiment]. Indicators: [indicators]."
+- Summary: "Sentiment analysis identifies emotional tone through keywords, context, and language patterns."
+
+**Starting State:** The learner sees Excerpt 1 and sentiment selector with text input area.
+
+**Chapter Anchors:** The Story Sentiment AI concept is defined in the section above. The excerpts are illustrative.
+</details>
 
 ### Story Emotion AI
 
@@ -190,6 +314,62 @@ Applications include: simulating how stories will influence a specific customer'
 ## Immersive Storytelling Experiences
 
 Immersive technologies create engaging, memorable storytelling experiences that transport customers into the narrative. These technologies include virtual reality, augmented reality, and related approaches that create presence and engagement.
+
+#### Diagram: Immersive Experience Designer
+
+<details markdown="1">
+<summary>Immersive Experience Designer</summary>
+Type: infographic
+**sim-id:** immersive-experience-designer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** design<br/>
+**Learning Objective:** The learner will design an immersive storytelling experience by selecting the appropriate technology (VR, AR, MR) and defining the experience elements for a given scenario.
+
+**Prerequisites:** Story Virtual Reality, Story Augmented Reality, Story Mixed Reality concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a storytelling scenario. The learner selects the immersive technology and defines key experience elements. The learner must design a complete immersive experience.
+
+**Misconceptions:** (1) All immersive tech is the same (VR, AR, MR serve different use cases). (2) VR is always best (AR/MR may be more appropriate for some scenarios). (3) Immersive is just visual (immersive includes interaction and presence).
+
+**Instructional Rationale:** An interactive designer allows the learner to apply immersive technology knowledge by designing experiences. This supports the Apply objective by requiring the learner to make technology selection decisions.
+
+**Content:**
+
+**Scenario:** "Design an immersive experience for a manufacturing company showcasing their new production line to prospective customers."
+
+**Technology Selection:**
+- Options: [Virtual Reality / Augmented Reality / Mixed Reality]
+- Correct: Virtual Reality (facility tour in immersive 3D space)
+
+**Experience Elements:**
+- Environment: [Virtual factory / Overlay on real factory / Interactive model]
+- Interaction: [Walk-through tour / Point-and-learn / Manipulate components]
+- Focus: [Equipment details / Process flow / Safety features]
+- Learner selects appropriate elements
+
+After designing, the learner sees the immersive experience specification.
+
+**Provenance:** The immersive technologies are from the Immersive Storytelling section above. The scenario is illustrative for manufacturing sales.
+
+**Rules:** The learner must select technology and experience elements before seeing the specification. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads the scenario.
+2. The learner selects the immersive technology.
+3. The learner selects experience elements.
+4. The learner submits the experience design.
+5. The system shows the immersive experience specification with technology and elements.
+
+**Feedback:**
+- After submitting: "Your immersive experience uses [technology] with [elements]. This creates [benefits] for the manufacturing scenario."
+- Specification shows the technology choice and experience elements with rationale.
+
+**Starting State:** The learner sees the scenario description and technology selection buttons, followed by experience element selectors.
+
+**Chapter Anchors:** The immersive technologies are defined in the Immersive Storytelling section above. The scenario is illustrative.
+</details>
 
 ### Story Virtual Reality
 

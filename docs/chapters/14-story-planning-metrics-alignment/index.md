@@ -58,6 +58,66 @@ Story Success Metrics measure the effectiveness of storytelling initiatives at b
 
 Metrics should cascade from business objectives to storytelling objectives to specific measures. If the business objective is revenue growth, storytelling objectives might include increasing conversion rates or deal size. Metrics track progress toward these objectives.
 
+#### Diagram: Metrics Cascade Designer
+
+<details markdown="1">
+<summary>Metrics Cascade Designer</summary>
+Type: infographic
+**sim-id:** metrics-cascade-designer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** design<br/>
+**Learning Objective:** The learner will design a metrics cascade by linking business objectives to storytelling objectives to specific KPIs.
+
+**Prerequisites:** Story Success Metrics, Story KPIs concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a business objective. The learner defines storytelling objectives and selects appropriate KPIs for each objective. The learner must create a complete metrics cascade.
+
+**Misconceptions:** (1) Any metric is a KPI (KPIs must be actionable and leading). (2) Metrics don't need to align (metrics should cascade from objectives). (3) More metrics is better (focus on a few key metrics).
+
+**Instructional Rationale:** An interactive designer allows the learner to apply metrics knowledge by designing cascades. This supports the Apply objective by requiring the learner to link objectives to metrics.
+
+**Content:**
+
+**Business Objective:** "Increase revenue by 20% in Q4"
+
+**Step 1:** Define storytelling objectives (select 2-3):
+- Options: [Increase conversion rate / Increase deal size / Improve win rate / Shorten sales cycle]
+- Correct: Select 2-3 that support revenue growth
+
+**Step 2:** For each objective, select KPIs:
+
+**Objective: Increase conversion rate**
+- KPI options: [Story adoption rate / Story conversion lift / Deal size / Win rate]
+- Correct: Story conversion lift
+
+**Objective: Increase deal size**
+- KPI options: [Story adoption rate / Story-attributed revenue / Deal size / Win rate]
+- Correct: Story-attributed revenue, average deal size
+
+After designing, the learner sees the complete metrics cascade.
+
+**Provenance:** The metrics cascade concept is from the Story Success Metrics section above. The objective is illustrative for revenue growth.
+
+**Rules:** The learner must select 2-3 objectives and KPIs for each before seeing the cascade. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads the business objective.
+2. The learner selects 2-3 storytelling objectives.
+3. For each objective, the learner selects 1-2 KPIs.
+4. The learner submits the metrics cascade.
+5. The system shows the cascade diagram with arrows linking objectives to KPIs.
+
+**Feedback:**
+- After submitting: "Your metrics cascade: [objectives] → [KPIs]. This aligns storytelling with the business objective of [objective]."
+- Cascade diagram shows business objective at top, storytelling objectives in middle, KPIs at bottom with arrows.
+
+**Starting State:** The learner sees the business objective and objective checkboxes, followed by KPI selection sections.
+
+**Chapter Anchors:** The Story Success Metrics concept is defined in the section above. The objective is illustrative.
+</details>
+
 ### Story KPIs
 
 Story KPIs (Key Performance Indicators) are the core metrics that indicate storytelling health and performance. KPIs should be leading indicators that predict future success rather than just lagging indicators that report past results.
@@ -126,6 +186,79 @@ Alignment requires understanding business strategy at a deep level. What are the
 
 When storytelling is misaligned, it wastes resources on activities that don't matter. When it's aligned, every story contributes to strategic objectives. Alignment transforms storytelling from communication to strategic capability.
 
+#### Diagram: Strategic Alignment Mapper
+
+<details markdown="1">
+<summary>Strategic Alignment Mapper</summary>
+Type: infographic
+**sim-id:** strategic-alignment-mapper<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** align<br/>
+**Learning Objective:** The learner will align storytelling objectives with business strategy by selecting appropriate storytelling initiatives for different strategic priorities.
+
+**Prerequisites:** Story Strategic Alignment, Story Business Value concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with business strategies and storytelling initiatives. The learner maps each initiative to the strategy it supports. The learner must correctly align all initiatives.
+
+**Misconceptions:** (1) Any story supports any strategy (alignment requires strategic fit). (2) Strategy doesn't affect storytelling (strategy determines storytelling priorities). (3) Alignment is one-time (alignment requires ongoing monitoring).
+
+**Instructional Rationale:** An interactive mapper allows the learner to apply alignment knowledge by mapping initiatives to strategies. This supports the Apply objective by requiring the learner to make alignment decisions.
+
+**Content:**
+
+**Business Strategies:**
+- Market Expansion
+- Premium Positioning
+- Customer Retention
+- Operational Efficiency
+
+**Storytelling Initiatives:**
+- Success stories from new markets
+- Differentiation-focused case studies
+- Customer success journey stories
+- Efficiency improvement stories
+
+The learner maps each initiative to the strategy it supports:
+
+**Initiative 1:** "Stories about entering the healthcare market"
+- Learner selects: [Market Expansion / Premium Positioning / Customer Retention / Operational Efficiency]
+- Correct: Market Expansion
+
+**Initiative 2:** "Stories emphasizing unique value over competitors"
+- Learner selects: [Market Expansion / Premium Positioning / Customer Retention / Operational Efficiency]
+- Correct: Premium Positioning
+
+**Initiative 3:** "Stories about long-term customer partnerships"
+- Learner selects: [Market Expansion / Premium Positioning / Customer Retention / Operational Efficiency]
+- Correct: Customer Retention
+
+**Initiative 4:** "Stories about reducing costs through our solution"
+- Learner selects: [Market Expansion / Premium Positioning / Customer Retention / Operational Efficiency]
+- Correct: Operational Efficiency
+
+After mapping, the learner sees the alignment matrix.
+
+**Provenance:** The strategic alignment concept is from the Story Strategic Alignment section above. The initiatives are illustrative for different strategies.
+
+**Rules:** The learner must map each initiative to a strategy before seeing the alignment matrix. The learner can retry mappings.
+
+**Learner Activity:**
+1. The learner reads the business strategies and storytelling initiatives.
+2. For each initiative, the learner selects the strategy it supports.
+3. The learner submits the alignment mapping.
+4. The system shows the alignment matrix with strategies and mapped initiatives.
+
+**Feedback:**
+- After submitting: "Your alignment mapping: [initiatives] → [strategies]. This ensures storytelling supports business strategy."
+- Alignment matrix shows strategies with their mapped initiatives.
+
+**Starting State:** The learner sees the business strategies listed and 4 initiative sections with strategy dropdown menus.
+
+**Chapter Anchors:** The Story Strategic Alignment concept is defined in the section above. The initiatives are illustrative.
+</details>
+
 ### Story Business Value
 
 Story Business Value quantifies the impact of storytelling on business outcomes. Value might come from increased revenue, reduced costs, faster time-to-revenue, or improved competitive positioning.
@@ -141,6 +274,69 @@ Story ROI Models calculate the return on investment in storytelling initiatives.
 ROI calculation requires: quantifying the investment (time, tools, personnel), quantifying the return (attributed revenue, cost savings, efficiency gains), and calculating the ratio (return divided by investment).
 
 Different ROI models apply to different storytelling activities. Story creation ROI considers the cost of creating stories versus the revenue they generate. Story training ROI considers training costs versus improved sales performance. Use the appropriate model for each activity.
+
+#### Diagram: ROI Calculator
+
+<details markdown="1">
+<summary>ROI Calculator</summary>
+Type: infographic
+**sim-id:** roi-calculator<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** calculate<br/>
+**Learning Objective:** The learner will calculate ROI for a storytelling initiative by identifying investment costs, return benefits, and computing the ROI ratio.
+
+**Prerequisites:** Story ROI Models, Story Cost-Benefit Analysis concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a storytelling initiative scenario. The learner identifies investment costs and return benefits, then calculates the ROI. The learner must complete the ROI calculation.
+
+**Misconceptions:** (1) ROI is only about revenue (ROI includes all benefits and costs). (2) ROI calculation is exact (ROI uses estimates for projections). (3) Any positive ROI is good (ROI must exceed organizational hurdle rates).
+
+**Instructional Rationale:** An interactive calculator allows the learner to apply ROI knowledge by performing calculations. This supports the Apply objective by requiring the learner to compute ROI.
+
+**Content:**
+
+**Scenario:** "Your company invested $50,000 in a story library initiative. In the first year, story-attributed revenue increased by $200,000 and sales cycle reduction saved $30,000 in time costs."
+
+**Step 1:** Identify investment costs:
+- Personnel time: $30,000
+- Software licenses: $15,000
+- External services: $5,000
+- Total investment: $50,000
+
+**Step 2:** Identify return benefits:
+- Attributed revenue: $200,000
+- Efficiency savings: $30,000
+- Total return: $230,000
+
+**Step 3:** Calculate ROI:
+- ROI = (Return - Investment) / Investment
+- ROI = ($230,000 - $50,000) / $50,000
+- ROI = $180,000 / $50,000 = 360%
+
+The learner verifies the calculation and sees the ROI result.
+
+**Provenance:** The ROI calculation concept is from the Story ROI Models section above. The scenario is illustrative for a story library initiative.
+
+**Rules:** The learner must identify costs and benefits, then calculate ROI before seeing the result. The learner can retry the calculation.
+
+**Learner Activity:**
+1. The learner reads the scenario.
+2. The learner identifies investment costs (pre-filled).
+3. The learner identifies return benefits (pre-filled).
+4. The learner calculates ROI by entering the formula and result.
+5. The learner submits the calculation.
+6. The system shows the ROI result with interpretation.
+
+**Feedback:**
+- After submitting: "Your ROI calculation: [calculation]. ROI = [result]%. This [exceeds/meets/fails] typical organizational hurdle rates."
+- Result shows the ROI percentage with interpretation (e.g., "360% ROI indicates strong return on investment").
+
+**Starting State:** The learner sees the scenario description and cost/benefit identification sections, followed by a calculation input area.
+
+**Chapter Anchors:** The Story ROI Models concept is defined in the section above. The scenario is illustrative.
+</details>
 
 ### Story Cost-Benefit Analysis
 

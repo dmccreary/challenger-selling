@@ -67,12 +67,16 @@ A good buyer persona profile includes the role's objectives, the metrics they're
 
 #### Diagram: Persona Matcher
 
+
+<iframe src="../../sims/persona-matcher/main.html" width="100%" height="562px" scrolling="no"></iframe>
+[Run Persona Matcher Fullscreen](../../sims/persona-matcher/main.html)
+
 <details markdown="1">
 <summary>Persona Matcher</summary>
 Type: infographic
 **sim-id:** persona-matcher<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** identify<br/>
 **Learning Objective:** The learner will identify the correct buyer persona from a description and select the appropriate messaging strategy for that persona.
@@ -201,12 +205,16 @@ Industry vertical segmentation also helps you develop specialized expertise. By 
 
 #### Diagram: Vertical Insight Tailorer
 
+
+<iframe src="../../sims/vertical-insight-tailorer/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run Vertical Insight Tailorer Fullscreen](../../sims/vertical-insight-tailorer/main.html)
+
 <details markdown="1">
 <summary>Vertical Insight Tailorer</summary>
 Type: infographic
 **sim-id:** vertical-insight-tailorer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** adapt<br/>
 **Learning Objective:** The learner will adapt a Challenger insight for different industry verticals by selecting the appropriate framing and messaging focus.

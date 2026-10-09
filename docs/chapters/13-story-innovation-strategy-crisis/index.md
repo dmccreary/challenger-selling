@@ -55,6 +55,69 @@ Story Innovation is the practice of developing new storytelling approaches that 
 
 Innovation can take many forms: new story structures, unexpected narrative angles, innovative delivery formats, or novel applications of storytelling to new situations. The key is that innovation creates differentiation and impact that standard approaches cannot achieve.
 
+#### Diagram: Story Innovation Explorer
+
+<details markdown="1">
+<summary>Story Innovation Explorer</summary>
+Type: infographic
+**sim-id:** story-innovation-explorer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Create<br/>
+**Bloom Verb:** innovate<br/>
+**Learning Objective:** The learner will innovate a new storytelling approach by selecting unconventional story elements (structure, angle, format, example) that differentiate from standard approaches.
+
+**Prerequisites:** Story Innovation, Story Differentiation concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a standard story and 4 innovation dimensions. The learner selects unconventional elements for each dimension to create a differentiated story. The learner must innovate on all 4 dimensions.
+
+**Misconceptions:** (1) Innovation means random changes (innovation requires strategic differentiation). (2) Standard approaches are bad (innovation complements, doesn't replace, consistency). (3) Any difference is innovation (true innovation creates memorable impact).
+
+**Instructional Rationale:** An interactive explorer allows the learner to apply innovation knowledge by creating differentiated stories. This supports the Create objective by requiring the learner to make innovative choices.
+
+**Content:**
+
+**Standard Story:** "A company reduced costs by 20% using our solution. You can too."
+
+**Innovation dimensions:**
+
+**1. Structure:** How to structure the story?
+- Options: [Standard linear / Reverse chronological / In media res / Circular]
+- Unconventional: In media res (start in the middle of action)
+
+**2. Angle:** What perspective to take?
+- Options: [Vendor-centric / Customer-centric / Competitor-centric / Market-centric]
+- Unconventional: Market-centric (industry-wide trend)
+
+**3. Format:** How to deliver?
+- Options: [Presentation / Video / Interactive / Story-in-a-story]
+- Unconventional: Interactive (choose-your-path)
+
+**4. Example:** What type of case study?
+- Options: [Success story / Failure lesson / Counterintuitive result / Unexpected hero]
+- Unconventional: Counterintuitive result (expected failure, succeeded)
+
+After selecting, the learner sees the innovative story concept.
+
+**Provenance:** The innovation concept is from the Story Innovation section above. The standard story is illustrative of conventional approaches.
+
+**Rules:** The learner must select an option for each dimension before seeing the innovative concept. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads the standard story.
+2. For each dimension, the learner selects an unconventional option.
+3. The learner submits the innovation design.
+4. The system shows the innovative story concept with differentiation explanation.
+
+**Feedback:**
+- After submitting: "Your innovative approach uses [elements]. This differentiates from standard stories by [differentiation explanation]."
+- Innovative concept shows how the story would be told with the selected innovations.
+
+**Starting State:** The learner sees the standard story and 4 dimension sections with option buttons.
+
+**Chapter Anchors:** The Story Innovation concept is defined in the section above. The standard story is illustrative.
+</details>
+
 ### Story Differentiation
 
 Story Differentiation ensures your stories stand out from competitors' messages. When competitors tell similar stories about similar solutions, customers can't distinguish between vendors. Differentiation makes your stories memorable and uniquely valuable.
@@ -68,6 +131,79 @@ Analyze competitor stories to identify common patterns. Then deliberately choose
 Story Brand Alignment ensures that all stories reinforce your brand identity and positioning. Your brand has specific attributes: innovation, reliability, customer focus, technical excellence. Stories should demonstrate these attributes consistently.
 
 Brand alignment requires understanding your brand strategy and translating it into storytelling guidelines. If your brand is innovative, stories should emphasize forward-thinking and new possibilities. If your brand is reliable, stories should emphasize stability and long-term partnership.
+
+#### Diagram: Brand Alignment Checker
+
+<details markdown="1">
+<summary>Brand Alignment Checker</summary>
+Type: infographic
+**sim-id:** brand-alignment-checker<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Evaluate<br/>
+**Bloom Verb:** evaluate<br/>
+**Learning Objective:** The learner will evaluate a story against brand attributes (innovation, reliability, customer focus, technical excellence) and identify alignment or misalignment.
+
+**Prerequisites:** Story Brand Alignment, Brand Voice Consistency concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a story draft and 4 brand attributes. The learner evaluates whether the story demonstrates each attribute and provides alignment feedback. The learner must complete all 4 evaluations.
+
+**Misconceptions:** (1) Brand alignment is optional (consistency builds brand equity). (2) Any story fits any brand (stories must reflect specific brand attributes). (3) Alignment is about logos only (alignment is about narrative and voice).
+
+**Instructional Rationale:** An interactive checker allows the learner to apply brand alignment knowledge by evaluating stories. This supports the Evaluate objective by requiring the learner to make alignment judgments.
+
+**Content:**
+
+**Brand Attributes:**
+- Innovation: Forward-thinking, new possibilities
+- Reliability: Stability, long-term partnership
+- Customer Focus: Customer success, partnership
+- Technical Excellence: Technical depth, expertise
+
+**Story Draft:** "We've been in business for 20 years and use proven technology that never fails. Our customers trust us because we're conservative and risk-averse."
+
+**Evaluation:**
+
+**1. Innovation:** Does this demonstrate innovation?
+- Learner selects: [Aligned / Misaligned / Neutral]
+- Learner explains: [text input]
+- Correct: Misaligned (emphasizes conservatism, not innovation)
+
+**2. Reliability:** Does this demonstrate reliability?
+- Learner selects: [Aligned / Misaligned / Neutral]
+- Learner explains: [text input]
+- Correct: Aligned (emphasizes stability and trust)
+
+**3. Customer Focus:** Does this demonstrate customer focus?
+- Learner selects: [Aligned / Misaligned / Neutral]
+- Learner explains: [text input]
+- Correct: Neutral (mentions customers but not customer success)
+
+**4. Technical Excellence:** Does this demonstrate technical excellence?
+- Learner selects: [Aligned / Misaligned / Neutral]
+- Learner explains: [text input]
+- Correct: Misaligned (emphasizes "proven" not "excellence")
+
+After evaluating, the learner sees alignment analysis and improvement suggestions.
+
+**Provenance:** The brand alignment concept is from the Story Brand Alignment section above. The story draft is illustrative of alignment issues.
+
+**Rules:** The learner must select alignment and provide explanation for each attribute before seeing the analysis. The learner can edit evaluations.
+
+**Learner Activity:**
+1. The learner reads the brand attributes and story draft.
+2. For each attribute, the learner selects alignment and writes explanation.
+3. The learner submits the evaluation.
+4. The system shows alignment analysis and improvement suggestions.
+
+**Feedback:**
+- After submitting: "Your evaluation shows [alignment]. This story is [aligned/misaligned] with [attributes]. To improve alignment: [suggestions]."
+- Analysis provides specific suggestions to align the story with brand attributes.
+
+**Starting State:** The learner sees the brand attributes, story draft, and 4 evaluation sections with alignment selectors and text input areas.
+
+**Chapter Anchors:** The Story Brand Alignment concept is defined in the section above. The story draft is illustrative.
+</details>
 
 When stories align with brand, they reinforce each other. Each story builds brand equity, and the brand gives stories additional credibility. Misaligned stories confuse customers and dilute brand impact.
 
@@ -152,6 +288,69 @@ Story Crisis Response is the immediate storytelling action taken when a crisis b
 Effective crisis response stories are: prompt (acknowledge quickly), transparent (share what you know), accountable (accept responsibility where appropriate), and solution-focused (emphasize what you're doing). Avoid defensiveness, blame-shifting, or minimizing.
 
 Pre-designate spokespersons and train them in crisis storytelling. Crisis response is not the time for improvisation. Practice scenarios so the response is confident and consistent.
+
+#### Diagram: Crisis Response Simulator
+
+<details markdown="1">
+<summary>Crisis Response Simulator</summary>
+Type: infographic
+**sim-id:** crisis-response-simulator<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** respond<br/>
+**Learning Objective:** The learner will respond to a crisis scenario by selecting appropriate crisis storytelling elements (acknowledgment, transparency, accountability, solution-focus) and avoiding defensive behaviors.
+
+**Prerequisites:** Story Crisis Response, Story Reputation Management concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a crisis scenario and 4 response decisions. The learner selects the appropriate response for each decision point. The learner must make effective crisis response choices.
+
+**Misconceptions:** (1) Minimizing the crisis helps (transparency builds trust). (2) Blame others is strategic (accountability demonstrates integrity). (3) Speed is less important than accuracy (both speed and accuracy matter in crisis).
+
+**Instructional Rationale:** An interactive simulator allows the learner to apply crisis response knowledge by making decisions. This supports the Apply objective by requiring the learner to respond to crisis scenarios.
+
+**Content:**
+
+**Crisis Scenario:** "Your company experienced a data breach affecting 10,000 customer records. Media is calling for comment."
+
+**Response decisions:**
+
+**Decision 1:** Initial acknowledgment
+- Options: [Deny the breach / Acknowledge immediately / Delay comment / Blame third party]
+- Correct: Acknowledge immediately
+
+**Decision 2:** Information sharing
+- Options: [Share all details / Share what you know / Share nothing / Downplay impact]
+- Correct: Share what you know (transparency)
+
+**Decision 3:** Responsibility
+- Options: [Accept responsibility / Blame hackers / Blame IT team / Avoid taking stance]
+- Correct: Accept responsibility (accountability)
+
+**Decision 4:** Action focus
+- Options: [Emphasize what went wrong / Emphasize what you're doing / Emphasize it's resolved / Emphasize competitors have it worse]
+- Correct: Emphasize what you're doing (solution-focused)
+
+After making decisions, the learner sees the crisis response story.
+
+**Provenance:** The crisis response principles are from the Story Crisis Response section above. The scenario is illustrative for a data breach crisis.
+
+**Rules:** The learner must select a response for each decision before seeing the crisis story. The learner can retry decisions.
+
+**Learner Activity:**
+1. The learner reads the crisis scenario.
+2. For each decision, the learner selects a response option.
+3. The learner submits the crisis response.
+4. The system shows the assembled crisis response story with evaluation.
+
+**Feedback:**
+- After submitting: "Your crisis response: [responses]. This demonstrates [principles]. Avoid [defensive behaviors]."
+- Crisis response story shows the assembled narrative appropriate for the scenario.
+
+**Starting State:** The learner sees the crisis scenario and 4 decision sections with option buttons.
+
+**Chapter Anchors:** The Story Crisis Response concept is defined in the section above. The scenario is illustrative.
+</details>
 
 ### Story Reputation Management
 

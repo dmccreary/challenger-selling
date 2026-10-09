@@ -70,6 +70,62 @@ Adaptive learning addresses the fundamental challenge of education: students hav
 
 When selling intelligent textbooks, emphasize that adaptive learning improves outcomes for all students. Struggling students get the support they need to catch up. Advanced students get the challenge they need to stay engaged. The same textbook serves everyone optimally, which is impossible with static content.
 
+#### Diagram: Adaptive Learning Path Designer
+
+<details markdown="1">
+<summary>Adaptive Learning Path Designer</summary>
+Type: infographic
+**sim-id:** adaptive-learning-path-designer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** design<br/>
+**Learning Objective:** The learner will design adaptive learning paths by selecting content recommendations based on student performance scenarios.
+
+**Prerequisites:** Adaptive Learning concept defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with 3 student performance scenarios. For each scenario, the learner selects the appropriate adaptive learning path (remedial, standard, advanced). The learner must correctly design paths for all 3 scenarios.
+
+**Misconceptions:** (1) All students should follow the same path (adaptive learning personalizes paths). (2) Adaptive learning is only for struggling students (advanced students also benefit from adaptation). (3) Adaptive paths are linear (paths can branch based on performance).
+
+**Instructional Rationale:** An interactive designer allows the learner to apply adaptive learning knowledge by designing personalized paths. This supports the Apply objective by requiring the learner to make adaptation decisions.
+
+**Content:**
+
+**Scenario 1:** "A student scored 40% on the Storytelling Fundamentals quiz and spent 2 minutes on the section."
+- Learner selects path: [Remedial: Re-read fundamentals + practice quiz / Standard: Continue to next concept / Advanced: Skip to Challenger methodology]
+- Correct: Remedial (student is struggling)
+
+**Scenario 2:** "A student scored 85% on the Storytelling Fundamentals quiz and spent 10 minutes engaging with the MicroSim."
+- Learner selects path: [Remedial / Standard: Continue to next concept / Advanced: Skip ahead to advanced storytelling techniques]
+- Correct: Standard (student is performing well)
+
+**Scenario 3:** "A student scored 95% on the Storytelling Fundamentals quiz, completed the MicroSim perfectly, and asked for more challenging content."
+- Learner selects path: [Remedial / Standard / Advanced: Advanced storytelling techniques + creative exercises]
+- Correct: Advanced (student is excelling and wants challenge)
+
+After each selection, the learner sees the adaptive reasoning.
+
+**Provenance:** The adaptive learning concept is from the section above. The scenarios are illustrative student performance patterns.
+
+**Rules:** The learner must select a path for each scenario before proceeding. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads Scenario 1.
+2. The learner selects an adaptive path from the buttons.
+3. The learner submits and sees the adaptive reasoning.
+4. The learner repeats for Scenarios 2 and 3.
+5. After all three, the learner sees a summary of adaptive learning principles.
+
+**Feedback:**
+- After submitting: "Correct! This student needs [path type] because [reason]."
+- Summary: "Adaptive learning personalizes content based on performance, ensuring each student is in their optimal learning zone."
+
+**Starting State:** The learner sees Scenario 1 and three path option buttons.
+
+**Chapter Anchors:** The Adaptive Learning concept is defined in the section above. The scenarios are illustrative for student performance.
+</details>
+
 ### Learning Analytics
 
 Learning Analytics is the collection, analysis, and visualization of data about learner behavior and performance. In intelligent textbooks, analytics track which content students engage with, how long they spend on each section, which quiz questions they answer correctly, and which MicroSims they interact with most.
@@ -86,6 +142,68 @@ xAPI statements follow a simple structure: actor-verb-object-context. For exampl
 
 When selling intelligent textbooks, xAPI is the technical foundation that makes learning analytics possible. Without a tracking standard, you cannot capture the rich interaction data that intelligent textbooks generate. xAPI provides a standard, interoperable way to track and analyze learning experiences.
 
+#### Diagram: xAPI Statement Builder
+
+<details markdown="1">
+<summary>xAPI Statement Builder</summary>
+Type: infographic
+**sim-id:** xapi-statement-builder<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Apply<br/>
+**Bloom Verb:** construct<br/>
+**Learning Objective:** The learner will construct valid xAPI statements by selecting actors, verbs, and objects for different learning scenarios.
+
+**Prerequisites:** xAPI concept defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with 3 learning scenarios. For each scenario, the learner constructs an xAPI statement by selecting the actor, verb, and object. The learner must correctly construct valid statements for all 3 scenarios.
+
+**Misconceptions:** (1) xAPI only tracks test scores (xAPI captures any learning experience). (2) All xAPI statements are the same (statements vary based on the activity). (3) xAPI requires complex setup (xAPI follows a simple actor-verb-object structure).
+
+**Instructional Rationale:** An interactive builder allows the learner to apply xAPI knowledge by constructing statements. This supports the Apply objective by requiring the learner to build valid xAPI statements.
+
+**Content:**
+
+**Scenario 1:** "A student named Alex completed the Story Arc Builder MicroSim."
+- Learner selects Actor: [Alex / Instructor / System]
+- Learner selects Verb: [completed / viewed / answered / failed]
+- Learner selects Object: [Story Arc Builder MicroSim / Chapter 2 / Quiz Question 3]
+- Correct: Alex, completed, Story Arc Builder MicroSim
+
+**Scenario 2:** "Instructor Sarah viewed the Learning Analytics dashboard."
+- Learner selects Actor: [Alex / Sarah / System]
+- Learner selects Verb: [completed / viewed / answered / launched]
+- Learner selects Object: [Learning Analytics dashboard / Chapter 1 / MicroSim]
+- Correct: Sarah, viewed, Learning Analytics dashboard
+
+**Scenario 3:** "Jordan answered Question 5 incorrectly on the Challenger Methodology quiz."
+- Learner selects Actor: [Alex / Jordan / System]
+- Learner selects Verb: [completed / viewed / answered / failed]
+- Learner selects Object: [Question 5 / Chapter 1 / MicroSim]
+- Correct: Jordan, answered, Question 5 (with result: incorrect)
+
+After constructing each statement, the learner sees the full xAPI statement in proper format.
+
+**Provenance:** The xAPI structure is from the xAPI section above. The scenarios are illustrative learning activities.
+
+**Rules:** The learner must select Actor, Verb, and Object for each scenario before proceeding. The learner can retry selections.
+
+**Learner Activity:**
+1. The learner reads Scenario 1.
+2. The learner selects Actor, Verb, and Object from dropdown menus.
+3. The learner submits and sees the constructed xAPI statement.
+4. The learner repeats for Scenarios 2 and 3.
+5. After all three, the learner sees a summary of xAPI statement patterns.
+
+**Feedback:**
+- After submitting: "Your xAPI statement: [Actor] [Verb] [Object]. This is a valid xAPI statement."
+- Summary: "xAPI statements follow the actor-verb-object structure and can capture any learning experience."
+
+**Starting State:** The learner sees Scenario 1 and three dropdown menus (Actor, Verb, Object) initially unselected.
+
+**Chapter Anchors:** The xAPI concept is defined in the section above. The scenarios are illustrative for learning activities.
+</details>
+
 ### LRS
 
 A Learning Record Store (LRS) is the database that receives and stores xAPI statements. The LRS provides a centralized repository for learning data from multiple sources: intelligent textbooks, learning management systems, virtual labs, and other educational tools.
@@ -101,6 +219,70 @@ MicroSims are interactive simulations embedded within intelligent textbooks. The
 MicroSims can take many forms: parameter explorers that let students adjust variables and observe effects, sorting activities that classify examples, step-through simulations that walk through processes, and interactive graphs that visualize relationships. The key is that students actively engage with the content rather than passively consuming it.
 
 When selling intelligent textbooks, MicroSims are a key differentiator. Static textbooks can only describe concepts; intelligent textbooks can demonstrate them. MicroSims make abstract concepts concrete and enable students to develop intuition through exploration. This active learning leads to deeper understanding and better retention.
+
+#### Diagram: MicroSim Type Explorer
+
+<details markdown="1">
+<summary>MicroSim Type Explorer</summary>
+Type: infographic
+**sim-id:** microsim-type-explorer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** identify<br/>
+**Learning Objective:** The learner will identify different types of MicroSims (p5.js, Chart.js, vis-network, causal-loop, concept-classifier) and their appropriate use cases.
+
+**Prerequisites:** MicroSims concept defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with 5 learning scenarios. For each scenario, the learner selects the appropriate MicroSim type. The learner must correctly identify the MicroSim type for all 5 scenarios.
+
+**Misconceptions:** (1) All MicroSims are the same (different types serve different learning objectives). (2) Any MicroSim type works for any concept (matching the right type to the concept is essential). (3) MicroSims are just visualizations (MicroSims are interactive, not just visual).
+
+**Instructional Rationale:** An interactive explorer allows the learner to apply MicroSim knowledge to learning scenarios. This supports the Understand objective by requiring the learner to identify appropriate tools.
+
+**Content:**
+
+**Scenario 1:** "Students need to understand how variables in a system interact over time through manipulation."
+- Learner selects: [p5.js / Chart.js / vis-network / causal-loop / concept-classifier]
+- Correct: p5.js (code simulation with controls)
+
+**Scenario 2:** "Students need to explore data relationships and compare datasets visually."
+- Learner selects: [p5.js / Chart.js / vis-network / causal-loop / concept-classifier]
+- Correct: Chart.js (data visualization)
+
+**Scenario 3:** "Students need to understand network connections and relationship patterns."
+- Learner selects: [p5.js / Chart.js / vis-network / causal-loop / concept-classifier]
+- Correct: vis-network (network diagram)
+
+**Scenario 4:** "Students need to understand feedback loops and system dynamics."
+- Learner selects: [p5.js / Chart.js / vis-network / causal-loop / concept-classifier]
+- Correct: causal-loop (feedback loop diagram)
+
+**Scenario 5:** "Students need to practice categorizing concepts by dragging items to categories."
+- Learner selects: [p5.js / Chart.js / vis-network / causal-loop / concept-classifier]
+- Correct: concept-classifier (sorting quiz)
+
+After each selection, the learner sees why that MicroSim type applies.
+
+**Provenance:** The MicroSim types are from the intelligent textbook tools context. The scenarios are illustrative learning objectives.
+
+**Rules:** The learner must select a MicroSim type for each scenario before proceeding. The learner can retry with different selections.
+
+**Learner Activity:**
+1. The learner reads Scenario 1.
+2. The learner selects a MicroSim type from the dropdown menu.
+3. The learner submits and sees feedback.
+4. The learner repeats for Scenarios 2-5.
+5. After all five, the learner sees a summary of MicroSim types and use cases.
+
+**Feedback:**
+- Correct: "Correct! This scenario calls for a [type] MicroSim because [reason]."
+- Incorrect: "Not quite. This scenario would be better served by a [correct type] MicroSim because [reason]."
+
+**Starting State:** The learner sees Scenario 1 and a dropdown menu (MicroSim Type) initially unselected.
+
+**Chapter Anchors:** The MicroSims concept is defined in the section above. The scenarios are illustrative for intelligent textbook applications.
+</details>
 
 ### Interactive Content
 
@@ -141,6 +323,64 @@ Learning Graphs are concept dependency graphs that show how concepts relate to e
 A learning graph represents concepts as nodes and dependencies as edges. If Concept B depends on Concept A, there's an edge from B to A. Students must master Concept A before Concept B. This structure ensures logical progression and prevents confusion from encountering advanced concepts before they're ready.
 
 When selling intelligent textbooks, learning graphs provide the structure that makes personalization possible. The graph defines valid learning paths. Adaptive learning algorithms use the graph to recommend the next concept for each student based on what they've mastered and what they're ready to learn next.
+
+#### Diagram: Learning Graph Visualizer
+
+<details markdown="1">
+<summary>Learning Graph Visualizer</summary>
+Type: infographic
+**sim-id:** learning-graph-visualizer<br/>
+**Library:** html<br/>
+**Status:** Specified<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** explain<br/>
+**Learning Objective:** The learner will explain how learning graphs represent concept dependencies by identifying prerequisite relationships in a visual graph.
+
+**Prerequisites:** Learning Graphs, Concept Dependencies concepts defined in the section above.
+
+**Evidence of Mastery:** The learner is presented with a visual learning graph showing concepts and dependencies. The learner identifies which concepts are prerequisites for others and explains the dependency structure. The learner must correctly identify 3 prerequisite relationships.
+
+**Misconceptions:** (1) Learning graphs are just outlines (graphs capture complex dependency relationships). (2) All concepts are equally important (some concepts are foundational prerequisites). (3) Dependencies are linear (learning graphs can have branching, non-linear dependencies).
+
+**Instructional Rationale:** A visual graph allows the learner to explore learning graph structure interactively. This supports the Understand objective by enabling visual exploration followed by identification tasks.
+
+**Content:**
+
+A visual learning graph displays:
+- Node A: "Storytelling Fundamentals"
+- Node B: "Challenger Methodology"
+- Node C: "Story Delivery"
+- Node D: "Story Analytics"
+- Edges: A→B (A is prerequisite for B), B→C, B→D
+
+The learner interacts with the graph:
+1. Click on edges to reveal dependency relationships
+2. Answer: "Which concepts are prerequisites for Story Delivery?" (select B)
+3. Answer: "Which concepts does Challenger Methodology depend on?" (select A)
+4. Answer: "Can a student learn Story Analytics before Challenger Methodology?" (No)
+5. Answer: "What's the correct learning order?" (A→B→C and A→B→D)
+
+After completing the identification tasks, the learner sees a summary of the learning path.
+
+**Provenance:** The learning graph concept is from the chapter's definitions. The example is illustrative for a typical course structure.
+
+**Rules:** The learner must click on all edges before answering questions. The learner can retry identification tasks.
+
+**Learner Activity:**
+1. The learner sees the visual learning graph with labeled nodes and arrows.
+2. The learner clicks on each edge to reveal the dependency relationship.
+3. The learner answers 5 identification questions.
+4. The learner submits answers and sees feedback.
+5. After all questions, the learner sees a summary of the learning path.
+
+**Feedback:**
+- After clicking: "This edge shows that [source] is a prerequisite for [target]."
+- After questions: "You correctly identified X of 5 relationships. Learning graphs ensure students learn concepts in the optimal order."
+
+**Starting State:** The learner sees a visual graph with 4 nodes and 3 edges. Edges are clickable but initially don't show relationships.
+
+**Chapter Anchors:** The Learning Graphs concept is defined in the section above. The example is illustrative for course structure.
+</details>
 
 ### Concept Dependencies
 
