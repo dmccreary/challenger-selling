@@ -127,4 +127,16 @@ After completing this course, students will be able to:
 - Develop a measurement framework to track story effectiveness across the sales organization
 - Create a library of micro-stories that can be combined dynamically for different sales scenarios
 - Design an AI-assisted story refinement process that maintains human oversight while leveraging automation
-- Construct a capstone project: a complete story-based sales strategy for selling an intelligent textbook generation platform to a university or corporate training department, including buyer persona analysis, objection mapping, story portfolio, and interactive agent scripts
+
+## Capstone Project
+
+The course culminates in a comprehensive capstone project where students will:
+
+- Construct a complete story-based sales strategy for selling an intelligent textbook generation platform to a university or corporate training department
+- Perform buyer persona analysis for all key stakeholders (CIO, CTO, CFO, CEO, VP of Sales, Procurement)
+- Create detailed objection mapping with story-based responses for each objection type
+- Develop a comprehensive story portfolio with 15-20 stories tailored to different personas and stages
+- Design interactive agent scripts that simulate realistic sales conversations with objection handling
+- Integrate AI-assisted story generation tools to create scenario-specific narratives on demand
+- Present the complete strategy as a Challenger insight presentation enhanced with storytelling
+- Provide a measurement framework to track story effectiveness during implementation

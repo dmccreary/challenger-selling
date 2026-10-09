@@ -1,0 +1,10 @@
+{
+  "title": "Challenger Selling: Storytelling for Sales Success",
+  "description": "An interactive intelligent textbook on the Challenger sales methodology, focusing on storytelling to help decision makers remember key product benefits. The course covers AI-assisted story generation, interactive agents for sales simulation, and case studies for graph databases, AI frameworks, and intelligent textbook tools.",
+  "creator": "Dan Mccreary",
+  "date": "2026-10-08",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}
