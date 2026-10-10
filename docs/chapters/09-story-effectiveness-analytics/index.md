@@ -323,3 +323,5 @@ When conducting competitive analysis, focus on differentiation. What unique pers
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered story effectiveness measurement and analytics! You can track story impact, optimize through A/B testing, and demonstrate ROI from your storytelling investment. Let's craft a story!
+
+[See Annotated References](./references.md)

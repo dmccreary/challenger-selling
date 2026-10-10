@@ -502,3 +502,5 @@ When you're authentic, customers can sense it. They relax, engage more deeply, a
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered story libraries, customization, and trust building! You can build comprehensive story libraries, customize stories dynamically, and use authentic storytelling to build deep trust. Let's craft a story!
+
+[See Annotated References](./references.md)

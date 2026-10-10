@@ -433,3 +433,5 @@ Monitor the ecosystem continuously. The landscape changes as competitors enter, 
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered story planning, metrics, and strategic alignment! You can measure storytelling success, align initiatives with business strategy, and manage storytelling as a strategic asset. Let's craft a story!
+
+[See Annotated References](./references.md)

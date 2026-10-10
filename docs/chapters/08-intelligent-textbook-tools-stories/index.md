@@ -439,3 +439,5 @@ Outcome stories provide the strongest form of validation for educational technol
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered intelligent textbook tools and sales stories! You can explain the components, technology, and benefits of intelligent textbooks, and craft compelling stories that translate educational technology capabilities into student success outcomes. Let's craft a story!
+
+[See Annotated References](./references.md)

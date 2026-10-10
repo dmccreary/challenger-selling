@@ -244,3 +244,5 @@ Success case studies provide the strongest form of social proof because they con
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered AI framework fundamentals and sales stories! You can explain the framework landscape, key components, and the machine learning lifecycle, and craft compelling stories that translate technical advantages into business value. Let's craft a story!
+
+[See Annotated References](./references.md)

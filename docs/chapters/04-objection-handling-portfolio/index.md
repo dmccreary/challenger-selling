@@ -382,3 +382,5 @@ Collecting story analytics requires a system for recording what stories were tol
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered sales story components, objection handling with stories, and story portfolio management! You can craft compelling stories systematically, handle objections with narrative rather than argument, and build a scalable story library. Let's craft a story!
+
+[See Annotated References](./references.md)

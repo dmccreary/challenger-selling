@@ -395,3 +395,5 @@ Implementation stories are particularly valuable for addressing objections about
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered graph database fundamentals and sales stories! You can explain the graph data model, key concepts, and use cases, and craft compelling stories that translate technical advantages into business value. Let's craft a story!
+
+[See Annotated References](./references.md)

@@ -38,25 +38,75 @@ nav:
 
   - Chapters:
       - List of Chapters: chapters/index.md
-      - 1. Challenger Sales Methodology & Insights: chapters/01-challenger-methodology-insights/index.md
-      - 2. Storytelling Fundamentals & Psychology: chapters/02-storytelling-fundamentals-psychology/index.md
-      - 3. Buyer Personas & Industry Segmentation: chapters/03-buyer-personas-segmentation/index.md
-      - 4. Objection Handling & Story Portfolio: chapters/04-objection-handling-portfolio/index.md
-      - 5. AI-Assisted Story Generation & Agents: chapters/05-ai-story-generation-agents/index.md
-      - 6. Graph Database Fundamentals & Sales Stories: chapters/06-graph-database-fundamentals-stories/index.md
-      - 7. AI Framework Fundamentals & Sales Stories: chapters/07-ai-framework-fundamentals-stories/index.md
-      - 8. Intelligent Textbook Tools & Sales Stories: chapters/08-intelligent-textbook-tools-stories/index.md
-      - 9. Story Effectiveness & Analytics: chapters/09-story-effectiveness-analytics/index.md
-      - 10. Story Delivery, Integration & Coaching: chapters/10-story-delivery-integration-coaching/index.md
-      - 11. Story Libraries, Customization & Trust: chapters/11-story-libraries-customization-trust/index.md
-      - 12. Story Creation & Templates: chapters/12-story-creation-templates/index.md
-      - 13. Story Innovation, Strategy & Crisis: chapters/13-story-innovation-strategy-crisis/index.md
-      - 14. Story Planning, Metrics & Alignment: chapters/14-story-planning-metrics-alignment/index.md
-      - 15. Story Architecture, DevOps & Testing: chapters/15-story-architecture-devops-testing/index.md
-      - 16. Advanced AI & Immersive Experiences: chapters/16-advanced-ai-immersive-experiences/index.md
+      - 1. Challenger Sales Methodology & Insights:
+        - Content: chapters/01-challenger-methodology-insights/index.md
+        - Quiz: chapters/01-challenger-methodology-insights/quiz.md
+        - Annotated References: chapters/01-challenger-methodology-insights/references.md
+      - 2. Storytelling Fundamentals & Psychology:
+        - Content: chapters/02-storytelling-fundamentals-psychology/index.md
+        - Quiz: chapters/02-storytelling-fundamentals-psychology/quiz.md
+        - Annotated References: chapters/02-storytelling-fundamentals-psychology/references.md
+      - 3. Buyer Personas & Industry Segmentation:
+        - Content: chapters/03-buyer-personas-segmentation/index.md
+        - Quiz: chapters/03-buyer-personas-segmentation/quiz.md
+        - Annotated References: chapters/03-buyer-personas-segmentation/references.md
+      - 4. Objection Handling & Story Portfolio:
+        - Content: chapters/04-objection-handling-portfolio/index.md
+        - Quiz: chapters/04-objection-handling-portfolio/quiz.md
+        - Annotated References: chapters/04-objection-handling-portfolio/references.md
+      - 5. AI-Assisted Story Generation & Agents:
+        - Content: chapters/05-ai-story-generation-agents/index.md
+        - Quiz: chapters/05-ai-story-generation-agents/quiz.md
+        - Annotated References: chapters/05-ai-story-generation-agents/references.md
+      - 6. Graph Database Fundamentals & Sales Stories:
+        - Content: chapters/06-graph-database-fundamentals-stories/index.md
+        - Quiz: chapters/06-graph-database-fundamentals-stories/quiz.md
+        - Annotated References: chapters/06-graph-database-fundamentals-stories/references.md
+      - 7. AI Framework Fundamentals & Sales Stories:
+        - Content: chapters/07-ai-framework-fundamentals-stories/index.md
+        - Quiz: chapters/07-ai-framework-fundamentals-stories/quiz.md
+        - Annotated References: chapters/07-ai-framework-fundamentals-stories/references.md
+      - 8. Intelligent Textbook Tools & Sales Stories:
+        - Content: chapters/08-intelligent-textbook-tools-stories/index.md
+        - Quiz: chapters/08-intelligent-textbook-tools-stories/quiz.md
+        - Annotated References: chapters/08-intelligent-textbook-tools-stories/references.md
+      - 9. Story Effectiveness & Analytics:
+        - Content: chapters/09-story-effectiveness-analytics/index.md
+        - Quiz: chapters/09-story-effectiveness-analytics/quiz.md
+        - Annotated References: chapters/09-story-effectiveness-analytics/references.md
+      - 10. Story Delivery, Integration & Coaching:
+        - Content: chapters/10-story-delivery-integration-coaching/index.md
+        - Quiz: chapters/10-story-delivery-integration-coaching/quiz.md
+        - Annotated References: chapters/10-story-delivery-integration-coaching/references.md
+      - 11. Story Libraries, Customization & Trust:
+        - Content: chapters/11-story-libraries-customization-trust/index.md
+        - Quiz: chapters/11-story-libraries-customization-trust/quiz.md
+        - Annotated References: chapters/11-story-libraries-customization-trust/references.md
+      - 12. Story Creation & Templates:
+        - Content: chapters/12-story-creation-templates/index.md
+        - Quiz: chapters/12-story-creation-templates/quiz.md
+        - Annotated References: chapters/12-story-creation-templates/references.md
+      - 13. Story Innovation, Strategy & Crisis:
+        - Content: chapters/13-story-innovation-strategy-crisis/index.md
+        - Quiz: chapters/13-story-innovation-strategy-crisis/quiz.md
+        - Annotated References: chapters/13-story-innovation-strategy-crisis/references.md
+      - 14. Story Planning, Metrics & Alignment:
+        - Content: chapters/14-story-planning-metrics-alignment/index.md
+        - Quiz: chapters/14-story-planning-metrics-alignment/quiz.md
+        - Annotated References: chapters/14-story-planning-metrics-alignment/references.md
+      - 15. Story Architecture, DevOps & Testing:
+        - Content: chapters/15-story-architecture-devops-testing/index.md
+        - Quiz: chapters/15-story-architecture-devops-testing/quiz.md
+        - Annotated References: chapters/15-story-architecture-devops-testing/references.md
+      - 16. Advanced AI & Immersive Experiences:
+        - Content: chapters/16-advanced-ai-immersive-experiences/index.md
+        - Quiz: chapters/16-advanced-ai-immersive-experiences/quiz.md
+        - Annotated References: chapters/16-advanced-ai-immersive-experiences/references.md
       - 17. Capstone Project:
-          - Content: chapters/17-capstone-project/index.md
-          - Project Flow Diagram: chapters/17-capstone-project/capstone-flow.md
+        - Content: chapters/17-capstone-project/index.md
+        - Project Flow Diagram: chapters/17-capstone-project/capstone-flow.md
+        - Quiz: chapters/17-capstone-project/quiz.md
+        - Annotated References: chapters/17-capstone-project/references.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
@@ -128,6 +178,7 @@ nav:
 
 
 
+  - Feature Checklist: feature-checklist.md
   - License: license.md
   - Contact: contact.md
   - Diagram Summary: diagram-summary.md
@@ -137,6 +188,9 @@ nav:
 # Theme configuration
 theme:
   name: material
+  custom_dir: overrides
+  static_templates:
+    - 404.html
   # Logo and favicon - using the mascot welcome pose as the site logo
   logo: img/mascot/welcome.png
   favicon: img/favicon.ico
@@ -199,6 +253,9 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   # Currency-safe math: inline is \(...\) only, never single $. Run
   # book-installer feature 5 (KaTeX) to add the renderer.
   - pymdownx.arithmatex:

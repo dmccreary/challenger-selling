@@ -407,3 +407,5 @@ Document the lessons and update your crisis communication templates and processe
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered story innovation, strategy, and crisis communication! You can innovate storytelling approaches, align stories with brand strategy, and manage crises through strategic storytelling. Let's craft a story!
+
+[See Annotated References](./references.md)

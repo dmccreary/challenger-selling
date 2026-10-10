@@ -459,3 +459,5 @@ When creating visualizations, keep them simple and clear. Overly complex visuali
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered story creation processes and templates! You can create stories systematically, use templates for efficiency, and maintain a high-quality story library. Let's craft a story!
+
+[See Annotated References](./references.md)

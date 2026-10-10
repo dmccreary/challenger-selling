@@ -415,3 +415,5 @@ Emotion detection also provides rich feedback to salespeople. The agent can repo
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered AI-assisted story generation and interactive sales agents! You can use AI to generate stories at scale, practice with realistic simulation agents, and apply AI ethically and effectively. Let's craft a story!
+
+[See Annotated References](./references.md)

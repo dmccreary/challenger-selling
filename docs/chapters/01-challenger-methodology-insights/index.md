@@ -603,3 +603,5 @@ The fourth step is taking control: practicing how to propose next steps, structu
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered the Challenger methodology's three core principles and how they drive customer action. You can identify sales profiles, craft commercial insights, and analyze stakeholders—foundations for everything that follows. Let's craft a story!
+
+[See Annotated References](./references.md)

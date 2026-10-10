@@ -321,3 +321,5 @@ When preparing for a specific customer, identify both the persona and the vertic
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered buyer personas and industry vertical segmentation! You can map stakeholders, understand their priorities, and tailor your Challenger insights to specific personas and industries. Let's craft a story!
+
+[See Annotated References](./references.md)

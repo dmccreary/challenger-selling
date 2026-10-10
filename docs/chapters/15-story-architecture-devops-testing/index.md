@@ -488,3 +488,5 @@ Follow accessibility standards like WCAG. Design for accessibility from the begi
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered story architecture, DevOps, and testing! You can design robust technical infrastructure, implement DevOps practices, and ensure quality through comprehensive testing. Let's craft a story!
+
+[See Annotated References](./references.md)

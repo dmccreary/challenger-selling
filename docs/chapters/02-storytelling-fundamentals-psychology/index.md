@@ -599,3 +599,5 @@ Story-based next steps feel natural and low-risk because they follow a proven pa
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered the fundamentals of storytelling and the psychology that makes stories powerful! You understand story structure, memory effects, and cognitive biases that influence decision-making. You can craft stories that make your Challenger insights unforgettable and actionable. Let's craft a story!
+
+[See Annotated References](./references.md)

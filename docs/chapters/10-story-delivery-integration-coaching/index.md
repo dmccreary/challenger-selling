@@ -508,3 +508,5 @@ Performance reviews should be constructive and developmental. They should identi
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered story delivery, integration, and coaching! You can deliver insights effectively across channels, integrate stories into your sales systems, and coach your team to storytelling excellence. Let's craft a story!
+
+[See Annotated References](./references.md)

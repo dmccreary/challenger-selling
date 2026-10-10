@@ -299,3 +299,5 @@ A successful capstone project demonstrates that you can:
 !!! mascot-celebration "Course Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've completed the Challenger Selling course! You've mastered the methodology, storytelling fundamentals, AI tools, analytics, delivery, creation, strategy, and technical infrastructure. You're ready to craft stories that teach, persuade, and inspire. Let's craft a story!
+
+[See Annotated References](./references.md)

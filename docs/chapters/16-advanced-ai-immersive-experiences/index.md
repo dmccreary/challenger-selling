@@ -422,3 +422,5 @@ Applications include: sales training games that teach Challenger methodology, si
 !!! mascot-celebration "Chapter Complete"
     ![Story celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You've mastered advanced AI and immersive experiences! You understand how AI transforms storytelling and how immersive technologies create memorable experiences. Let's craft a story!
+
+[See Annotated References](./references.md)
