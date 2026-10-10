@@ -1,6 +1,6 @@
 ---
-title: Learning Graph Visualizer
-description: Learners click each arrow in a four-concept learning graph to reveal the prerequisite relationship it encodes, then answer five questions about dependencies and valid learning order.
+title: "Learning Graph Visualizer"
+description: "Learners click each arrow in a four-concept learning graph to reveal the prerequisite relationship it encodes, then answer five questions about dependencies and valid learning order."
 image: /sims/learning-graph-visualizer/learning-graph-visualizer.png
 og:image: /sims/learning-graph-visualizer/learning-graph-visualizer.png
 twitter:image: /sims/learning-graph-visualizer/learning-graph-visualizer.png

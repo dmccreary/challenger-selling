@@ -1,6 +1,6 @@
 ---
-title: Story Arc Builder
-description: Drag-and-drop builder in which learners sequence four elements of an IoT customer story into Setup, Rising Action, Climax and Resolution, then see the resulting tension curve.
+title: "Story Arc Builder"
+description: "Drag-and-drop builder in which learners sequence four elements of an IoT customer story into Setup, Rising Action, Climax and Resolution, then see the resulting tension curve."
 image: /sims/story-arc-builder/story-arc-builder.png
 og:image: /sims/story-arc-builder/story-arc-builder.png
 twitter:image: /sims/story-arc-builder/story-arc-builder.png

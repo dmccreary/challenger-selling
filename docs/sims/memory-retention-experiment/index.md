@@ -1,6 +1,6 @@
 ---
-title: Memory Retention Experiment
-description: Step-through experiment in which learners read a story-based and a fact-based presentation of the same content, answer recall questions with both hidden, and compare what each format made memorable.
+title: "Memory Retention Experiment"
+description: "Step-through experiment in which learners read a story-based and a fact-based presentation of the same content, answer recall questions with both hidden, and compare what each format made memorable."
 image: /sims/memory-retention-experiment/memory-retention-experiment.png
 og:image: /sims/memory-retention-experiment/memory-retention-experiment.png
 twitter:image: /sims/memory-retention-experiment/memory-retention-experiment.png

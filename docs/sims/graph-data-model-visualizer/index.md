@@ -1,6 +1,6 @@
 ---
-title: Graph Data Model Visualizer
-description: Learners click each node and edge in a small Customer-Order-Product graph to reveal its type and properties, then answer five identification questions about the graph data model.
+title: "Graph Data Model Visualizer"
+description: "Learners click each node and edge in a small Customer-Order-Product graph to reveal its type and properties, then answer five identification questions about the graph data model."
 image: /sims/graph-data-model-visualizer/graph-data-model-visualizer.png
 og:image: /sims/graph-data-model-visualizer/graph-data-model-visualizer.png
 twitter:image: /sims/graph-data-model-visualizer/graph-data-model-visualizer.png

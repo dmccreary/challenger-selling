@@ -1,6 +1,6 @@
 ---
-title: Metrics Selector
-description: Learners match four business questions about story impact to the right metric family: engagement, retention, conversion, or pipeline velocity.
+title: "Metrics Selector"
+description: "Learners match four business questions about story impact to the right metric family: engagement, retention, conversion, or pipeline velocity."
 image: /sims/metrics-selector/metrics-selector.png
 og:image: /sims/metrics-selector/metrics-selector.png
 twitter:image: /sims/metrics-selector/metrics-selector.png

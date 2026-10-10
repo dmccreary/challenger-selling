@@ -1,6 +1,6 @@
 ---
-title: Story Customizer
-description: Learners decide which story elements to customize and how deeply (light, medium, or deep) for a healthcare CFO, a startup CTO, and a manufacturing CEO, and see each customized version.
+title: "Story Customizer"
+description: "Learners decide which story elements to customize and how deeply (light, medium, or deep) for a healthcare CFO, a startup CTO, and a manufacturing CEO, and see each customized version."
 image: /sims/story-customizer/story-customizer.png
 og:image: /sims/story-customizer/story-customizer.png
 twitter:image: /sims/story-customizer/story-customizer.png

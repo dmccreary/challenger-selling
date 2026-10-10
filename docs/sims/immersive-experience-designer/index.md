@@ -1,6 +1,6 @@
 ---
-title: Immersive Experience Designer
-description: Learners choose VR, AR, or MR and three experience elements for a production-line showcase aimed at remote prospects, and get a specification with a technology-environment consistency check.
+title: "Immersive Experience Designer"
+description: "Learners choose VR, AR, or MR and three experience elements for a production-line showcase aimed at remote prospects, and get a specification with a technology-environment consistency check."
 image: /sims/immersive-experience-designer/immersive-experience-designer.png
 og:image: /sims/immersive-experience-designer/immersive-experience-designer.png
 twitter:image: /sims/immersive-experience-designer/immersive-experience-designer.png

@@ -1,3 +1,13 @@
+---
+title: "Learning Graph Viewer"
+description: "Interactive network of every concept in the course and its prerequisites, with search, category filters, and zoom to explore how ideas build on each other."
+image: /sims/graph-viewer/graph-viewer.png
+og:image: /sims/graph-viewer/graph-viewer.png
+twitter:image: /sims/graph-viewer/graph-viewer.png
+social:
+   cards: false
+---
+
 # Learning Graph Viewer
 
 This interactive viewer allows you to explore the learning graph for this course.

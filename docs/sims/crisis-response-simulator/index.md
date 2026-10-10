@@ -1,6 +1,6 @@
 ---
-title: Crisis Response Simulator
-description: Learners make four decisions in a data breach crisis and hear the press statement their choices produce, with each crisis-communication principle marked as met or missed.
+title: "Crisis Response Simulator"
+description: "Learners make four decisions in a data breach crisis and hear the press statement their choices produce, with each crisis-communication principle marked as met or missed."
 image: /sims/crisis-response-simulator/crisis-response-simulator.png
 og:image: /sims/crisis-response-simulator/crisis-response-simulator.png
 twitter:image: /sims/crisis-response-simulator/crisis-response-simulator.png

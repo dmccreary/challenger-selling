@@ -1,6 +1,6 @@
 ---
-title: Prompt Engineering Workshop
-description: Learners select, order and refine prompt elements to build an AI prompt that generates a sales story for a manufacturing CTO, with feedback on completeness, focus and structure.
+title: "Prompt Engineering Workshop"
+description: "Learners select, order and refine prompt elements to build an AI prompt that generates a sales story for a manufacturing CTO, with feedback on completeness, focus and structure."
 image: /sims/prompt-engineering-workshop/prompt-engineering-workshop.png
 og:image: /sims/prompt-engineering-workshop/prompt-engineering-workshop.png
 twitter:image: /sims/prompt-engineering-workshop/prompt-engineering-workshop.png

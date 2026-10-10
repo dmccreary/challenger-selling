@@ -1,6 +1,6 @@
 ---
-title: Insight Personalizer
-description: Learners tailor one Challenger insight about legacy system costs for a CFO, a startup CTO, and a healthcare COO by choosing an emphasis and a supporting context, and see the rewritten insight.
+title: "Insight Personalizer"
+description: "Learners tailor one Challenger insight about legacy system costs for a CFO, a startup CTO, and a healthcare COO by choosing an emphasis and a supporting context, and see the rewritten insight."
 image: /sims/insight-personalizer/insight-personalizer.png
 og:image: /sims/insight-personalizer/insight-personalizer.png
 twitter:image: /sims/insight-personalizer/insight-personalizer.png

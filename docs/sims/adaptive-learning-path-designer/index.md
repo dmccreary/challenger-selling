@@ -1,6 +1,6 @@
 ---
-title: Adaptive Learning Path Designer
-description: Learners read three student performance scenarios and route each student to a remedial, standard, or advanced learning path, with feedback on which signals drove the decision.
+title: "Adaptive Learning Path Designer"
+description: "Learners read three student performance scenarios and route each student to a remedial, standard, or advanced learning path, with feedback on which signals drove the decision."
 image: /sims/adaptive-learning-path-designer/adaptive-learning-path-designer.png
 og:image: /sims/adaptive-learning-path-designer/adaptive-learning-path-designer.png
 twitter:image: /sims/adaptive-learning-path-designer/adaptive-learning-path-designer.png

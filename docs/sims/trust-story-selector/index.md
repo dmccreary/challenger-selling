@@ -1,6 +1,6 @@
 ---
-title: Trust Story Selector
-description: Learners match four buyer trust concerns to the trust story type that answers each: credibility, authority, vulnerability, or authenticity.
+title: "Trust Story Selector"
+description: "Learners match four buyer trust concerns to the trust story type that answers each: credibility, authority, vulnerability, or authenticity."
 image: /sims/trust-story-selector/trust-story-selector.png
 og:image: /sims/trust-story-selector/trust-story-selector.png
 twitter:image: /sims/trust-story-selector/trust-story-selector.png

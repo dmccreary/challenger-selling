@@ -1,6 +1,6 @@
 ---
-title: Story Process Flow
-description: Learners click eight shuffled story creation stages into order, name the criteria for three key gates, and see the complete process flow drawn with gates and a revision loop.
+title: "Story Process Flow"
+description: "Learners click eight shuffled story creation stages into order, name the criteria for three key gates, and see the complete process flow drawn with gates and a revision loop."
 image: /sims/story-process-flow/story-process-flow.png
 og:image: /sims/story-process-flow/story-process-flow.png
 twitter:image: /sims/story-process-flow/story-process-flow.png

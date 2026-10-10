@@ -1,6 +1,6 @@
 ---
-title: Story Innovation Explorer
-description: Learners reinvent a standard "we cut costs 20%" story by choosing an unconventional structure, angle, format, and example, and see the resulting story concept.
+title: "Story Innovation Explorer"
+description: 'Learners reinvent a standard "we cut costs 20%" story by choosing an unconventional structure, angle, format, and example, and see the resulting story concept.'
 image: /sims/story-innovation-explorer/story-innovation-explorer.png
 og:image: /sims/story-innovation-explorer/story-innovation-explorer.png
 twitter:image: /sims/story-innovation-explorer/story-innovation-explorer.png

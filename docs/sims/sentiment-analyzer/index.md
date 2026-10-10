@@ -1,6 +1,6 @@
 ---
-title: Sentiment Analyzer
-description: Learners label the sentiment of four customer excerpts, explain the indicator words, and see the indicators highlighted, including hedges in mixed sentiment.
+title: "Sentiment Analyzer"
+description: "Learners label the sentiment of four customer excerpts, explain the indicator words, and see the indicators highlighted, including hedges in mixed sentiment."
 image: /sims/sentiment-analyzer/sentiment-analyzer.png
 og:image: /sims/sentiment-analyzer/sentiment-analyzer.png
 twitter:image: /sims/sentiment-analyzer/sentiment-analyzer.png

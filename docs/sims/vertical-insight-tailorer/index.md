@@ -1,6 +1,6 @@
 ---
-title: Vertical Insight Tailorer
-description: Learners adapt one legacy-systems Challenger insight for Healthcare, Financial Services and Technology by choosing a framing and messaging focus, then compare the rewritten insights.
+title: "Vertical Insight Tailorer"
+description: "Learners adapt one legacy-systems Challenger insight for Healthcare, Financial Services and Technology by choosing a framing and messaging focus, then compare the rewritten insights."
 image: /sims/vertical-insight-tailorer/vertical-insight-tailorer.png
 og:image: /sims/vertical-insight-tailorer/vertical-insight-tailorer.png
 twitter:image: /sims/vertical-insight-tailorer/vertical-insight-tailorer.png

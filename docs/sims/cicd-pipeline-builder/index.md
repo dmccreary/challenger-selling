@@ -1,6 +1,6 @@
 ---
-title: CI/CD Pipeline Builder
-description: Learners choose the automated actions for the build, test, and deploy stages of a story library pipeline, avoiding manual steps and skipped tests, and see the pipeline drawn as a flow.
+title: "CI/CD Pipeline Builder"
+description: "Learners choose the automated actions for the build, test, and deploy stages of a story library pipeline, avoiding manual steps and skipped tests, and see the pipeline drawn as a flow."
 image: /sims/cicd-pipeline-builder/cicd-pipeline-builder.png
 og:image: /sims/cicd-pipeline-builder/cicd-pipeline-builder.png
 twitter:image: /sims/cicd-pipeline-builder/cicd-pipeline-builder.png

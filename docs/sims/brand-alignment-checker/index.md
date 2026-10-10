@@ -1,6 +1,6 @@
 ---
-title: Brand Alignment Checker
-description: Learners rate a story draft as aligned, neutral, or misaligned with four brand attributes, explain their reasoning, and compare it with an expert analysis and an on-brand rewrite.
+title: "Brand Alignment Checker"
+description: "Learners rate a story draft as aligned, neutral, or misaligned with four brand attributes, explain their reasoning, and compare it with an expert analysis and an on-brand rewrite."
 image: /sims/brand-alignment-checker/brand-alignment-checker.png
 og:image: /sims/brand-alignment-checker/brand-alignment-checker.png
 twitter:image: /sims/brand-alignment-checker/brand-alignment-checker.png

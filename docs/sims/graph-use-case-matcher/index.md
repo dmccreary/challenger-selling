@@ -1,6 +1,6 @@
 ---
-title: Use Case Matcher
-description: Learners match four business scenarios to the graph database use case that solves them: social network analysis, fraud detection, recommendation engines, or knowledge graphs.
+title: "Use Case Matcher"
+description: "Learners match four business scenarios to the graph database use case that solves them: social network analysis, fraud detection, recommendation engines, or knowledge graphs."
 image: /sims/graph-use-case-matcher/graph-use-case-matcher.png
 og:image: /sims/graph-use-case-matcher/graph-use-case-matcher.png
 twitter:image: /sims/graph-use-case-matcher/graph-use-case-matcher.png

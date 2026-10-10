@@ -1,6 +1,6 @@
 ---
-title: ROI Calculator
-description: Learners total the costs and benefits of a story library, calculate a 360% ROI, then test how attribution, margin, and the hurdle rate change the conclusion.
+title: "ROI Calculator"
+description: "Learners total the costs and benefits of a story library, calculate a 360% ROI, then test how attribution, margin, and the hurdle rate change the conclusion."
 image: /sims/roi-calculator/roi-calculator.png
 og:image: /sims/roi-calculator/roi-calculator.png
 twitter:image: /sims/roi-calculator/roi-calculator.png

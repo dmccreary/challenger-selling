@@ -1,6 +1,6 @@
 ---
-title: Testing Strategy Selector
-description: Learners match four story-platform testing scenarios to unit, integration, system, or user acceptance testing.
+title: "Testing Strategy Selector"
+description: "Learners match four story-platform testing scenarios to unit, integration, system, or user acceptance testing."
 image: /sims/testing-strategy-selector/testing-strategy-selector.png
 og:image: /sims/testing-strategy-selector/testing-strategy-selector.png
 twitter:image: /sims/testing-strategy-selector/testing-strategy-selector.png

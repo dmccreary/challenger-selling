@@ -1,6 +1,6 @@
 ---
-title: xAPI Statement Builder
-description: Learners turn three plain-English learning events into xAPI statements by choosing the actor, verb, and object, and see the JSON statement they built after each submission.
+title: "xAPI Statement Builder"
+description: "Learners turn three plain-English learning events into xAPI statements by choosing the actor, verb, and object, and see the JSON statement they built after each submission."
 image: /sims/xapi-statement-builder/xapi-statement-builder.png
 og:image: /sims/xapi-statement-builder/xapi-statement-builder.png
 twitter:image: /sims/xapi-statement-builder/xapi-statement-builder.png

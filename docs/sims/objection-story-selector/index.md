@@ -1,6 +1,6 @@
 ---
-title: Objection Story Selector
-description: Step-through practice in which learners match five common customer objections to the Price, Timing, Competitor, Risk or Authority story type and see an example story for each.
+title: "Objection Story Selector"
+description: "Step-through practice in which learners match five common customer objections to the Price, Timing, Competitor, Risk or Authority story type and see an example story for each."
 image: /sims/objection-story-selector/objection-story-selector.png
 og:image: /sims/objection-story-selector/objection-story-selector.png
 twitter:image: /sims/objection-story-selector/objection-story-selector.png

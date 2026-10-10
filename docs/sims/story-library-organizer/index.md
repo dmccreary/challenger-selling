@@ -1,6 +1,6 @@
 ---
-title: Story Library Organizer
-description: Learners tag six customer stories by industry, persona, objection, deal stage, and product, and see each story become a searchable library card.
+title: "Story Library Organizer"
+description: "Learners tag six customer stories by industry, persona, objection, deal stage, and product, and see each story become a searchable library card."
 image: /sims/story-library-organizer/story-library-organizer.png
 og:image: /sims/story-library-organizer/story-library-organizer.png
 twitter:image: /sims/story-library-organizer/story-library-organizer.png

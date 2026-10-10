@@ -1,6 +1,6 @@
 ---
-title: Metrics Cascade Designer
-description: Learners cascade a "grow revenue 20%" goal into two or three storytelling objectives and one or two KPIs for each, and see the cascade drawn with misaligned or vanity KPIs flagged.
+title: "Metrics Cascade Designer"
+description: 'Learners cascade a "grow revenue 20%" goal into two or three storytelling objectives and one or two KPIs for each, and see the cascade drawn with misaligned or vanity KPIs flagged.'
 image: /sims/metrics-cascade-designer/metrics-cascade-designer.png
 og:image: /sims/metrics-cascade-designer/metrics-cascade-designer.png
 twitter:image: /sims/metrics-cascade-designer/metrics-cascade-designer.png

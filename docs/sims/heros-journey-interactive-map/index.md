@@ -1,6 +1,6 @@
 ---
-title: Hero's Journey Interactive Map
-description: Click-to-explore circular map of the 11 stages of Campbell's Hero's Journey, each translated into a stage of a customer's buying journey, followed by a three-question comprehension check.
+title: "Hero's Journey Interactive Map"
+description: "Click-to-explore circular map of the 11 stages of Campbell's Hero's Journey, each translated into a stage of a customer's buying journey, followed by a three-question comprehension check."
 image: /sims/heros-journey-interactive-map/heros-journey-interactive-map.png
 og:image: /sims/heros-journey-interactive-map/heros-journey-interactive-map.png
 twitter:image: /sims/heros-journey-interactive-map/heros-journey-interactive-map.png

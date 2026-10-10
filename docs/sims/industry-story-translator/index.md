@@ -1,6 +1,6 @@
 ---
-title: Industry Story Translator
-description: Learners adapt one story template for healthcare, financial services, and manufacturing by choosing industry language, the challenge that industry measures, and its regulatory reference.
+title: "Industry Story Translator"
+description: "Learners adapt one story template for healthcare, financial services, and manufacturing by choosing industry language, the challenge that industry measures, and its regulatory reference."
 image: /sims/industry-story-translator/industry-story-translator.png
 og:image: /sims/industry-story-translator/industry-story-translator.png
 twitter:image: /sims/industry-story-translator/industry-story-translator.png

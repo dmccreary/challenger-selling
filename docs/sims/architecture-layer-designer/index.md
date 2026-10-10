@@ -1,6 +1,6 @@
 ---
-title: Architecture Layer Designer
-description: Learners choose an integration, data, security, and scalability approach for a storytelling platform and see their architecture drawn as layers, with weak layers flagged.
+title: "Architecture Layer Designer"
+description: "Learners choose an integration, data, security, and scalability approach for a storytelling platform and see their architecture drawn as layers, with weak layers flagged."
 image: /sims/architecture-layer-designer/architecture-layer-designer.png
 og:image: /sims/architecture-layer-designer/architecture-layer-designer.png
 twitter:image: /sims/architecture-layer-designer/architecture-layer-designer.png

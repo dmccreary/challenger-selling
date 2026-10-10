@@ -110,6 +110,32 @@ chapter or a sim, verify it rather than declaring success:
 3. Run any validation scripts the book provides under `scripts/`.
 4. Report honestly. If a check fails or you skipped a step, say so plainly.
 
+### MicroSim verification
+
+A 100/A score from `validate-sims.py` only checks that files and sections
+exist. It did not catch TODO-placeholder lesson pages, broken reference links,
+or a sim whose chips rendered blank and whose grading could never succeed.
+Before calling a sim done:
+
+- Use the `mkdocs` conda env's Python for Playwright
+  (`/usr/local/Caskroom/miniforge/base/envs/mkdocs/bin/python3`); system
+  `python3` does not have it.
+- Run `test-iframe-heights.py --sims-dir docs/sims` from the microsim-utils
+  skill. It uses a 700px viewport, so two-column layouts must still fit there.
+- Play each sim through to its summary in headless Chromium and scan the page
+  text for `undefined`, `NaN`, and `[object Object]`, not just console errors.
+- `grep -l TODO docs/sims/*/index.md` must return nothing.
+- Check every reference URL returns HTTP 200.
+- Numbers shown to learners must come from a cited source. The CEB
+  star-performer figures in `sales-profiles-comparison` come from "The End of
+  Solution Sales," HBR, July-August 2012.
+
+Text-based sims in this book share three engines, each copied into the sim's
+own `.js` so the sim stays self-contained: a step-through scenario quiz, an
+all-at-once design-and-review form, and a reveal-then-quiz card explorer. All
+use the shared `style.css` with a fixed-height `.app` panel that scrolls
+internally, because chapter iframes use `scrolling="no"`.
+
 ## Content pipeline
 
 This book is built by the intelligent-textbook skill chain, roughly in order:

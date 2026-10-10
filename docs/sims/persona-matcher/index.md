@@ -1,6 +1,6 @@
 ---
-title: Persona Matcher
-description: Step-through practice in which learners identify the buyer persona behind three stakeholder descriptions and choose the messaging focus that will resonate with each.
+title: "Persona Matcher"
+description: "Step-through practice in which learners identify the buyer persona behind three stakeholder descriptions and choose the messaging focus that will resonate with each."
 image: /sims/persona-matcher/persona-matcher.png
 og:image: /sims/persona-matcher/persona-matcher.png
 twitter:image: /sims/persona-matcher/persona-matcher.png

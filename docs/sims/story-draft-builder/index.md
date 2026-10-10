@@ -1,6 +1,6 @@
 ---
-title: Story Draft Builder
-description: Learners write each of the six components of a predictive-maintenance customer story following drafting tips, then see the assembled draft with a structural checklist and an example to compare.
+title: "Story Draft Builder"
+description: "Learners write each of the six components of a predictive-maintenance customer story following drafting tips, then see the assembled draft with a structural checklist and an example to compare."
 image: /sims/story-draft-builder/story-draft-builder.png
 og:image: /sims/story-draft-builder/story-draft-builder.png
 twitter:image: /sims/story-draft-builder/story-draft-builder.png

@@ -1,6 +1,6 @@
 ---
-title: A/B Test Designer
-description: Learners design an A/B test of a price objection story by choosing one variable, writing a hypothesis, and picking a success metric, then decide whether early and later results are statistically significant.
+title: "A/B Test Designer"
+description: "Learners design an A/B test of a price objection story by choosing one variable, writing a hypothesis, and picking a success metric, then decide whether early and later results are statistically significant."
 image: /sims/ab-test-designer/ab-test-designer.png
 og:image: /sims/ab-test-designer/ab-test-designer.png
 twitter:image: /sims/ab-test-designer/ab-test-designer.png

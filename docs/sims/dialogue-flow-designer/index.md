@@ -1,6 +1,6 @@
 ---
-title: Dialogue Flow Designer
-description: Learners order six dialogue stages for a CFO sales-practice agent, choose transition conditions including a strong/weak coaching branch, and see a live flowchart of their design.
+title: "Dialogue Flow Designer"
+description: "Learners order six dialogue stages for a CFO sales-practice agent, choose transition conditions including a strong/weak coaching branch, and see a live flowchart of their design."
 image: /sims/dialogue-flow-designer/dialogue-flow-designer.png
 og:image: /sims/dialogue-flow-designer/dialogue-flow-designer.png
 twitter:image: /sims/dialogue-flow-designer/dialogue-flow-designer.png

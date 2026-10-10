@@ -1,6 +1,6 @@
 ---
-title: Story Tester
-description: Learners rate a vague story draft on clarity, relevance, effectiveness, and authenticity, write feedback for the author, and compare it with an expert review and an improved draft.
+title: "Story Tester"
+description: "Learners rate a vague story draft on clarity, relevance, effectiveness, and authenticity, write feedback for the author, and compare it with an expert review and an improved draft."
 image: /sims/story-tester/story-tester.png
 og:image: /sims/story-tester/story-tester.png
 twitter:image: /sims/story-tester/story-tester.png

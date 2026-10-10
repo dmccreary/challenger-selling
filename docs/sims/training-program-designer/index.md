@@ -1,6 +1,6 @@
 ---
-title: Training Program Designer
-description: Learners design an 8-week storytelling training program by selecting 4-6 components, sequencing them, and choosing practice formats, then see the resulting weekly schedule.
+title: "Training Program Designer"
+description: "Learners design an 8-week storytelling training program by selecting 4-6 components, sequencing them, and choosing practice formats, then see the resulting weekly schedule."
 image: /sims/training-program-designer/training-program-designer.png
 og:image: /sims/training-program-designer/training-program-designer.png
 twitter:image: /sims/training-program-designer/training-program-designer.png

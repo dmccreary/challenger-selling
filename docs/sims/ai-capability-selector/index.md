@@ -1,6 +1,6 @@
 ---
-title: AI Capability Selector
-description: Learners match four sales-storytelling use cases to the AI capability that serves each: NLP, speech recognition, sentiment AI, or emotion AI.
+title: "AI Capability Selector"
+description: "Learners match four sales-storytelling use cases to the AI capability that serves each: NLP, speech recognition, sentiment AI, or emotion AI."
 image: /sims/ai-capability-selector/ai-capability-selector.png
 og:image: /sims/ai-capability-selector/ai-capability-selector.png
 twitter:image: /sims/ai-capability-selector/ai-capability-selector.png

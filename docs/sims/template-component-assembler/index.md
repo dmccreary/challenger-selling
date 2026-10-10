@@ -1,6 +1,6 @@
 ---
-title: Template Component Assembler
-description: Learners pick one component from each category of a story library and arrange them into a coherent story for a CFO about cutting IT costs through cloud migration.
+title: "Template Component Assembler"
+description: "Learners pick one component from each category of a story library and arrange them into a coherent story for a CFO about cutting IT costs through cloud migration."
 image: /sims/template-component-assembler/template-component-assembler.png
 og:image: /sims/template-component-assembler/template-component-assembler.png
 twitter:image: /sims/template-component-assembler/template-component-assembler.png

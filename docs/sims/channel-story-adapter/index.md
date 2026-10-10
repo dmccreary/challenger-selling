@@ -1,6 +1,6 @@
 ---
-title: Channel Story Adapter
-description: Learners adapt one predictive-maintenance customer story for email, presentation, video, and social media by choosing the length, format, and focus that fit each channel.
+title: "Channel Story Adapter"
+description: "Learners adapt one predictive-maintenance customer story for email, presentation, video, and social media by choosing the length, format, and focus that fit each channel."
 image: /sims/channel-story-adapter/channel-story-adapter.png
 og:image: /sims/channel-story-adapter/channel-story-adapter.png
 twitter:image: /sims/channel-story-adapter/channel-story-adapter.png

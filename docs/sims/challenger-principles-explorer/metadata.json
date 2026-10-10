@@ -1,45 +1,62 @@
 {
   "title": "Challenger Principles Explorer",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
-  "description": "Interactive MicroSim for challenger principles explorer",
+  "subject": "Challenger Selling",
+  "description": "Learners reveal the three Challenger principles (teach, tailor, take control) with examples, see how they work together, and answer three scenario questions with one attempt each.",
   "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
   "educational": {
-    "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
-    ],
-    "subjectArea": "Mathematics",
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
     "topic": "Challenger Principles Explorer",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Explain how the three Challenger principles (teach, tailor, take control) work together to drive customer action."
     ],
     "bloomsTaxonomy": "Understand",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
-    "standards": []
+    "bloomVerb": "explain",
+    "duration": "8 minutes",
+    "prerequisites": [
+      "Challenger Sales Methodology, Teaching Principle, Tailoring Principle, and Taking Control Principle sections of Chapter 1"
+    ]
   },
   "technical": {
     "framework": "html",
     "version": "1.0",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 700
     },
     "responsive": true,
     "dependencies": [],
     "accessibility": {
       "hasAltText": false,
-      "keyboardNavigable": false
+      "keyboardNavigable": true
     }
   },
+  "userInterface": {
+    "controls": [
+      "Three clickable principle cards",
+      "Quiz answer buttons",
+      "Next Question button",
+      "Retry Quiz button"
+    ]
+  },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Guided exploration followed by a quiz",
+    "keyQuestions": [
+      "Explain how the three Challenger principles (teach, tailor, take control) work together to drive customer action."
+    ],
+    "commonMisconceptions": [
+      "The principles are sequential steps rather than integrated behaviors.",
+      "Teaching means lecturing rather than sharing insights.",
+      "Taking control means being pushy rather than providing structure."
+    ],
+    "assessmentOpportunities": [
+      "3 of 3 quiz questions correct on the first attempt.",
+      "Learner can explain why the principles are integrated behaviors rather than steps."
+    ]
   },
   "chapter": "01-challenger-methodology-insights"
 }

@@ -1,6 +1,6 @@
 ---
-title: Cognitive Bias Simulator
-description: Scenario-based simulator in which learners identify the cognitive bias behind a buyer's hesitation and select the story strategy that addresses it, with explanatory feedback and a summary table.
+title: "Cognitive Bias Simulator"
+description: "Scenario-based simulator in which learners identify the cognitive bias behind a buyer's hesitation and select the story strategy that addresses it, with explanatory feedback and a summary table."
 image: /sims/cognitive-bias-simulator/cognitive-bias-simulator.png
 og:image: /sims/cognitive-bias-simulator/cognitive-bias-simulator.png
 twitter:image: /sims/cognitive-bias-simulator/cognitive-bias-simulator.png

@@ -1,45 +1,66 @@
 {
   "title": "Customer Priority Map Builder",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
-  "description": "Interactive MicroSim for customer priority map builder",
+  "subject": "Challenger Selling",
+  "description": "Learners rank five competing priorities for a CFO, CTO, and COO, compare each ranking with an expert map, then use the completed Customer Priority Map to judge where a teaching insight aligns or creates tension.",
   "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
   "educational": {
-    "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
-    ],
-    "subjectArea": "Mathematics",
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
     "topic": "Customer Priority Map Builder",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Construct a Customer Priority Map by ranking competing priorities for different stakeholders and identifying where a teaching insight aligns or creates tension."
     ],
     "bloomsTaxonomy": "Apply",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
-    "standards": []
+    "bloomVerb": "construct",
+    "duration": "15 minutes",
+    "prerequisites": [
+      "Customer Priority Map section of Chapter 1",
+      "Stakeholder types defined in Chapter 1"
+    ]
   },
   "technical": {
     "framework": "html",
     "version": "1.0",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 760
     },
     "responsive": true,
     "dependencies": [],
     "accessibility": {
       "hasAltText": false,
-      "keyboardNavigable": false
+      "keyboardNavigable": true
     }
   },
+  "userInterface": {
+    "controls": [
+      "Ranking up/down buttons",
+      "Drag-and-drop ranking rows",
+      "Submit Ranking button",
+      "Next button",
+      "Alignment choice buttons",
+      "See Alignment Analysis button",
+      "Start Over button"
+    ]
+  },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Construction task with expert comparison",
+    "keyQuestions": [
+      "Construct a Customer Priority Map by ranking competing priorities for different stakeholders and identifying where a teaching insight aligns or creates tension."
+    ],
+    "commonMisconceptions": [
+      "All stakeholders prioritize the same things.",
+      "Priorities are static.",
+      "Insight alignment is always perfect."
+    ],
+    "assessmentOpportunities": [
+      "Top two priorities match the expert map for all three stakeholders.",
+      "Correct alignment judgment for all three stakeholders."
+    ]
   },
   "chapter": "01-challenger-methodology-insights"
 }

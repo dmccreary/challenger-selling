@@ -107,7 +107,7 @@ Building a Customer Priority Map involves researching the organization's strateg
 #### Diagram: Customer Priority Map Builder
 
 
-<iframe src="../../sims/customer-priority-map-builder/main.html" width="100%" height="852px" scrolling="no"></iframe>
+<iframe src="../../sims/customer-priority-map-builder/main.html" width="100%" height="762px" scrolling="no"></iframe>
 [Run Customer Priority Map Builder Fullscreen](../../sims/customer-priority-map-builder/main.html)
 
 <details markdown="1">
@@ -115,7 +115,7 @@ Building a Customer Priority Map involves researching the organization's strateg
 Type: infographic
 **sim-id:** customer-priority-map-builder<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** construct<br/>
 **Learning Objective:** The learner will construct a Customer Priority Map by ranking competing priorities for different stakeholders and identifying where a teaching insight aligns or creates tension.
@@ -222,7 +222,7 @@ Challengers appreciate friends but don't rely on them as primary champions. Frie
 #### Diagram: Stakeholder Mapping Tool
 
 
-<iframe src="../../sims/stakeholder-mapping-tool/main.html" width="100%" height="752px" scrolling="no"></iframe>
+<iframe src="../../sims/stakeholder-mapping-tool/main.html" width="100%" height="642px" scrolling="no"></iframe>
 [Run Stakeholder Mapping Tool Fullscreen](../../sims/stakeholder-mapping-tool/main.html)
 
 <details markdown="1">
@@ -230,7 +230,7 @@ Challengers appreciate friends but don't rely on them as primary champions. Frie
 Type: infographic
 **sim-id:** stakeholder-mapping-tool<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** categorize<br/>
 **Learning Objective:** The learner will categorize stakeholders into buyer types (Economic, Technical, User) and influence types (Coach, Mobilizer, Skeptic, Friend) for a given sales scenario.
@@ -298,7 +298,7 @@ The Taking Control Principle is particularly important after delivering a teachi
 #### Diagram: Challenger Principles Explorer
 
 
-<iframe src="../../sims/challenger-principles-explorer/main.html" width="100%" height="652px" scrolling="no"></iframe>
+<iframe src="../../sims/challenger-principles-explorer/main.html" width="100%" height="702px" scrolling="no"></iframe>
 [Run Challenger Principles Explorer Fullscreen](../../sims/challenger-principles-explorer/main.html)
 
 <details markdown="1">
@@ -306,7 +306,7 @@ The Taking Control Principle is particularly important after delivering a teachi
 Type: infographic
 **sim-id:** challenger-principles-explorer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Understand<br/>
 **Bloom Verb:** explain<br/>
 **Learning Objective:** The learner will explain how the three Challenger principles (teach, tailor, take control) work together to drive customer action.
@@ -402,7 +402,7 @@ The strength of the Challenger profile is that it directly addresses the core ch
 #### Diagram: Sales Profiles Comparison
 
 
-<iframe src="../../sims/sales-profiles-comparison/main.html" width="100%" height="702px" scrolling="no"></iframe>
+<iframe src="../../sims/sales-profiles-comparison/main.html" width="100%" height="742px" scrolling="no"></iframe>
 [Run Sales Profiles Comparison Fullscreen](../../sims/sales-profiles-comparison/main.html)
 
 <details markdown="1">
@@ -410,7 +410,7 @@ The strength of the Challenger profile is that it directly addresses the core ch
 Type: infographic
 **sim-id:** sales-profiles-comparison<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Understand<br/>
 **Bloom Verb:** compare<br/>
 **Learning Objective:** The learner will compare the five sales profiles (Relationship Builder, Hard Worker, Lone Wolf, Reactive Problem Solver, Challenger) and identify which profile correlates with high performance in complex sales.
@@ -525,7 +525,7 @@ A rock star insight might show that if the customer addresses a specific operati
 #### Diagram: Insight Type Selector
 
 
-<iframe src="../../sims/insight-type-selector/main.html" width="100%" height="802px" scrolling="no"></iframe>
+<iframe src="../../sims/insight-type-selector/main.html" width="100%" height="742px" scrolling="no"></iframe>
 [Run Insight Type Selector Fullscreen](../../sims/insight-type-selector/main.html)
 
 <details markdown="1">
@@ -533,7 +533,7 @@ A rock star insight might show that if the customer addresses a specific operati
 Type: infographic
 **sim-id:** insight-type-selector<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** select<br/>
 **Learning Objective:** The learner will select the appropriate insight type (Warmer, Rational Drowning, Rock Star) for different customer situations and explain why that type is most effective.

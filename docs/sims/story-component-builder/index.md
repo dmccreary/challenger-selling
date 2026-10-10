@@ -1,6 +1,6 @@
 ---
-title: Story Component Builder
-description: Two-step builder in which learners sequence the six sales story components for a predictive maintenance sale, then write and review a complete story.
+title: "Story Component Builder"
+description: "Two-step builder in which learners sequence the six sales story components for a predictive maintenance sale, then write and review a complete story."
 image: /sims/story-component-builder/story-component-builder.png
 og:image: /sims/story-component-builder/story-component-builder.png
 twitter:image: /sims/story-component-builder/story-component-builder.png

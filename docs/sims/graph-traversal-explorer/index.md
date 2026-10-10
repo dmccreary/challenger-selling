@@ -1,6 +1,6 @@
 ---
-title: Graph Traversal Explorer
-description: Learners pick a start node and a traversal pattern (neighbors, within two hops, or shortest path), predict the result, then reveal it, with each hop compared to a relational JOIN.
+title: "Graph Traversal Explorer"
+description: "Learners pick a start node and a traversal pattern (neighbors, within two hops, or shortest path), predict the result, then reveal it, with each hop compared to a relational JOIN."
 image: /sims/graph-traversal-explorer/graph-traversal-explorer.png
 og:image: /sims/graph-traversal-explorer/graph-traversal-explorer.png
 twitter:image: /sims/graph-traversal-explorer/graph-traversal-explorer.png

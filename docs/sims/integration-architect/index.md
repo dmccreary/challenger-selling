@@ -1,6 +1,6 @@
 ---
-title: Integration Architect
-description: Learners choose which sales systems to integrate and route three story data flows between them, then see their architecture drawn as a diagram with valid and misrouted flows highlighted.
+title: "Integration Architect"
+description: "Learners choose which sales systems to integrate and route three story data flows between them, then see their architecture drawn as a diagram with valid and misrouted flows highlighted."
 image: /sims/integration-architect/integration-architect.png
 og:image: /sims/integration-architect/integration-architect.png
 twitter:image: /sims/integration-architect/integration-architect.png
@@ -70,5 +70,5 @@ Sales professionals, account executives, sales engineers and business developmen
 ## References
 
 1. [Customer relationship management - Wikipedia](https://en.wikipedia.org/wiki/Customer_relationship_management) - The system of record for deals.
-2. [Sales enablement - Wikipedia](https://en.wikipedia.org/wiki/Sales_enablement) - Platforms that equip reps with content.
+2. [Sales management - Wikipedia](https://en.wikipedia.org/wiki/Sales_management) - Managing the people, process, and tools of a sales force.
 3. [Enterprise application integration - Wikipedia](https://en.wikipedia.org/wiki/Enterprise_application_integration) - Connecting business systems so data flows between them.

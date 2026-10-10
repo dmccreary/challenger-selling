@@ -1,6 +1,6 @@
 ---
-title: Framework Comparison Chart
-description: Learners review a comparison chart of TensorFlow, PyTorch, and Scikit-learn, then choose the best framework for three realistic selection scenarios.
+title: "Framework Comparison Chart"
+description: "Learners review a comparison chart of TensorFlow, PyTorch, and Scikit-learn, then choose the best framework for three realistic selection scenarios."
 image: /sims/framework-comparison-chart/framework-comparison-chart.png
 og:image: /sims/framework-comparison-chart/framework-comparison-chart.png
 twitter:image: /sims/framework-comparison-chart/framework-comparison-chart.png

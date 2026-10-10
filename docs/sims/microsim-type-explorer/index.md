@@ -1,6 +1,6 @@
 ---
-title: MicroSim Type Explorer
-description: Learners match five learning needs to the MicroSim type that serves them best: p5.js simulation, Chart.js chart, vis-network diagram, causal-loop diagram, or concept-classifier quiz.
+title: "MicroSim Type Explorer"
+description: "Learners match five learning needs to the MicroSim type that serves them best: p5.js simulation, Chart.js chart, vis-network diagram, causal-loop diagram, or concept-classifier quiz."
 image: /sims/microsim-type-explorer/microsim-type-explorer.png
 og:image: /sims/microsim-type-explorer/microsim-type-explorer.png
 twitter:image: /sims/microsim-type-explorer/microsim-type-explorer.png

@@ -1,6 +1,6 @@
 ---
-title: Strategic Alignment Mapper
-description: Learners map four storytelling initiatives to the business strategy each supports and see an alignment matrix that exposes coverage gaps.
+title: "Strategic Alignment Mapper"
+description: "Learners map four storytelling initiatives to the business strategy each supports and see an alignment matrix that exposes coverage gaps."
 image: /sims/strategic-alignment-mapper/strategic-alignment-mapper.png
 og:image: /sims/strategic-alignment-mapper/strategic-alignment-mapper.png
 twitter:image: /sims/strategic-alignment-mapper/strategic-alignment-mapper.png
