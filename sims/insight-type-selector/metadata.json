@@ -1,45 +1,63 @@
 {
   "title": "Insight Type Selector",
   "creator": "Dan McCreary",
-  "subject": "High School Geometry",
-  "description": "Interactive MicroSim for insight type selector",
+  "subject": "Challenger Selling",
+  "description": "Learners choose a Warmer, Rational Drowning, or Rock Star insight for three customer mindsets, explain their choice, and see an example of the right insight applied.",
   "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
   "educational": {
-    "gradeLevel": [
-      "9",
-      "10",
-      "11",
-      "12"
-    ],
-    "subjectArea": "Mathematics",
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
     "topic": "Insight Type Selector",
     "learningObjectives": [
-      "TODO: Add learning objectives"
+      "Select the appropriate insight type (Warmer, Rational Drowning, Rock Star) for different customer situations and explain why that type is most effective."
     ],
     "bloomsTaxonomy": "Apply",
-    "duration": "10-15 minutes",
-    "prerequisites": [],
-    "standards": []
+    "bloomVerb": "select",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Insight Types section of Chapter 1"
+    ]
   },
   "technical": {
     "framework": "html",
     "version": "1.0",
     "canvasDimensions": {
       "width": "responsive",
-      "height": 450
+      "height": 740
     },
     "responsive": true,
     "dependencies": [],
     "accessibility": {
       "hasAltText": false,
-      "keyboardNavigable": false
+      "keyboardNavigable": true
     }
   },
+  "userInterface": {
+    "controls": [
+      "Insight type buttons",
+      "Explanation text area",
+      "Submit button",
+      "Next button",
+      "Start Over button"
+    ]
+  },
   "pedagogical": {
-    "teachingStrategy": "Interactive exploration",
-    "keyQuestions": [],
-    "commonMisconceptions": [],
-    "assessmentOpportunities": []
+    "teachingStrategy": "Selection practice with worked examples",
+    "keyQuestions": [
+      "Select the appropriate insight type (Warmer, Rational Drowning, Rock Star) for different customer situations and explain why that type is most effective."
+    ],
+    "commonMisconceptions": [
+      "All insight types work equally well in all situations.",
+      "Warmer insights are always the best.",
+      "Rock Star insights are arrogant."
+    ],
+    "assessmentOpportunities": [
+      "Correct insight type for all three scenarios.",
+      "Explanations name the customer mindset that drives the choice."
+    ]
   },
   "chapter": "01-challenger-methodology-insights"
 }

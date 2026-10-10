@@ -1,199 +1,197 @@
-// Insight Type Selector
-// CANVAS_HEIGHT: 800
+// Insight Type Selector - choose the insight type for each customer mindset
+// CANVAS_HEIGHT: 740
+// Learners choose a Warmer, Rational Drowning, or Rock Star insight for three
+// customer scenarios, explain their choice, and see an example of the right
+// insight applied to the scenario.
 
-document.addEventListener('DOMContentLoaded', function() {
-    const container = document.querySelector('main');
-    
-    // Scenarios
-    const scenarios = [
+const CONFIG = {
+    title: 'Insight Type Selector',
+    subtitle: 'Select the insight type that fits each customer\'s mindset, and explain why.',
+    height: 740,
+    itemLabel: 'Scenario',
+    fields: [
+        { id: 'type', label: 'Insight Type', type: 'buttons', options: ['Warmer', 'Rational Drowning', 'Rock Star'] },
+        { id: 'why', label: 'Explain your choice', type: 'text', placeholder: 'Briefly explain why this insight type fits the customer\'s mindset...' }
+    ],
+    optionInfo: {
+        type: {
+            'Warmer': 'shows the customer they are behind peers or competitors on something that matters',
+            'Rational Drowning': 'cuts through overload by showing the few factors that actually matter',
+            'Rock Star': 'frames the problem as a path to breakthrough, top-tier performance'
+        }
+    },
+    items: [
         {
-            id: 1,
-            description: 'A customer is proud of their market leadership position. They believe they\'re ahead of competitors and dismiss the need for change. They\'re confident and resistant to suggestions that they\'re falling behind.',
-            correctType: 'Warmer',
-            correctReason: 'This customer needs to see they\'re actually behind competitors despite their perception.',
-            example: 'Research shows that 70% of competitors have already adopted AI-powered analytics, while this customer is still using manual spreadsheets.'
+            short: 'Proud market leader',
+            text: 'A customer is proud of their market leadership position. They believe they\'re ahead of competitors and dismiss the need for change. They\'re confident and resistant to suggestions that they\'re falling behind.',
+            correct: { type: 'Warmer' },
+            example: '"Seven of your top ten competitors moved to real-time demand sensing in the last 18 months, and they\'re now shipping to retailers two days faster than you."',
+            reason: 'This scenario calls for a <strong>Warmer</strong> insight because a confident leader needs evidence that competitors are quietly moving ahead. Comfort is the obstacle, and peer data breaks it.',
+            why: 'Confidence is the obstacle; show they are falling behind.'
         },
         {
-            id: 2,
-            description: 'A customer is overwhelmed by technology options. They\'re evaluating 15 different products, comparing features endlessly, and can\'t make a decision. They\'re drowning in data and stuck in analysis paralysis.',
-            correctType: 'Rational Drowning',
-            correctReason: 'This customer needs simplification - identifying the few factors that actually matter for their decision.',
-            example: 'Of the 15 features you\'re comparing, only 3 actually correlate with the business outcome you care about: implementation time, user adoption, and measurable ROI.'
+            short: 'Analysis paralysis',
+            text: 'A customer is overwhelmed by technology options. They\'re evaluating 15 different products, comparing features endlessly, and can\'t make a decision. They\'re drowning in data and stuck in analysis paralysis.',
+            correct: { type: 'Rational Drowning' },
+            example: '"Of the 200 features you\'re comparing, three predict success in companies like yours: integration with your ERP, time to first value, and admin effort. Here\'s how the 15 options stack up on just those three."',
+            reason: 'This scenario calls for a <strong>Rational Drowning</strong> insight because an overwhelmed buyer needs simplification: the few factors that actually matter, not more information.',
+            why: 'Overload is the obstacle; simplify to what matters.'
         },
         {
-            id: 3,
-            description: 'A customer has achieved good results but wants to be exceptional. They\'re performing above average but have ambitions to be in the top tier of their industry. They\'re motivated by excellence and recognition.',
-            correctType: 'Rock Star',
-            correctReason: 'This customer sees the problem as an opportunity for breakthrough performance and industry leadership.',
-            example: 'By addressing this operational challenge, you could achieve metrics that place you in the top 10% of your industry - becoming the benchmark others follow.'
+            short: 'Good but ambitious',
+            text: 'A customer has achieved good results but wants to be exceptional. They\'re performing above average but have ambitions to be in the top tier of their industry. They\'re motivated by excellence and recognition.',
+            correct: { type: 'Rock Star' },
+            example: '"The top 10% of manufacturers in your segment share one trait you don\'t have yet: they predict equipment failures instead of reacting to them. Closing that gap is what separates very good from best-in-class."',
+            reason: 'This scenario calls for a <strong>Rock Star</strong> insight because an ambitious customer responds to a path to breakthrough performance. Appealing to ambition is not arrogance when it matches what they want.',
+            why: 'Ambition is the lever; show the path to the top tier.'
         }
-    ];
+    ],
+    resultHtml: (it, sel) => `<div class="result"><strong>Example ${it.correct.type} insight for this customer:</strong> <em>${it.example}</em><br><strong>Your explanation:</strong> ${sel.why.replace(/</g, '&lt;')}</div>`,
+    summaryNote: 'different insight types suit different customer mindsets. Use a Warmer when the customer is comfortable and competitive pressure is real, Rational Drowning when they are overwhelmed, and Rock Star when they are ambitious. No single type is always best.'
+};
 
-    let currentScenarioIndex = 0;
-    let score = 0;
+// ---------------------------------------------------------------------------
+// Step-through scenario engine: one scenario at a time, learner selections,
+// Submit -> feedback, Next -> following scenario, then a summary table.
+// Only the first submission for each scenario counts toward the score.
+// ---------------------------------------------------------------------------
+document.addEventListener('DOMContentLoaded', function () {
+    const C = CONFIG;
+    const main = document.querySelector('main');
+    const app = document.createElement('div');
+    app.className = 'app';
+    app.style.setProperty('--app-height', C.height + 'px');
+    main.appendChild(app);
 
-    // Create header
-    const header = document.createElement('div');
-    header.innerHTML = `
-        <h2 style="text-align: center; color: #1976d2; margin-bottom: 10px;">Insight Type Selector</h2>
-        <p style="text-align: center; color: #666; margin-bottom: 20px;">Select the appropriate insight type for each customer situation.</p>
-    `;
-    container.appendChild(header);
+    let index = 0;
+    const results = [];
+    const n = C.items.length;
+    const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    const optsFor = (it, f) => (it.options && it.options[f.id]) || f.options;
+    const graded = C.fields.filter(f => f.type !== 'text');
+    const info = (f, v) => (C.optionInfo && C.optionInfo[f.id] && C.optionInfo[f.id][v]) || '';
 
-    // Create main container
-    const mainContainer = document.createElement('div');
-    mainContainer.id = 'main-container';
-    mainContainer.style.cssText = 'max-width: 700px; margin: 0 auto; padding: 20px; background: #f5f5f5; border-radius: 12px;';
-    container.appendChild(mainContainer);
+    function progressDots() {
+        return '<div class="progress">' + C.items.map((s, i) => {
+            let cls = 'dot';
+            if (results[i]) cls += results[i].firstTryCorrect ? ' right' : ' wrong';
+            else if (i === index) cls += ' current';
+            return `<div class="${cls}">${i + 1}</div>`;
+        }).join('') + '</div>';
+    }
 
-    function renderScenario(index) {
-        if (index >= scenarios.length) {
-            showSummary();
-            return;
+    function fieldHtml(f, opts) {
+        if (f.type === 'text') {
+            return `<div class="field full"><label for="f-${f.id}">${f.label}</label>` +
+                `<textarea id="f-${f.id}" data-field="${f.id}" rows="2" placeholder="${esc(f.placeholder || '')}"></textarea></div>`;
         }
+        if (f.type === 'buttons') {
+            return `<div class="field full"><label>${f.label}</label><div class="choice-row" data-field="${f.id}">` +
+                opts.map(o => `<button type="button" class="choice" data-value="${esc(o)}">${esc(o)}</button>`).join('') +
+                '</div></div>';
+        }
+        return `<div class="field"><label for="f-${f.id}">${f.label}</label><select id="f-${f.id}" data-field="${f.id}">` +
+            '<option value="">-- choose --</option>' +
+            opts.map(o => `<option value="${esc(o)}">${esc(o)}</option>`).join('') + '</select></div>';
+    }
 
-        const scenario = scenarios[index];
-        
-        mainContainer.innerHTML = `
-            <h3 style="color: #1976d2; margin-bottom: 15px;">Scenario ${index + 1} of ${scenarios.length}</h3>
-            
-            <div style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-                <p style="color: #333; line-height: 1.6;">${scenario.description}</p>
+    function renderItem() {
+        const it = C.items[index];
+        const sel = {};
+        app.innerHTML = `
+            <h2>${C.title}</h2>
+            <p class="subtitle">${C.subtitle}</p>
+            ${C.contextHtml || ''}
+            ${progressDots()}
+            <div class="card">
+                <h3>${C.itemLabel} ${index + 1} of ${n}${it.heading ? ': ' + it.heading : ''}</h3>
+                <p class="quote">${it.text}</p>
             </div>
-            
-            <div style="margin-bottom: 20px;">
-                <label style="display: block; font-weight: bold; margin-bottom: 10px; color: #333;">Select Insight Type:</label>
-                <div id="insight-buttons" style="display: flex; gap: 10px; flex-wrap: wrap;"></div>
+            <div class="field-row">${C.fields.map(f => fieldHtml(f, optsFor(it, f))).join('')}</div>
+            <div class="btn-row">
+                <button id="submit" disabled>Submit</button>
+                <button id="next" class="secondary hidden">${index < n - 1 ? 'Next ' + C.itemLabel : 'See Summary'}</button>
             </div>
-            
-            <div style="margin-bottom: 20px;">
-                <label style="display: block; font-weight: bold; margin-bottom: 10px; color: #333;">Explain your choice:</label>
-                <textarea id="explanation" rows="3" style="width: 100%; padding: 10px; border: 2px solid #ddd; border-radius: 6px; font-size: 1em; font-family: Arial, sans-serif; resize: vertical;" placeholder="Briefly explain why you chose this insight type..."></textarea>
-            </div>
-            
-            <button id="submit-btn" style="width: 100%; padding: 12px; background: #1976d2; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 1em;">Submit</button>
-            
-            <div id="feedback" style="margin-top: 15px; padding: 10px; border-radius: 8px; display: none;"></div>
-            
-            <div id="example-section" style="display: none; margin-top: 20px; padding: 15px; background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-                <h4 style="margin: 0 0 10px 0; color: #1976d2;">Example of ${scenario.correctType} Insight:</h4>
-                <p style="color: #666; line-height: 1.6; margin: 0;">${scenario.example}</p>
-            </div>
-            
-            <button id="next-btn" style="display: none; width: 100%; margin-top: 15px; padding: 12px; background: #4caf50; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 1em;">Next Scenario</button>
+            <div id="feedback"></div>
         `;
+        const submit = app.querySelector('#submit');
+        const next = app.querySelector('#next');
+        const fb = app.querySelector('#feedback');
+        const updateSubmit = () => { submit.disabled = !C.fields.every(f => sel[f.id]); };
 
-        // Create insight type buttons
-        const buttonsContainer = document.getElementById('insight-buttons');
-        const insightTypes = ['Warmer', 'Rational Drowning', 'Rock Star'];
-        let selectedType = null;
-
-        insightTypes.forEach(type => {
-            const btn = document.createElement('button');
-            btn.textContent = type;
-            btn.dataset.type = type;
-            btn.style.cssText = `
-                padding: 10px 20px;
-                background: white;
-                border: 2px solid #ddd;
-                border-radius: 6px;
-                cursor: pointer;
-                font-size: 1em;
-                transition: all 0.2s;
-            `;
-            
-            btn.addEventListener('click', () => {
-                // Deselect all buttons
-                buttonsContainer.querySelectorAll('button').forEach(b => {
-                    b.style.background = 'white';
-                    b.style.borderColor = '#ddd';
-                });
-                // Select clicked button
-                btn.style.background = '#1976d2';
-                btn.style.borderColor = '#1976d2';
-                btn.style.color = 'white';
-                selectedType = type;
+        app.querySelectorAll('select[data-field]').forEach(s => s.addEventListener('change', () => {
+            sel[s.dataset.field] = s.value;
+            updateSubmit();
+        }));
+        app.querySelectorAll('textarea[data-field]').forEach(t => t.addEventListener('input', () => {
+            sel[t.dataset.field] = t.value.trim().length >= 3 ? t.value.trim() : '';
+            updateSubmit();
+        }));
+        app.querySelectorAll('.choice-row').forEach(row => row.querySelectorAll('button.choice').forEach(b => {
+            b.addEventListener('click', () => {
+                row.querySelectorAll('button.choice').forEach(x => x.classList.remove('selected'));
+                b.classList.add('selected');
+                sel[row.dataset.field] = b.dataset.value;
+                updateSubmit();
             });
-            
-            buttonsContainer.appendChild(btn);
-        });
+        }));
 
-        document.getElementById('submit-btn').addEventListener('click', () => {
-            const explanation = document.getElementById('explanation').value;
-            const feedback = document.getElementById('feedback');
-            
-            if (!selectedType) {
-                feedback.style.display = 'block';
-                feedback.style.background = '#fff3cd';
-                feedback.textContent = 'Please select an insight type.';
-                return;
-            }
+        submit.addEventListener('click', () => {
+            const ok = {};
+            graded.forEach(f => { ok[f.id] = sel[f.id] === it.correct[f.id]; });
+            const allOk = graded.every(f => ok[f.id]);
+            if (!results[index]) results[index] = { firstTryCorrect: allOk, sel: Object.assign({}, sel) };
 
-            if (!explanation.trim()) {
-                feedback.style.display = 'block';
-                feedback.style.background = '#fff3cd';
-                feedback.textContent = 'Please provide an explanation for your choice.';
-                return;
-            }
-
-            feedback.style.display = 'block';
-            
-            if (selectedType === scenario.correctType) {
-                score++;
-                feedback.style.background = '#c8e6c9';
-                feedback.innerHTML = `<strong>Correct!</strong> ${scenario.correctReason}`;
+            let html;
+            if (allOk) {
+                html = `<div class="feedback ok"><strong>Correct!</strong> ${it.reason}</div>`;
             } else {
-                feedback.style.background = '#ffcdd2';
-                feedback.innerHTML = `<strong>Not quite.</strong> This scenario would be better served by a <strong>${scenario.correctType}</strong> insight because ${scenario.correctReason}`;
+                const parts = graded.map(f => {
+                    if (ok[f.id]) return `<strong>${f.label}:</strong> ${esc(sel[f.id])} is right.`;
+                    const why = info(f, sel[f.id]);
+                    return `<strong>${f.label}:</strong> you chose ${esc(sel[f.id])}${why ? ', which ' + why : ''}. The better choice is <strong>${esc(it.correct[f.id])}</strong>.`;
+                });
+                html = `<div class="feedback bad"><strong>Not quite.</strong> ${parts.join(' ')}<br>${it.reason}` +
+                    '<br><em>Change your selections and submit again to compare, or move on.</em></div>';
             }
+            if (C.resultHtml) {
+                const res = C.resultHtml(it, sel, allOk);
+                html = C.resultBeside ? `<div class="two-col">${res}${html}</div>` : res + html;
+            }
+            fb.innerHTML = html;
+            next.classList.remove('hidden');
+            const old = app.querySelector('.progress');
+            if (old) old.outerHTML = progressDots();
+        });
 
-            // Show example
-            document.getElementById('example-section').style.display = 'block';
-            
-            document.getElementById('submit-btn').style.display = 'none';
-            document.getElementById('next-btn').style.display = 'block';
-            
-            document.getElementById('next-btn').addEventListener('click', () => {
-                currentScenarioIndex++;
-                renderScenario(currentScenarioIndex);
-            });
+        next.addEventListener('click', () => {
+            index++;
+            if (index < n) renderItem(); else renderSummary();
         });
     }
 
-    function showSummary() {
-        mainContainer.innerHTML = `
-            <h3 style="color: #1976d2; margin-bottom: 15px;">Insight Type Selection Complete!</h3>
-            <p style="font-size: 1.2em; margin-bottom: 20px;">Your score: ${score} out of ${scenarios.length}</p>
-            
-            <div style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-                <h4 style="margin: 0 0 15px 0; color: #333;">When to Use Each Insight Type</h4>
-                
-                <div style="margin-bottom: 15px; padding: 15px; background: #f9f9f9; border-radius: 6px;">
-                    <h5 style="margin: 0 0 8px 0; color: #1976d2;">Warmer Insight</h5>
-                    <p style="color: #666; line-height: 1.6; margin: 0;">Use when customers are overconfident or believe they're ahead of peers. Show benchmarking data that reveals they're actually falling behind competitors.</p>
-                </div>
-                
-                <div style="margin-bottom: 15px; padding: 15px; background: #f9f9f9; border-radius: 6px;">
-                    <h5 style="margin: 0 0 8px 0; color: #1976d2;">Rational Drowning Insight</h5>
-                    <p style="color: #666; line-height: 1.6; margin: 0;">Use when customers are overwhelmed by information and stuck in analysis paralysis. Simplify by identifying the few factors that actually drive outcomes.</p>
-                </div>
-                
-                <div style="padding: 15px; background: #f9f9f9; border-radius: 6px;">
-                    <h5 style="margin: 0 0 8px 0; color: #1976d2;">Rock Star Insight</h5>
-                    <p style="color: #666; line-height: 1.6; margin: 0;">Use when customers are motivated by excellence and want to be industry leaders. Frame problems as opportunities for breakthrough performance and recognition.</p>
-                </div>
-            </div>
-            
-            <button id="retry-btn" style="width: 100%; padding: 12px; background: #1976d2; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 1em;">Try Again</button>
+    function renderSummary() {
+        const score = results.filter(r => r.firstTryCorrect).length;
+        const head = `<tr><th>#</th><th>${C.itemLabel}</th>${graded.map(f => `<th>${f.label}</th>`).join('')}<th>Why</th></tr>`;
+        const rows = C.items.map((it, i) => {
+            const mark = results[i].firstTryCorrect ? '<span class="mark-ok">&#10003;</span>' : '<span class="mark-bad">&#10007;</span>';
+            return `<tr><td>${mark} ${i + 1}</td><td>${it.short}</td>` +
+                graded.map(f => `<td><strong>${esc(it.correct[f.id])}</strong></td>`).join('') +
+                `<td>${it.why}</td></tr>`;
+        }).join('');
+        app.innerHTML = `
+            <h2>${C.title}: Summary</h2>
+            <p class="subtitle">First-try score: <strong>${score} of ${n}</strong>${score === n ? ' (mastery)' : ''}</p>
+            <table class="summary">${head}${rows}</table>
+            <div class="feedback warn" style="margin-top:10px;"><strong>Remember:</strong> ${C.summaryNote}</div>
+            <div class="btn-row"><button id="restart">Start Over</button></div>
         `;
-        
-        document.getElementById('retry-btn').addEventListener('click', () => {
-            currentScenarioIndex = 0;
-            score = 0;
-            renderScenario(0);
+        app.querySelector('#restart').addEventListener('click', () => {
+            index = 0;
+            results.length = 0;
+            renderItem();
         });
     }
 
-    // Start with first scenario
-    renderScenario(0);
+    renderItem();
 });
