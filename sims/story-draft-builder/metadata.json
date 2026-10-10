@@ -1,0 +1,62 @@
+{
+  "title": "Story Draft Builder",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners write each of the six components of a predictive-maintenance customer story following drafting tips, then see the assembled draft with a structural checklist and an example to compare.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Story Draft Builder",
+    "learningObjectives": [
+      "Construct a story draft by writing content for each story component (hook, problem, agitation, solution, social proof, call to action) following drafting best practices."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "construct",
+    "duration": "15 minutes",
+    "prerequisites": [
+      "Story Drafting section of Chapter 12"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 760
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Six component text areas",
+      "Assemble My Draft button",
+      "Revise My Draft button",
+      "Compare With an Example button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Construction task with structural feedback",
+    "keyQuestions": [
+      "Construct a story draft by writing content for each story component (hook, problem, agitation, solution, social proof, call to action) following drafting best practices."
+    ],
+    "commonMisconceptions": [
+      "Drafts should be perfect.",
+      "Components can be in any order.",
+      "Details are optional."
+    ],
+    "assessmentOpportunities": [
+      "All six components completed in order.",
+      "At least five of six structural checks pass after revision."
+    ]
+  },
+  "chapter": "12-story-creation-templates"
+}

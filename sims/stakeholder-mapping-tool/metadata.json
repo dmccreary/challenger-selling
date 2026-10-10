@@ -1,0 +1,63 @@
+{
+  "title": "Stakeholder Mapping Tool",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners categorize four university stakeholders by buyer type (economic, technical, user) and influence type (coach, mobilizer, skeptic, friend), then see whom to prioritize and how to engage each.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Stakeholder Mapping Tool",
+    "learningObjectives": [
+      "Categorize stakeholders into buyer types (Economic, Technical, User) and influence types (Coach, Mobilizer, Skeptic, Friend) for a given sales scenario."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "categorize",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Stakeholder definitions (Economic, Technical, and User Buyer; Coach, Mobilizer, Skeptic, Friend) in Chapter 1"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 640
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Buyer Type dropdown",
+      "Influence Type dropdown",
+      "Submit button",
+      "Next button",
+      "Start Over button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classification practice with immediate feedback",
+    "keyQuestions": [
+      "Categorize stakeholders into buyer types (Economic, Technical, User) and influence types (Coach, Mobilizer, Skeptic, Friend) for a given sales scenario."
+    ],
+    "commonMisconceptions": [
+      "Economic buyers are always the most important.",
+      "Mobilizers and friends are the same.",
+      "Skeptics are opponents."
+    ],
+    "assessmentOpportunities": [
+      "Correct buyer and influence type for all four stakeholders.",
+      "Learner can explain why skeptics should be engaged with data, not avoided."
+    ]
+  },
+  "chapter": "01-challenger-methodology-insights"
+}

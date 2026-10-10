@@ -1,0 +1,63 @@
+{
+  "title": "Insight Personalizer",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners tailor one Challenger insight about legacy system costs for a CFO, a startup CTO, and a healthcare COO by choosing an emphasis and a supporting context, and see the rewritten insight.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Insight Personalizer",
+    "learningObjectives": [
+      "Tailor a Challenger insight for different stakeholders by selecting which aspects to emphasize and which context to provide."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "tailor",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Insight Personalization section of Chapter 10"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Emphasis dropdown",
+      "Context dropdown",
+      "Submit button",
+      "Next button",
+      "Start Over button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Tailoring practice with generated output",
+    "keyQuestions": [
+      "Tailor a Challenger insight for different stakeholders by selecting which aspects to emphasize and which context to provide."
+    ],
+    "commonMisconceptions": [
+      "Personalization is just adding a name.",
+      "The same insight works for everyone.",
+      "Personalization is optional."
+    ],
+    "assessmentOpportunities": [
+      "Correct emphasis and context for all three stakeholders.",
+      "Learner can explain why the healthcare COO needs a risk scenario."
+    ]
+  },
+  "chapter": "10-story-delivery-integration-coaching"
+}

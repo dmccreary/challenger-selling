@@ -1,0 +1,64 @@
+{
+  "title": "xAPI Statement Builder",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners turn three plain-English learning events into xAPI statements by choosing the actor, verb, and object, and see the JSON statement they built after each submission.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "xAPI Statement Builder",
+    "learningObjectives": [
+      "Construct valid xAPI statements by selecting actors, verbs, and objects for different learning scenarios."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "construct",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "xAPI section of Chapter 8"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 710
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Actor dropdown",
+      "Verb dropdown",
+      "Object dropdown",
+      "Submit button",
+      "Next button",
+      "Start Over button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Construction practice with generated output",
+    "keyQuestions": [
+      "Construct valid xAPI statements by selecting actors, verbs, and objects for different learning scenarios."
+    ],
+    "commonMisconceptions": [
+      "xAPI only tracks test scores.",
+      "All xAPI statements are the same.",
+      "xAPI requires complex setup."
+    ],
+    "assessmentOpportunities": [
+      "All three statements correct on the first try.",
+      "Learner can explain where correctness is recorded in an xAPI statement."
+    ]
+  },
+  "chapter": "08-intelligent-textbook-tools-stories"
+}

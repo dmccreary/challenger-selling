@@ -1,0 +1,65 @@
+{
+  "title": "Story Component Builder",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Two-step builder in which learners sequence the six sales story components for a predictive maintenance sale, then write and review a complete story.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Story Component Builder",
+    "learningObjectives": [
+      "Construct a sales story by arranging the six story components in the correct sequence and writing content for each component."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "construct",
+    "duration": "15 minutes",
+    "prerequisites": [
+      "Sales Story Components section of Chapter 4"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 640
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "draggable component cards",
+      "sequence slots",
+      "Check Sequence button",
+      "Reset button",
+      "component text areas",
+      "Show example buttons",
+      "Submit Story button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Practice with immediate feedback",
+    "keyQuestions": [
+      "Construct a sales story by arranging the six story components in the correct sequence and writing content for each component."
+    ],
+    "commonMisconceptions": [
+      "Components can be in any order.",
+      "Some components are optional.",
+      "The call to action can be vague."
+    ],
+    "assessmentOpportunities": [
+      "All six components in the correct sequence.",
+      "Each written component fulfills its role; the call to action names a concrete next step."
+    ]
+  },
+  "chapter": "04-objection-handling-portfolio"
+}

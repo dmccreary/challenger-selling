@@ -1,0 +1,55 @@
+/* ============================================
+   Learning Mascot: Story the Lion
+   Pedagogical agent for Challenger Selling
+   ============================================ */
+
+:root {
+  --mascot-primary:   #8B4513;   /* brown   */
+  --mascot-secondary: #FFD700;   /* gold    */
+  --mascot-size:      90px;      /* display size */
+}
+
+/* Mascot admonition styles */
+.mascot-admonition {
+  border-left: 4px solid var(--mascot-primary);
+  background-color: rgba(139, 69, 19, 0.05);
+  padding: 1rem 1rem 1rem 0;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+}
+
+.mascot-admonition .admonition-title {
+  font-weight: 600;
+  color: var(--mascot-primary);
+  margin-bottom: 0.5rem;
+}
+
+/* Mascot image with automatic trimming */
+.md-typeset img.mascot-admonition-img {
+  float: left;
+  width: var(--mascot-size);
+  height: auto;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  display: block;
+  object-fit: contain;
+}
+
+/* Clear float after mascot admonitions */
+.mascot-admonition::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  :root {
+    --mascot-size: 70px;
+  }
+  
+  .md-typeset img.mascot-admonition-img {
+    margin-right: 0.75rem;
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Persona Matcher",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Step-through practice in which learners identify the buyer persona behind three stakeholder descriptions and choose the messaging focus that will resonate with each.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Persona Matcher",
+    "learningObjectives": [
+      "Identify the correct buyer persona from a description and select the appropriate messaging strategy for that persona."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "identify",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Executive Personas and Functional Personas sections of Chapter 3"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 560
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Persona dropdown",
+      "Messaging Focus dropdown",
+      "Submit button",
+      "Next button",
+      "Start Over button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Practice with immediate feedback",
+    "keyQuestions": [
+      "Identify the correct buyer persona from a description and select the appropriate messaging strategy for that persona."
+    ],
+    "commonMisconceptions": [
+      "All executives care about the same things.",
+      "Job titles alone define personas.",
+      "One message works for all personas."
+    ],
+    "assessmentOpportunities": [
+      "Correct persona and messaging focus for all three descriptions.",
+      "Learner can explain why a CIO wants strategic positioning rather than technical architecture."
+    ]
+  },
+  "chapter": "03-buyer-personas-segmentation"
+}

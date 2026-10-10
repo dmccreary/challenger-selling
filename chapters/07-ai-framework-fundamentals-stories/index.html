@@ -1,0 +1,2340 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Understanding AI and machine learning frameworks and crafting sales stories for AI framework products">
+      
+      
+        <meta name="author" content="Dan Mccreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/challenger-selling/chapters/07-ai-framework-fundamentals-stories/">
+      
+      
+        <link rel="prev" href="../06-graph-database-fundamentals-stories/references/">
+      
+      
+        <link rel="next" href="quiz/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>AI Framework Fundamentals & Sales Stories - Challenger Selling</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ai-framework-fundamentals-sales-stories" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Challenger Selling" class="md-header__button md-logo" aria-label="Challenger Selling" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Challenger Selling
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AI Framework Fundamentals & Sales Stories
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/challenger-selling" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Challenger Selling" class="md-nav__button md-logo" aria-label="Challenger Selling" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    Challenger Selling
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/challenger-selling" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../01-challenger-methodology-insights/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    1. Challenger Sales Methodology & Insights
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../02-storytelling-fundamentals-psychology/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    2. Storytelling Fundamentals & Psychology
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../03-buyer-personas-segmentation/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    3. Buyer Personas & Industry Segmentation
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../04-objection-handling-portfolio/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    4. Objection Handling & Story Portfolio
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../05-ai-story-generation-agents/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    5. AI-Assisted Story Generation & Agents
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../06-graph-database-fundamentals-stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    6. Graph Database Fundamentals & Sales Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  <span class="md-ellipsis">
+    7. AI Framework Fundamentals & Sales Stories
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_4_8" id="__nav_4_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_8">
+            <span class="md-nav__icon md-icon"></span>
+            7. AI Framework Fundamentals & Sales Stories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotated References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../08-intelligent-textbook-tools-stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    8. Intelligent Textbook Tools & Sales Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../09-story-effectiveness-analytics/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    9. Story Effectiveness & Analytics
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../10-story-delivery-integration-coaching/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    10. Story Delivery, Integration & Coaching
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../11-story-libraries-customization-trust/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    11. Story Libraries, Customization & Trust
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../12-story-creation-templates/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    12. Story Creation & Templates
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../13-story-innovation-strategy-crisis/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    13. Story Innovation, Strategy & Crisis
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../14-story-planning-metrics-alignment/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    14. Story Planning, Metrics & Alignment
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../15-story-architecture-devops-testing/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    15. Story Architecture, DevOps & Testing
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../16-advanced-ai-immersive-experiences/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    16. Advanced AI & Immersive Experiences
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../17-capstone-project/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    17. Capstone Project
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feature-checklist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Feature Checklist
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../diagram-summary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagram Summary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concepts Covered
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-framework-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      AI Framework Fundamentals
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI Framework Fundamentals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#machine-learning-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Machine Learning Frameworks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Machine Learning Frameworks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-framework-comparison-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Framework Comparison Chart
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deep-learning-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deep Learning Frameworks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tensorflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      TensorFlow
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pytorch" class="md-nav__link">
+    <span class="md-ellipsis">
+      PyTorch
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scikit-learn" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scikit-learn
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keras" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keras
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#neural-network-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      Neural Network Architecture
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      Model Training
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Model Deployment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mlops" class="md-nav__link">
+    <span class="md-ellipsis">
+      MLOps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-framework-sales-stories" class="md-nav__link">
+    <span class="md-ellipsis">
+      AI Framework Sales Stories
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AI Framework Sales Stories">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ai-adoption-stories" class="md-nav__link">
+    <span class="md-ellipsis">
+      AI Adoption Stories
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-roi-stories" class="md-nav__link">
+    <span class="md-ellipsis">
+      AI ROI Stories
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-implementation-stories" class="md-nav__link">
+    <span class="md-ellipsis">
+      AI Implementation Stories
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-success-case-studies" class="md-nav__link">
+    <span class="md-ellipsis">
+      AI Success Case Studies
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/challenger-selling/blob/main/docs/chapters/07-ai-framework-fundamentals-stories/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="ai-framework-fundamentals-sales-stories">AI Framework Fundamentals &amp; Sales Stories<a class="headerlink" href="#ai-framework-fundamentals-sales-stories" title="Permanent link">&para;</a></h1>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>This chapter covers 16 concepts related to ai framework fundamentals &amp; sales stories. Students will learn the key principles and practical applications relevant to these topics.</p>
+<h2 id="concepts-covered">Concepts Covered<a class="headerlink" href="#concepts-covered" title="Permanent link">&para;</a></h2>
+<p>This chapter covers the following 16 concepts from the learning graph:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Concept</th>
+<th>Concept Impact Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>AI Framework Fundamentals</td>
+<td>17</td>
+</tr>
+<tr>
+<td></td>
+<td>Machine Learning Frameworks</td>
+<td>10</td>
+</tr>
+<tr>
+<td></td>
+<td>Deep Learning Frameworks</td>
+<td>8</td>
+</tr>
+<tr>
+<td></td>
+<td>TensorFlow</td>
+<td>1</td>
+</tr>
+<tr>
+<td></td>
+<td>PyTorch</td>
+<td>1</td>
+</tr>
+<tr>
+<td></td>
+<td>Scikit-learn</td>
+<td>1</td>
+</tr>
+<tr>
+<td></td>
+<td>Keras</td>
+<td>1</td>
+</tr>
+<tr>
+<td></td>
+<td>Neural Network Architecture</td>
+<td>4</td>
+</tr>
+<tr>
+<td></td>
+<td>Model Training</td>
+<td>3</td>
+</tr>
+<tr>
+<td></td>
+<td>Model Deployment</td>
+<td>2</td>
+</tr>
+<tr>
+<td></td>
+<td>MLOps</td>
+<td>1</td>
+</tr>
+<tr>
+<td></td>
+<td>AI Framework Sales Stories</td>
+<td>5</td>
+</tr>
+<tr>
+<td></td>
+<td>AI Adoption Stories</td>
+<td>1</td>
+</tr>
+<tr>
+<td></td>
+<td>AI ROI Stories</td>
+<td>1</td>
+</tr>
+<tr>
+<td></td>
+<td>AI Implementation Stories</td>
+<td>1</td>
+</tr>
+<tr>
+<td></td>
+<td>AI Success Case Studies</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<p>This chapter assumes only the prerequisites listed in the <a href="../../course-description/">course description</a>.</p>
+<hr />
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Selling AI Frameworks</p>
+<p><img alt="Story waving welcome" class="mascot-admonition-img" src="../../img/mascot/welcome.png" />
+Now let's apply your Challenger and storytelling skills to AI frameworks. These are powerful but complex tools—stories make their value tangible and accessible to business decision-makers. Let's craft a story!</p>
+</div>
+<h2 id="ai-framework-fundamentals">AI Framework Fundamentals<a class="headerlink" href="#ai-framework-fundamentals" title="Permanent link">&para;</a></h2>
+<p>AI Framework Fundamentals provide the conceptual foundation for understanding and selling AI and machine learning frameworks. While the technical details can be complex, the core value proposition is straightforward: AI frameworks accelerate AI development, reduce implementation complexity, and enable teams to focus on business problems rather than infrastructure.</p>
+<p>The fundamental insight for selling AI frameworks is that building AI systems from scratch is prohibitively expensive and time-consuming for most organizations. AI frameworks provide pre-built components, optimized algorithms, and production-ready infrastructure that dramatically reduce the cost and complexity of AI development. They democratize AI by making advanced capabilities accessible to organizations without dedicated AI research teams.</p>
+<p>This chapter provides the technical context you need to craft compelling stories about AI frameworks. It covers the framework landscape, key components, the machine learning lifecycle, and sales stories that translate technical advantages into business value.</p>
+<h3 id="machine-learning-frameworks">Machine Learning Frameworks<a class="headerlink" href="#machine-learning-frameworks" title="Permanent link">&para;</a></h3>
+<p>Machine Learning Frameworks are software libraries that provide tools for building, training, and deploying machine learning models. Frameworks like scikit-learn, TensorFlow, and PyTorch include implementations of common algorithms, data processing utilities, and model evaluation metrics. They abstract away the mathematical complexity of machine learning, allowing developers to focus on applying ML to business problems.</p>
+<p>Without frameworks, building a machine learning system would require implementing algorithms from scratch—linear regression, decision trees, neural networks—along with data preprocessing, model evaluation, and deployment infrastructure. This is feasible for researchers but impractical for most organizations. Frameworks provide battle-tested implementations of these components, enabling rapid experimentation and production deployment.</p>
+<h4 id="diagram-framework-comparison-chart">Diagram: Framework Comparison Chart<a class="headerlink" href="#diagram-framework-comparison-chart" title="Permanent link">&para;</a></h4>
+<iframe src="../../sims/framework-comparison-chart/main.html" width="100%" height="642px" scrolling="no"></iframe>
+<p><a href="../../sims/framework-comparison-chart/main.html">Run Framework Comparison Chart Fullscreen</a></p>
+<details>
+<summary>Framework Comparison Chart</summary>
+<p>Type: infographic
+<strong>sim-id:</strong> framework-comparison-chart<br/>
+<strong>Library:</strong> html<br/>
+<strong>Status:</strong> Built<br/>
+<strong>Bloom Level:</strong> Understand<br/>
+<strong>Bloom Verb:</strong> compare<br/>
+<strong>Learning Objective:</strong> The learner will compare AI/ML frameworks (TensorFlow, PyTorch, Scikit-learn) based on their characteristics and use cases.</p>
+<p><strong>Prerequisites:</strong> Machine Learning Frameworks, TensorFlow, PyTorch, Scikit-learn concepts defined in the section above.</p>
+<p><strong>Evidence of Mastery:</strong> The learner is presented with a comparison chart of frameworks. The learner answers questions about which framework is best for different scenarios. The learner must correctly answer 3 of 3 questions.</p>
+<p><strong>Misconceptions:</strong> (1) All frameworks are the same (each has different strengths and use cases). (2) One framework is best for everything (different frameworks excel at different tasks). (3) Frameworks are only for data scientists (frameworks serve different users and use cases).</p>
+<p><strong>Instructional Rationale:</strong> An interactive comparison chart allows the learner to explore framework differences and apply that knowledge to scenario-based questions. This supports the Understand objective by enabling exploration followed by application.</p>
+<p><strong>Content:</strong></p>
+<p>A comparison chart displays:</p>
+<table>
+<thead>
+<tr>
+<th>Framework</th>
+<th>Strengths</th>
+<th>Best For</th>
+<th>Skill Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TensorFlow</td>
+<td>Production deployment, scalability</td>
+<td>Large-scale ML, production systems</td>
+<td>Intermediate-Advanced</td>
+</tr>
+<tr>
+<td>PyTorch</td>
+<td>Research flexibility, ease of use</td>
+<td>Research, experimentation, rapid prototyping</td>
+<td>Beginner-Intermediate</td>
+</tr>
+<tr>
+<td>Scikit-learn</td>
+<td>Simplicity, broad algorithm coverage</td>
+<td>Traditional ML, quick prototyping</td>
+<td>Beginner</td>
+</tr>
+</tbody>
+</table>
+<p>The learner answers questions:</p>
+<p><strong>Question 1:</strong> "A team wants to quickly prototype a traditional ML model for a proof-of-concept. Which framework is best?"
+- Options: TensorFlow / PyTorch / Scikit-learn
+- Correct: Scikit-learn</p>
+<p><strong>Question 2:</strong> "A research team is experimenting with new neural network architectures. Which framework is best?"
+- Options: TensorFlow / PyTorch / Scikit-learn
+- Correct: PyTorch</p>
+<p><strong>Question 3:</strong> "A company needs to deploy a large-scale ML system in production. Which framework is best?"
+- Options: TensorFlow / PyTorch / Scikit-learn
+- Correct: TensorFlow</p>
+<p>After answering, the learner sees a summary of framework selection criteria.</p>
+<p><strong>Provenance:</strong> The framework characteristics are from the chapter's framework definitions. The scenarios are illustrative common use cases.</p>
+<p><strong>Rules:</strong> The learner must answer all 3 questions before seeing the summary. The learner can retry questions.</p>
+<p><strong>Learner Activity:</strong>
+1. The learner reviews the comparison chart.
+2. The learner answers Question 1.
+3. The learner answers Questions 2 and 3.
+4. The learner submits answers and sees feedback.
+5. After all questions, the learner sees a summary of framework selection guidelines.</p>
+<p><strong>Feedback:</strong>
+- After each question: "Correct! [Framework] is best for [scenario] because [reason]." or "Not quite. [Correct framework] would be better because [reason]."
+- Summary: "Framework selection depends on use case, team skill level, and deployment requirements. Choose based on your specific needs."</p>
+<p><strong>Starting State:</strong> The learner sees the comparison chart and Question 1 with option buttons.</p>
+<p><strong>Chapter Anchors:</strong> The frameworks are defined in the Machine Learning Frameworks section above. The scenarios are illustrative for framework selection.</p>
+</details>
+<p>When selling machine learning frameworks, emphasize productivity and time-to-value. A Challenger insight might be that most organizations spend their AI budget on reinventing infrastructure rather than solving business problems. Frameworks shift investment from infrastructure to innovation, enabling teams to deliver business value faster.</p>
+<h3 id="deep-learning-frameworks">Deep Learning Frameworks<a class="headerlink" href="#deep-learning-frameworks" title="Permanent link">&para;</a></h3>
+<p>Deep Learning Frameworks specialize in neural networks and deep learning applications. Frameworks like TensorFlow, PyTorch, and Keras provide optimized implementations of neural network architectures, automatic differentiation for gradient computation, and GPU acceleration for training large models.</p>
+<p>Deep learning frameworks address the complexity of training neural networks, which involves managing model architecture, forward and backward passes, gradient computation, and optimization algorithms. Frameworks handle these technical details automatically, allowing developers to focus on designing network architectures and applying them to business problems.</p>
+<p>When selling deep learning frameworks, emphasize the capability they unlock: computer vision, natural language processing, speech recognition, and other advanced AI applications. These capabilities are increasingly competitive necessities in many industries. A Challenger insight might be that competitors using deep learning are achieving capabilities that others cannot match without these frameworks.</p>
+<h3 id="tensorflow">TensorFlow<a class="headerlink" href="#tensorflow" title="Permanent link">&para;</a></h3>
+<p>TensorFlow is an open-source deep learning framework developed by Google. It provides a comprehensive ecosystem for building and deploying machine learning models, including TensorFlow Core for low-level operations, Keras for high-level APIs, and TensorFlow Serving for production deployment.</p>
+<p>TensorFlow's strengths include its extensive ecosystem, production readiness, and Google's ongoing investment. It's particularly well-suited for large-scale production deployments and organizations that need enterprise-grade support and training resources.</p>
+<p>When selling TensorFlow, emphasize its maturity and ecosystem. Show that it's battle-tested at scale by companies like Google, Uber, and Airbnb. Emphasize the availability of pre-trained models, extensive documentation, and commercial support options. These factors reduce risk for enterprise adoption.</p>
+<h3 id="pytorch">PyTorch<a class="headerlink" href="#pytorch" title="Permanent link">&para;</a></h3>
+<p>PyTorch is an open-source deep learning framework developed by Facebook's AI Research lab. It emphasizes simplicity and flexibility, with a dynamic computational graph that makes debugging and experimentation easier. PyTorch has gained popularity in research and is increasingly used in production.</p>
+<p>PyTorch's strengths include its intuitive API, strong community, and research leadership. It's particularly well-suited for rapid experimentation, custom model architectures, and organizations that want to stay close to the research frontier.</p>
+<p>When selling PyTorch, emphasize its ease of use and research leadership. Show that many breakthrough AI papers use PyTorch, meaning the latest techniques are often available in PyTorch first. Emphasize the vibrant community and the availability of pre-trained models through libraries like Hugging Face Transformers.</p>
+<h3 id="scikit-learn">Scikit-learn<a class="headerlink" href="#scikit-learn" title="Permanent link">&para;</a></h3>
+<p>Scikit-learn is a machine learning library for Python that provides implementations of traditional machine learning algorithms—linear regression, decision trees, random forests, support vector machines, and more. It also includes tools for data preprocessing, model evaluation, and model selection.</p>
+<p>Scikit-learn's strengths include its consistency, documentation, and integration with the Python data science ecosystem. It's particularly well-suited for tabular data, classical machine learning tasks, and organizations that need interpretable models rather than deep learning black boxes.</p>
+<p>When selling scikit-learn, emphasize its practicality and reliability. Show that it's used by data scientists across industries for production workloads. Emphasize its role as the foundation for many machine learning applications—the simple algorithms that often outperform complex ones on real-world data.</p>
+<h3 id="keras">Keras<a class="headerlink" href="#keras" title="Permanent link">&para;</a></h3>
+<p>Keras is a high-level deep learning API that simplifies building and training neural networks. Originally a standalone library, Keras is now the official high-level API for TensorFlow. It provides a simple, intuitive interface for defining model architectures, training models, and evaluating results.</p>
+<p>Keras's strengths include its simplicity and productivity. A neural network that requires hundreds of lines of code in TensorFlow Core can be defined in tens of lines with Keras. This simplicity accelerates experimentation and reduces the learning curve for teams new to deep learning.</p>
+<p>When selling Keras, emphasize productivity and accessibility. Show that it enables data scientists to go from idea to trained model in hours rather than days. Emphasize that it lowers the barrier to entry for deep learning, enabling more team members to contribute to AI projects.</p>
+<h3 id="neural-network-architecture">Neural Network Architecture<a class="headerlink" href="#neural-network-architecture" title="Permanent link">&para;</a></h3>
+<p>Neural Network Architecture refers to the design of a neural network's structure: the number and arrangement of layers, the number of neurons per layer, the activation functions, and the connections between layers. Architecture design is a critical skill in deep learning—the right architecture enables a model to learn effectively, while the wrong architecture prevents learning.</p>
+<p>Common architectures include feedforward networks for simple classification, convolutional neural networks for image data, recurrent neural networks for sequential data, and transformer architectures for natural language processing. Each architecture is optimized for a specific type of data and task.</p>
+<p>When selling AI frameworks, emphasize that frameworks provide pre-built implementations of these architectures. Teams don't need to design architectures from scratch—they can start with proven architectures and focus on adapting them to their specific data and business problem. This accelerates development and reduces the risk of poor architectural choices.</p>
+<h3 id="model-training">Model Training<a class="headerlink" href="#model-training" title="Permanent link">&para;</a></h3>
+<p>Model Training is the process of optimizing a neural network's parameters to minimize error on a training dataset. Training involves feeding data through the network, computing predictions, comparing predictions to ground truth, computing gradients, and updating parameters using an optimization algorithm like stochastic gradient descent.</p>
+<p>Training is computationally intensive and requires GPUs for deep learning. It also involves hyperparameter tuning—setting learning rates, batch sizes, regularization parameters, and other configuration options that affect training dynamics. Training can take hours to days depending on model size and data volume.</p>
+<p>When selling AI frameworks, emphasize that frameworks handle the complexity of training. They provide optimized implementations of training algorithms, automatic differentiation for gradient computation, and integration with hardware accelerators. This automation allows teams to focus on data quality and business outcomes rather than training infrastructure.</p>
+<h3 id="model-deployment">Model Deployment<a class="headerlink" href="#model-deployment" title="Permanent link">&para;</a></h3>
+<p>Model Deployment is the process of making a trained model available for use in production. Deployment involves exposing the model through an API, integrating it with application systems, ensuring scalability and reliability, and monitoring performance over time.</p>
+<p>Deployment considerations include serving infrastructure (cloud services, containerization, orchestration), latency requirements (real-time vs. batch processing), resource management (GPU utilization, cost optimization), and monitoring (accuracy drift, performance degradation).</p>
+<p>When selling AI frameworks, emphasize that frameworks provide deployment tools and best practices. TensorFlow Serving, TorchServe, and similar tools simplify model serving. Frameworks also provide model optimization techniques like quantization and pruning that reduce deployment cost without sacrificing accuracy.</p>
+<h3 id="mlops">MLOps<a class="headerlink" href="#mlops" title="Permanent link">&para;</a></h3>
+<p>MLOps (Machine Learning Operations) refers to the practices and tools for managing the machine learning lifecycle: data versioning, model training, model deployment, monitoring, and retraining. MLOps aims to bring the discipline of DevOps to machine learning, ensuring reproducibility, reliability, and continuous improvement.</p>
+<p>MLOps addresses the unique challenges of machine learning systems: models degrade over time as data distributions shift, models can be biased or unfair, and model decisions need to be explainable and auditable. MLOps practices include automated testing, continuous integration/continuous deployment, and monitoring for model drift and performance degradation.</p>
+<p>When selling AI frameworks, emphasize that frameworks integrate with MLOps tools and support MLOps practices. Model versioning, reproducible training pipelines, and export formats like ONNX enable reliable deployment and continuous improvement. These capabilities reduce the operational risk of AI systems.</p>
+<h3 id="ai-framework-sales-stories">AI Framework Sales Stories<a class="headerlink" href="#ai-framework-sales-stories" title="Permanent link">&para;</a></h3>
+<p>AI Framework Sales Stories apply storytelling principles to the specific challenge of selling AI frameworks. These stories must translate technical capabilities into business value while addressing the specific concerns of different stakeholders.</p>
+<p>The key is to focus on business problems that AI can solve and show how frameworks make solving those problems feasible. Frameworks are enablers—they don't create AI capabilities themselves, but they make them accessible and affordable for organizations that cannot build AI systems from scratch.</p>
+<h4 id="ai-adoption-stories">AI Adoption Stories<a class="headerlink" href="#ai-adoption-stories" title="Permanent link">&para;</a></h4>
+<p>AI Adoption Stories show customers who successfully adopted AI frameworks and the business impact they achieved. These stories address the perception that AI is too complex or risky for mainstream adoption by showing that others have successfully navigated the journey.</p>
+<p>An effective story might describe a company that built their first machine learning system using scikit-learn. The story covers the initial learning curve, the first project they tackled (a simple classification problem), the results they achieved (improved accuracy over existing methods), and how this success led to broader AI adoption across the organization.</p>
+<p>Adoption stories reduce perceived risk by showing that the journey is manageable and the payoff is real. When customers see that similar organizations have succeeded, they feel more confident about their own ability to adopt AI frameworks.</p>
+<h4 id="ai-roi-stories">AI ROI Stories<a class="headerlink" href="#ai-roi-stories" title="Permanent link">&para;</a></h4>
+<p>AI ROI Stories demonstrate the return on investment from adopting AI frameworks. These stories quantify the costs of AI development with and without frameworks, showing that frameworks dramatically reduce development cost and accelerate time-to-value.</p>
+<p>An effective story might compare two similar projects: one built from scratch and one built using TensorFlow. The from-scratch project took 12 months and cost $2 million. The TensorFlow project took 3 months and cost $500,000. The faster, cheaper project delivered value sooner and enabled iteration and improvement that the slower project couldn't afford.</p>
+<p>ROI stories address cost objections by reframing framework adoption as cost reduction rather than cost addition. The framework isn't an additional expense—it's an investment that reduces overall development cost and accelerates time-to-value.</p>
+<h4 id="ai-implementation-stories">AI Implementation Stories<a class="headerlink" href="#ai-implementation-stories" title="Permanent link">&para;</a></h4>
+<p>AI Implementation Stories show customers who successfully implemented AI frameworks in production, the challenges they faced, and how they overcame them. These stories address operational concerns about scalability, reliability, and ongoing maintenance.</p>
+<p>An effective story might describe a company that deployed a TensorFlow-based recommendation engine. The story covers the initial performance challenges, the optimizations they implemented (model quantization, serving infrastructure, caching strategies), and the resulting improvements (throughput increased 10x, cost reduced by 50%).</p>
+<p>Implementation stories are particularly valuable for technical stakeholders like CTOs and IT Directors who are responsible for operational success. When they see that others have successfully deployed AI frameworks at scale, they feel more confident about the operational feasibility.</p>
+<h4 id="ai-success-case-studies">AI Success Case Studies<a class="headerlink" href="#ai-success-case-studies" title="Permanent link">&para;</a></h4>
+<p>AI Success Case Studies showcase concrete business outcomes achieved with AI frameworks. These stories connect the technical capabilities of frameworks to measurable business results: revenue growth, cost reduction, risk mitigation, or competitive advantage.</p>
+<p>An effective story might describe a retailer that used PyTorch to build a demand forecasting model. The model improved forecast accuracy by 25%, reducing stockouts by 40% and overstock by 30%. These inventory improvements reduced costs by $10 million annually while improving customer satisfaction.</p>
+<p>Success case studies provide the strongest form of social proof because they connect specific technical choices to specific business outcomes. The message is clear: using this framework enabled this business result. When the business result aligns with the customer's goals, the framework becomes compelling.</p>
+<div class="admonition mascot-celebration">
+<p class="admonition-title">Chapter Complete</p>
+<p><img alt="Story celebrating" class="mascot-admonition-img" src="../../img/mascot/celebration.png" />
+You've mastered AI framework fundamentals and sales stories! You can explain the framework landscape, key components, and the machine learning lifecycle, and craft compelling stories that translate technical advantages into business value. Let's craft a story!</p>
+</div>
+<p><a href="references/">See Annotated References</a></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+<h2 id="feedback">Feedback</h2>
+<p>Ask a question, suggest an improvement, or share how you applied this material.</p>
+<script src="https://giscus.app/client.js"
+        data-repo="dmccreary/challenger-selling"
+        data-repo-id="R_kgDOVBTArQ"
+        data-category="General"
+        data-category-id="DIC_kwDOVBTArc4DHft6"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../06-graph-database-fundamentals-stories/references/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Annotated References">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Annotated References
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="quiz/" class="md-footer__link md-footer__link--next" aria-label="Next: Quiz">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Quiz
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dan Mccreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
