@@ -118,6 +118,7 @@ nav:
       - Mascot Test: learning-graph/mascot-test.md
       - FAQ Quality Report: learning-graph/faq-quality-report.md
       - FAQ Coverage Gaps: learning-graph/faq-coverage-gaps.md
+      - Quiz Generation Report: learning-graph/quiz-generation-report.md
 
   - MicroSims:
     - List of MicroSims: sims/index.md
@@ -288,6 +289,12 @@ watch:
 extra:
   # Suppress the "Made with Material for MkDocs" footer line
   generator: false
+
+  giscus:
+    repo: dmccreary/challenger-selling
+    repo_id: R_kgDOVBTArQ
+    category: General
+    category_id: DIC_kwDOVBTArc4DHft6
 
   # MicroSim build-status indicators shown next to nav entries.
   # The status value is set per-page in the index.md frontmatter:
