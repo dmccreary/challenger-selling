@@ -18,7 +18,6 @@ Test your understanding of storytelling system architecture, DevOps practices, a
 
     **Concept Tested:** Story CI/CD
 
-
 ---
 
 #### 2. Which testing type is performed by actual users or their representatives to validate that the system meets business requirements before deployment?
@@ -35,16 +34,15 @@ Test your understanding of storytelling system architecture, DevOps practices, a
 
     **Concept Tested:** Story User Acceptance Testing
 
-
 ---
 
 #### 3. Why is "defense in depth" recommended for story security architecture?
-2. It applies multiple layers of protection so a single failure does not compromise the system
 
-1. It is the cheapest security approach
 <div class="upper-alpha" markdown>
+1. It is the cheapest security approach
+2. It relies entirely on perimeter firewalls
 3. It eliminates the need for authentication
-4. It relies entirely on perimeter firewalls
+4. It applies multiple layers of protection so a single failure does not compromise the system
 </div>
 
 ??? question "Show Answer"
@@ -57,8 +55,8 @@ Test your understanding of storytelling system architecture, DevOps practices, a
 #### 4. You need to verify how a new story recommendation component interacts with the CRM. Which testing type is most appropriate?
 
 <div class="upper-alpha" markdown>
-1. Unit Testing
-2. Integration Testing
+1. Integration Testing
+2. Unit Testing
 3. System Testing
 4. User Acceptance Testing
 </div>
@@ -67,7 +65,6 @@ Test your understanding of storytelling system architecture, DevOps practices, a
     The correct answer is **A**. Integration Testing checks how components or systems work together, such as a story module and a CRM API. Unit testing isolates individual components, system testing validates end-to-end workflows, and UAT involves real users.
 
     **Concept Tested:** Story Testing Strategy
-
 
 ---
 
@@ -85,7 +82,6 @@ Test your understanding of storytelling system architecture, DevOps practices, a
 
     **Concept Tested:** Story Testing Strategy
 
-
 ---
 
 #### 6. In disaster recovery planning, Recovery Time Objective (RTO) defines:
@@ -101,7 +97,6 @@ Test your understanding of storytelling system architecture, DevOps practices, a
     The correct answer is **B**. RTO specifies the maximum acceptable downtime after a disaster. Recovery Point Objective (RPO) defines acceptable data loss, while copy counts and budgets are separate planning considerations.
 
     **Concept Tested:** Story Disaster Recovery
-
 
 ---
 
@@ -119,7 +114,6 @@ Test your understanding of storytelling system architecture, DevOps practices, a
 
     **Concept Tested:** Story Release Management
 
-
 ---
 
 #### 8. Which configuration management practice is recommended to support different environments without code changes?
@@ -135,7 +129,6 @@ Test your understanding of storytelling system architecture, DevOps practices, a
     The correct answer is **C**. Externalizing configuration into environment variables or config files lets the same code run in development, testing, and production with different settings. Hardcoding, manual production edits, and unversioned config create maintenance and reliability problems.
 
     **Concept Tested:** Story Configuration Management
-
 
 ---
 
@@ -153,7 +146,6 @@ Test your understanding of storytelling system architecture, DevOps practices, a
 
     **Concept Tested:** Story Configuration Management
 
-
 ---
 
 #### 10. When designing a story platform, which testing discipline ensures it is usable by people who rely on screen readers and keyboard navigation?
@@ -169,6 +161,5 @@ Test your understanding of storytelling system architecture, DevOps practices, a
     The correct answer is **B**. Accessibility Testing verifies that systems work for people with disabilities, including screen reader and keyboard navigation support. Security, compliance, and performance testing address different quality dimensions.
 
     **Concept Tested:** Story Accessibility Testing
-
 
 ---

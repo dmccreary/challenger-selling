@@ -7,10 +7,10 @@ Test your understanding of story structure, memory psychology, and cognitive bia
 #### 1. In a sales story framed around the Hero's Journey, who is most often cast as the hero?
 
 <div class="upper-alpha" markdown>
-2. The customer
 1. The salesperson
-3. The mentor or vendor
-4. The competitor
+2. The mentor or vendor
+3. The competitor
+4. The customer
 </div>
 
 ??? question "Show Answer"

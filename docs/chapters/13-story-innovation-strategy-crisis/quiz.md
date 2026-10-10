@@ -18,23 +18,21 @@ Test your understanding of story innovation, brand alignment, governance, and cr
 
     **Concept Tested:** Story Crisis Response
 
-
 ---
 
 #### 2. Corporate story guidelines primarily ensure:
 
 <div class="upper-alpha" markdown>
 1. Only the sales team tells stories
-2. Consistency in voice, quality, and compliance across teams, regions, and products
-3. That no story may ever be adapted for local contexts
+2. That no story may ever be adapted for local contexts
+3. Consistency in voice, quality, and compliance across teams, regions, and products
 4. That every story must be approved by the CEO personally
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **D**. Guidelines provide standards for brand voice, structure, approval, and compliance while still allowing appropriate adaptation. They are not limited to sales, do not forbid adaptation, and do not require CEO approval for every story.
+    The correct answer is **C**. Guidelines provide standards for brand voice, structure, approval, and compliance while still allowing appropriate adaptation. They are not limited to sales, do not forbid adaptation, and do not require CEO approval for every story.
 
     **Concept Tested:** Corporate Story Guidelines
-
 
 ---
 
@@ -42,8 +40,8 @@ Test your understanding of story innovation, brand alignment, governance, and cr
 
 <div class="upper-alpha" markdown>
 1. It replaces the need for consistency
-2. It creates differentiation and memorable impact that competitors cannot replicate
-3. It reduces the quality bar for acceptable stories
+2. It reduces the quality bar for acceptable stories
+3. It creates differentiation and memorable impact that competitors cannot replicate
 4. It removes the need for brand alignment
 </div>
 
@@ -52,20 +50,19 @@ Test your understanding of story innovation, brand alignment, governance, and cr
 
     **Concept Tested:** Story Innovation
 
-
 ---
 
 #### 4. Your company experiences a data breach. What is the recommended initial response?
-1. Deny that a breach occurred
 
 <div class="upper-alpha" markdown>
-2. Acknowledge the breach immediately
+1. Deny that a breach occurred
+2. Blame a third-party vendor
 3. Delay comment until the investigation is fully complete
-4. Blame a third-party vendor
+4. Acknowledge the breach immediately
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. Acknowledging the issue quickly demonstrates responsibility and begins building trust. Denial, delay, or blame-shifting increase reputational damage and make the organization appear evasive.
+    The correct answer is **D**. Acknowledging the issue quickly demonstrates responsibility and begins building trust. Denial, delay, or blame-shifting increase reputational damage and make the organization appear evasive.
 
     **Concept Tested:** Story Crisis Communication
 
@@ -74,8 +71,8 @@ Test your understanding of story innovation, brand alignment, governance, and cr
 #### 5. During a crisis, how should information be shared with stakeholders?
 
 <div class="upper-alpha" markdown>
-1. Share every internal detail immediately, even unverified
-2. Share what you know while being clear about what is still under investigation
+1. Share what you know while being clear about what is still under investigation
+2. Share every internal detail immediately, even unverified
 3. Share nothing until the crisis is fully resolved
 4. Downplay the impact to reduce panic
 </div>
@@ -84,7 +81,6 @@ Test your understanding of story innovation, brand alignment, governance, and cr
     The correct answer is **A**. Transparency means sharing verified facts and acknowledging limits without speculation. Releasing unverified details, withholding everything, or downplaying the situation all undermine credibility.
 
     **Concept Tested:** Story Crisis Communication
-
 
 ---
 
@@ -102,7 +98,6 @@ Test your understanding of story innovation, brand alignment, governance, and cr
 
     **Concept Tested:** Story Governance
 
-
 ---
 
 #### 7. Consistent brand voice across stories primarily builds:
@@ -118,7 +113,6 @@ Test your understanding of story innovation, brand alignment, governance, and cr
     The correct answer is **A**. A consistent voice makes stories instantly recognizable as coming from your organization and reinforces trust. Consistency does not require identical wording in every situation, nor does it depend on one spokesperson.
 
     **Concept Tested:** Brand Voice Consistency
-
 
 ---
 
@@ -136,7 +130,6 @@ Test your understanding of story innovation, brand alignment, governance, and cr
 
     **Concept Tested:** Story Crisis Response
 
-
 ---
 
 #### 9. Story recovery after a crisis should emphasize:
@@ -153,7 +146,6 @@ Test your understanding of story innovation, brand alignment, governance, and cr
 
     **Concept Tested:** Story Recovery
 
-
 ---
 
 #### 10. A brand that positions itself as innovative and forward-thinking tells a story about being conservative and risk-averse. What is the main problem?
@@ -169,6 +161,5 @@ Test your understanding of story innovation, brand alignment, governance, and cr
     The correct answer is **B**. The story contradicts the brand's innovation positioning, confusing customers and diluting brand equity. Length, timing, and calls to action are not the core issue.
 
     **Concept Tested:** Story Brand Alignment
-
 
 ---

@@ -42,8 +42,8 @@ Test your understanding of the story creation process, testing, maintenance, tem
 
 <div class="upper-alpha" markdown>
 1. To eliminate the approval process
-2. To validate that the story works in practice and catches issues early
-3. To avoid any need for maintenance
+2. To avoid any need for maintenance
+3. To validate that the story works in practice and catches issues early
 4. To guarantee immediate retirement
 </div>
 

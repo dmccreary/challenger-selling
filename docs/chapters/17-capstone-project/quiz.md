@@ -18,7 +18,6 @@ Test your understanding of the capstone project structure, deliverables, evaluat
 
     **Concept Tested:** Capstone Project
 
-
 ---
 
 #### 2. According to the project requirements, how many key metrics should the analytics framework define?
@@ -35,23 +34,21 @@ Test your understanding of the capstone project structure, deliverables, evaluat
 
     **Concept Tested:** Capstone Project
 
-
 ---
 
 #### 3. Why should the analytics framework include both leading and lagging indicators?
 
 <div class="upper-alpha" markdown>
-2. Leading indicators show early signals while lagging indicators confirm final outcomes
 1. It makes the framework longer and more impressive
+2. It reduces the number of metrics needed
 3. Executives only care about lagging indicators
-4. It reduces the number of metrics needed
+4. Leading indicators show early signals while lagging indicators confirm final outcomes
 </div>
 
 ??? question "Show Answer"
     The correct answer is **D**. Leading indicators like engagement and story recall provide early feedback, while lagging indicators like win rate and revenue confirm business impact. A balanced framework needs both to guide decisions and prove value.
 
     **Concept Tested:** Capstone Project
-
 
 ---
 
@@ -69,15 +66,13 @@ Test your understanding of the capstone project structure, deliverables, evaluat
 
     **Concept Tested:** Capstone Project
 
-
 ---
 
 #### 5. When adapting the core Challenger insight story for a CFO stakeholder in the capstone, which emphasis is most appropriate?
-<div class="upper-alpha" markdown>
 
 <div class="upper-alpha" markdown>
-1. Student engagement and faculty enthusiasm
-2. Financial return, cost reduction, and ROI
+1. Financial return, cost reduction, and ROI
+2. Student engagement and faculty enthusiasm
 3. API architecture and developer tooling
 4. Technical implementation details
 </div>
@@ -86,7 +81,6 @@ Test your understanding of the capstone project structure, deliverables, evaluat
     The correct answer is **A**. CFOs prioritize financial impact, so the insight should be tailored to cost savings, ROI, and risk. Engagement and architecture matter to other stakeholders.
 
     **Concept Tested:** Capstone Project
-
 
 ---
 
@@ -104,7 +98,6 @@ Test your understanding of the capstone project structure, deliverables, evaluat
 
     **Concept Tested:** Capstone Project
 
-
 ---
 
 #### 7. A capstone proposal recommends using AI-generated stories without any human review or verification. Which evaluation criterion does this most directly threaten?
@@ -120,7 +113,6 @@ Test your understanding of the capstone project structure, deliverables, evaluat
     The correct answer is **D**. Using unreviewed AI content threatens AI Application (must enhance rather than replace human judgment), Story Quality (risks inaccuracies), and Concept Integration (ignores human-AI collaboration principles). All criteria are relevant.
 
     **Concept Tested:** Capstone Project
-
 
 ---
 
@@ -138,7 +130,6 @@ Test your understanding of the capstone project structure, deliverables, evaluat
 
     **Concept Tested:** Capstone Project
 
-
 ---
 
 #### 9. A Customer Priority Map in the capstone helps the sales team:
@@ -155,7 +146,6 @@ Test your understanding of the capstone project structure, deliverables, evaluat
 
     **Concept Tested:** Capstone Project
 
-
 ---
 
 #### 10. To improve the quality of capstone stories before final submission, which action is most effective?
@@ -171,6 +161,5 @@ Test your understanding of the capstone project structure, deliverables, evaluat
     The correct answer is **B**. Testing and refining stories with real feedback improves clarity, relevance, and effectiveness. Adding volume without review, removing calls to action, or relying solely on AI generation would reduce story quality.
 
     **Concept Tested:** Capstone Project
-
 
 ---

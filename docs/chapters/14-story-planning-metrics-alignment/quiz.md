@@ -5,16 +5,16 @@ Test your understanding of storytelling metrics, strategic alignment, ROI, and p
 ---
 
 #### 1. Why should storytelling KPIs be actionable rather than merely interesting?
-2. Actionable KPIs indicate performance and suggest clear improvement steps
 
-1. Interesting metrics are always misleading
 <div class="upper-alpha" markdown>
-3. Actionable KPIs replace the need for business objectives
+1. Interesting metrics are always misleading
+2. Actionable KPIs replace the need for business objectives
+3. Actionable KPIs indicate performance and suggest clear improvement steps
 4. Interesting metrics are never collected
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **D**. A true KPI should drive action. If a metric underperforms, the team should know what to do differently. Metrics that merely report numbers without enabling decisions are not key performance indicators.
+    The correct answer is **C**. A true KPI should drive action. If a metric underperforms, the team should know what to do differently. Metrics that merely report numbers without enabling decisions are not key performance indicators.
 
     **Concept Tested:** Story KPIs
 
@@ -23,8 +23,8 @@ Test your understanding of storytelling metrics, strategic alignment, ROI, and p
 #### 2. The standard ROI formula for a storytelling initiative is:
 
 <div class="upper-alpha" markdown>
-1. Return ÷ Investment
-2. (Return − Investment) ÷ Investment
+1. (Return − Investment) ÷ Investment
+2. Return ÷ Investment
 3. Investment ÷ Return
 4. Return + Investment
 </div>
@@ -34,15 +34,14 @@ Test your understanding of storytelling metrics, strategic alignment, ROI, and p
 
     **Concept Tested:** Story ROI Models
 
-
 ---
 
 #### 3. What is the primary purpose of a Story Balanced Scorecard?
 
 <div class="upper-alpha" markdown>
 1. To focus exclusively on revenue metrics
-2. To prevent over-optimization of one dimension at the expense of others
-3. To eliminate the need for executive reporting
+2. To eliminate the need for executive reporting
+3. To prevent over-optimization of one dimension at the expense of others
 4. To replace all other storytelling metrics
 </div>
 
@@ -50,7 +49,6 @@ Test your understanding of storytelling metrics, strategic alignment, ROI, and p
     The correct answer is **C**. A balanced scorecard examines financial, customer, internal process, and learning dimensions together. This prevents teams from chasing one metric while harming others, such as improving revenue but degrading story quality.
 
     **Concept Tested:** Story Balanced Scorecard
-
 
 ---
 
@@ -68,20 +66,19 @@ Test your understanding of storytelling metrics, strategic alignment, ROI, and p
 
     **Concept Tested:** Story KPIs
 
-
 ---
 
 #### 5. A company's strategy is premium positioning. Which storytelling initiative best supports that strategy?
-1. Stories about entering new markets
 
 <div class="upper-alpha" markdown>
-2. Differentiation-focused case studies
+1. Stories about entering new markets
+2. Efficiency improvement stories
 3. Stories about long-term customer partnerships
-4. Efficiency improvement stories
+4. Differentiation-focused case studies
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **C**. Premium positioning requires stories that emphasize unique value and differentiation over competitors. New-market stories support expansion, partnership stories support retention, and efficiency stories support operational efficiency.
+    The correct answer is **D**. Premium positioning requires stories that emphasize unique value and differentiation over competitors. New-market stories support expansion, partnership stories support retention, and efficiency stories support operational efficiency.
 
     **Concept Tested:** Story Strategic Alignment
 
@@ -90,8 +87,8 @@ Test your understanding of storytelling metrics, strategic alignment, ROI, and p
 #### 6. A review reveals that 80% of storytelling resources are consumed by initiatives that contribute only 20% of value. What is the most appropriate response?
 
 <div class="upper-alpha" markdown>
-1. Hire more storytellers immediately
-2. Reallocate resources from low-value to high-value initiatives
+1. Reallocate resources from low-value to high-value initiatives
+2. Hire more storytellers immediately
 3. Stop measuring resource utilization
 4. Maintain the current allocation to avoid disruption
 </div>
@@ -100,7 +97,6 @@ Test your understanding of storytelling metrics, strategic alignment, ROI, and p
     The correct answer is **A**. Resource optimization requires understanding utilization and shifting resources to higher-impact work. Adding headcount without reallocation would worsen the imbalance, while ignoring measurement or avoiding change leaves value on the table.
 
     **Concept Tested:** Story Resource Optimization
-
 
 ---
 
@@ -118,7 +114,6 @@ Test your understanding of storytelling metrics, strategic alignment, ROI, and p
 
     **Concept Tested:** Story Investment Prioritization
 
-
 ---
 
 #### 8. A sales team requests more stories than the storytelling team can produce. Which process helps align demand with capacity and strategy?
@@ -134,7 +129,6 @@ Test your understanding of storytelling metrics, strategic alignment, ROI, and p
     The correct answer is **B**. Demand management evaluates requests against strategic priorities and available capacity, groups similar needs, and sets realistic expectations. Automation, infinite expansion, and first-in-first-out approaches do not balance demand with capacity.
 
     **Concept Tested:** Story Demand Management
-
 
 ---
 
@@ -152,7 +146,6 @@ Test your understanding of storytelling metrics, strategic alignment, ROI, and p
 
     **Concept Tested:** Story ROI Models
 
-
 ---
 
 #### 10. To align storytelling with a market expansion strategy, the best initiative would be to:
@@ -168,6 +161,5 @@ Test your understanding of storytelling metrics, strategic alignment, ROI, and p
     The correct answer is **B**. Market expansion requires stories that demonstrate relevance and credibility in the new markets. Efficiency stories, retention-only narratives, and reduced investment do not directly support entering new markets.
 
     **Concept Tested:** Story Strategic Alignment
-
 
 ---

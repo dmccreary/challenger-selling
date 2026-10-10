@@ -24,13 +24,13 @@ Test your understanding of intelligent textbook technology, adaptive learning, l
 
 <div class="upper-alpha" markdown>
 1. Generate educational content automatically
-2. Receive and store xAPI statements from multiple learning systems
+2. Host interactive MicroSims for textbooks
 3. Build adaptive learning paths for individual students
-4. Host interactive MicroSims for textbooks
+4. Receive and store xAPI statements from multiple learning systems
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. The LRS is the centralized repository for xAPI statements, aggregating learning data from intelligent textbooks, LMS platforms, virtual labs, and other tools. Content generation, adaptive path building, and MicroSim hosting are handled by other components.
+    The correct answer is **D**. The LRS is the centralized repository for xAPI statements, aggregating learning data from intelligent textbooks, LMS platforms, virtual labs, and other tools. Content generation, adaptive path building, and MicroSim hosting are handled by other components.
 
     **Concept Tested:** LRS
 
@@ -71,14 +71,14 @@ Test your understanding of intelligent textbook technology, adaptive learning, l
 #### 5. Which stakeholder group primarily uses learning analytics to identify students who need additional help?
 
 <div class="upper-alpha" markdown>
-1. Publishers only
-2. Instructors and educators
+1. Instructors and educators
+2. Publishers only
 3. Students themselves exclusively
 4. IT administrators only
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Instructors use learning analytics to identify struggling students, understand challenging concepts, and improve teaching. Students use analytics for self-monitoring, and administrators use them for program assessment, but instructors are the primary users for intervention.
+    The correct answer is **A**. Instructors use learning analytics to identify struggling students, understand challenging concepts, and improve teaching. Students use analytics for self-monitoring, and administrators use them for program assessment, but instructors are the primary users for intervention.
 
     **Concept Tested:** Learning Analytics
 
@@ -88,13 +88,13 @@ Test your understanding of intelligent textbook technology, adaptive learning, l
 
 <div class="upper-alpha" markdown>
 1. They are cheaper to manufacture
-2. They adapt to learners, provide interactivity, and generate actionable analytics
+2. They only work on desktop computers
 3. They have longer chapters with more text
-4. They only work on desktop computers
+4. They adapt to learners, provide interactivity, and generate actionable analytics
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Intelligent textbooks combine digital delivery, interactive experiences, and data-driven adaptation. PDF replicas provide convenience but no pedagogical advantage, while intelligent textbooks personalize learning and make student progress visible.
+    The correct answer is **D**. Intelligent textbooks combine digital delivery, interactive experiences, and data-driven adaptation. PDF replicas provide convenience but no pedagogical advantage, while intelligent textbooks personalize learning and make student progress visible.
 
     **Concept Tested:** Intelligent Textbook Tools
 
@@ -103,14 +103,14 @@ Test your understanding of intelligent textbook technology, adaptive learning, l
 #### 7. When selling intelligent textbooks, what is the strongest contrast to make against traditional static textbooks?
 
 <div class="upper-alpha" markdown>
-1. The intelligent textbook has more colorful cover art
-2. The intelligent textbook personalizes content and tracks learning in ways print cannot
+1. The intelligent textbook personalizes content and tracks learning in ways print cannot
+2. The intelligent textbook has more colorful cover art
 3. The intelligent textbook is always shorter
 4. The intelligent textbook requires no internet access
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. The core Challenger insight is that static textbooks cannot adapt to diverse learners or provide visibility into student understanding. Intelligent textbooks solve both problems, making the contrast compelling for educators and administrators.
+    The correct answer is **A**. The core Challenger insight is that static textbooks cannot adapt to diverse learners or provide visibility into student understanding. Intelligent textbooks solve both problems, making the contrast compelling for educators and administrators.
 
     **Concept Tested:** Intelligent Textbook Sales Stories
 

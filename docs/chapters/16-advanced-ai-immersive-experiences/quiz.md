@@ -42,8 +42,8 @@ Test your understanding of advanced AI capabilities, immersive technologies, and
 
 <div class="upper-alpha" markdown>
 1. It eliminates the need for live customer meetings
-2. It enables risk-free experimentation with different story approaches
-3. It removes the need for human coaches
+2. It removes the need for human coaches
+3. It enables risk-free experimentation with different story approaches
 4. It prevents all future objections
 </div>
 

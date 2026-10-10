@@ -24,10 +24,10 @@ Test your understanding of Challenger insight delivery, multi-channel storytelli
 #### 2. Why is it important to reinforce a Challenger insight across multiple touchpoints?
 
 <div class="upper-alpha" markdown>
-2. It helps the insight persist amid competing messages and priorities
-1. It reduces the number of meetings needed
+1. It eliminates the need for personalization
+2. It reduces the number of meetings needed
 3. It prevents customers from asking questions
-4. It eliminates the need for personalization
+4. It helps the insight persist amid competing messages and priorities
 </div>
 
 ??? question "Show Answer"
@@ -43,8 +43,8 @@ Test your understanding of Challenger insight delivery, multi-channel storytelli
 <div class="upper-alpha" markdown>
 1. Long, detailed narratives with minimal formatting
 2. Visual-only messages with no text
-3. Concise, scannable stories with clear calls to action
-4. Formal legal disclaimers and contract language
+3. Formal legal disclaimers and contract language
+4. Concise, scannable stories with clear calls to action
 </div>
 
 ??? question "Show Answer"

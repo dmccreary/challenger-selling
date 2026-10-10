@@ -7,8 +7,8 @@ Test your understanding of graph data models, query languages, use cases, and sa
 #### 1. In a graph data model, data is represented as which two fundamental elements?
 
 <div class="upper-alpha" markdown>
-1. Tables and rows
-2. Nodes and edges
+1. Nodes and edges
+2. Tables and rows
 3. JSON documents and collections
 4. Keys and values
 </div>
@@ -24,8 +24,8 @@ Test your understanding of graph data models, query languages, use cases, and sa
 #### 2. In a graph database, edges represent:
 
 <div class="upper-alpha" markdown>
-1. Entities or objects in the domain
-2. Relationships or connections between entities
+1. Relationships or connections between entities
+2. Entities or objects in the domain
 3. Key-value properties attached to nodes
 4. Database schemas and constraints
 </div>

@@ -5,16 +5,16 @@ Test your understanding of story library organization, dynamic customization, tr
 ---
 
 #### 1. A well-structured story library typically organizes stories across which dimensions?
-2. Salesperson name and date created
+
 <div class="upper-alpha" markdown>
 1. Industry, persona, objection, sales stage, and product
-
+2. Salesperson name and date created
 3. Story length and emotional tone only
 4. Alphabetical order by customer name
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **D**. Effective libraries categorize stories by dimensions that match real sales decisions, such as the customer's industry, the stakeholder persona, the objection being addressed, the sales stage, and the product involved. This enables salespeople to find relevant stories quickly.
+    The correct answer is **A**. Effective libraries categorize stories by dimensions that match real sales decisions, such as the customer's industry, the stakeholder persona, the objection being addressed, the sales stage, and the product involved. This enables salespeople to find relevant stories quickly.
 
     **Concept Tested:** Story Libraries
 
@@ -23,10 +23,10 @@ Test your understanding of story library organization, dynamic customization, tr
 #### 2. Which trust story type best demonstrates your expertise and deep knowledge of the customer's challenges?
 
 <div class="upper-alpha" markdown>
-2. Credibility Story
 1. Authority Story
+2. Authenticity Story
 3. Vulnerability Story
-4. Authenticity Story
+4. Credibility Story
 </div>
 
 ??? question "Show Answer"
@@ -34,23 +34,21 @@ Test your understanding of story library organization, dynamic customization, tr
 
     **Concept Tested:** Credibility Stories
 
-
 ---
 
 #### 3. Why are industry-specific stories generally more persuasive than generic stories?
 
 <div class="upper-alpha" markdown>
 1. They are always shorter
-2. They use industry language and address industry-specific concerns
-3. They avoid mentioning competitors
-4. They require less research
+2. They avoid mentioning competitors
+3. They require less research
+4. They use industry language and address industry-specific concerns
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **B**. Industry-specific stories use the customer's language, reference relevant regulations, and address challenges unique to that sector, making the insight feel immediately applicable. Length, competitor mentions, and research effort are not the primary reasons.
+    The correct answer is **D**. Industry-specific stories use the customer's language, reference relevant regulations, and address challenges unique to that sector, making the insight feel immediately applicable. Length, research effort, and competitor mentions are not the primary reasons.
 
     **Concept Tested:** Industry-Specific Stories
-
 
 ---
 
@@ -68,7 +66,6 @@ Test your understanding of story library organization, dynamic customization, tr
 
     **Concept Tested:** Credibility Stories
 
-
 ---
 
 #### 5. A customer questions whether your company has a reliable track record of delivery. Which trust story is most appropriate?
@@ -84,7 +81,6 @@ Test your understanding of story library organization, dynamic customization, tr
     The correct answer is **C**. Authority Stories establish your company as a recognized, trusted leader with a track record of reliable delivery. Credibility focuses on personal expertise, vulnerability on setbacks, and authenticity on honesty.
 
     **Concept Tested:** Authority Stories
-
 
 ---
 
@@ -102,23 +98,21 @@ Test your understanding of story library organization, dynamic customization, tr
 
     **Concept Tested:** Vulnerability Stories
 
-
 ---
 
 #### 7. Dynamic story adaptation uses technology to:
 
 <div class="upper-alpha" markdown>
-1. Automatically customize stories based on customer data
-2. Replace salespeople entirely during delivery
+1. Replace salespeople entirely during delivery
+2. Automatically customize stories based on customer data
 3. Eliminate the need for a story library
 4. Remove all human review from story selection
 </div>
 
 ??? question "Show Answer"
-    The correct answer is **A**. Dynamic adaptation automatically inserts customer-specific details, adjusts language for personas, and selects relevant examples. It supports salespeople rather than replacing them, and it relies on the library rather than eliminating it.
+    The correct answer is **B**. Dynamic adaptation automatically inserts customer-specific details, adjusts language for personas, and selects relevant examples. It supports salespeople rather than replacing them, and it relies on the library rather than eliminating it.
 
     **Concept Tested:** Dynamic Story Adaptation
-
 
 ---
 
@@ -136,7 +130,6 @@ Test your understanding of story library organization, dynamic customization, tr
 
     **Concept Tested:** Stage-Specific Stories
 
-
 ---
 
 #### 9. Effective cross-selling stories should focus on:
@@ -153,7 +146,6 @@ Test your understanding of story library organization, dynamic customization, tr
 
     **Concept Tested:** Cross-Selling Stories
 
-
 ---
 
 #### 10. A renewal story warns repeatedly about what the customer will lose if they do not renew. Which guideline for renewal stories has been violated?
@@ -169,6 +161,5 @@ Test your understanding of story library organization, dynamic customization, tr
     The correct answer is **A**. Renewal stories should focus on the value delivered and the value ahead rather than emphasizing loss. Positive framing is more effective than negative framing for renewals, even though loss aversion can be useful in other contexts.
 
     **Concept Tested:** Renewal Stories
-
 
 ---
