@@ -1,0 +1,60 @@
+{
+  "title": "Crisis Response Simulator",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners make four decisions in a data breach crisis and hear the press statement their choices produce, with each crisis-communication principle marked as met or missed.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Crisis Response Simulator",
+    "learningObjectives": [
+      "Respond to a crisis scenario by selecting appropriate crisis storytelling elements (acknowledgment, transparency, accountability, solution-focus) and avoiding defensive behaviors."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "respond",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Story Crisis Response and Story Reputation Management sections of Chapter 13"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 760
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Four decision button groups",
+      "Assemble the Statement button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Decision simulation with generated output",
+    "keyQuestions": [
+      "Respond to a crisis scenario by selecting appropriate crisis storytelling elements (acknowledgment, transparency, accountability, solution-focus) and avoiding defensive behaviors."
+    ],
+    "commonMisconceptions": [
+      "Minimizing the crisis helps.",
+      "Blame others is strategic.",
+      "Speed is less important than accuracy."
+    ],
+    "assessmentOpportunities": [
+      "All four decisions follow the recommended principles.",
+      "Learner can explain why \"blame hackers\" damages trust even when it is true."
+    ]
+  },
+  "chapter": "13-story-innovation-strategy-crisis"
+}

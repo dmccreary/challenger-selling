@@ -60,12 +60,16 @@ Metrics should cascade from business objectives to storytelling objectives to sp
 
 #### Diagram: Metrics Cascade Designer
 
+
+<iframe src="../../sims/metrics-cascade-designer/main.html" width="100%" height="762px" scrolling="no"></iframe>
+[Run Metrics Cascade Designer Fullscreen](../../sims/metrics-cascade-designer/main.html)
+
 <details markdown="1">
 <summary>Metrics Cascade Designer</summary>
 Type: infographic
 **sim-id:** metrics-cascade-designer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** design<br/>
 **Learning Objective:** The learner will design a metrics cascade by linking business objectives to storytelling objectives to specific KPIs.
@@ -188,12 +192,16 @@ When storytelling is misaligned, it wastes resources on activities that don't ma
 
 #### Diagram: Strategic Alignment Mapper
 
+
+<iframe src="../../sims/strategic-alignment-mapper/main.html" width="100%" height="702px" scrolling="no"></iframe>
+[Run Strategic Alignment Mapper Fullscreen](../../sims/strategic-alignment-mapper/main.html)
+
 <details markdown="1">
 <summary>Strategic Alignment Mapper</summary>
 Type: infographic
 **sim-id:** strategic-alignment-mapper<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** align<br/>
 **Learning Objective:** The learner will align storytelling objectives with business strategy by selecting appropriate storytelling initiatives for different strategic priorities.
@@ -277,12 +285,16 @@ Different ROI models apply to different storytelling activities. Story creation 
 
 #### Diagram: ROI Calculator
 
+
+<iframe src="../../sims/roi-calculator/main.html" width="100%" height="742px" scrolling="no"></iframe>
+[Run ROI Calculator Fullscreen](../../sims/roi-calculator/main.html)
+
 <details markdown="1">
 <summary>ROI Calculator</summary>
 Type: infographic
 **sim-id:** roi-calculator<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** calculate<br/>
 **Learning Objective:** The learner will calculate ROI for a storytelling initiative by identifying investment costs, return benefits, and computing the ROI ratio.

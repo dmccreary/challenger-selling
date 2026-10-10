@@ -1,0 +1,60 @@
+{
+  "title": "Strategic Alignment Mapper",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners map four storytelling initiatives to the business strategy each supports and see an alignment matrix that exposes coverage gaps.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Strategic Alignment Mapper",
+    "learningObjectives": [
+      "Align storytelling objectives with business strategy by selecting appropriate storytelling initiatives for different strategic priorities."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "align",
+    "duration": "8 minutes",
+    "prerequisites": [
+      "Story Strategic Alignment and Story Business Value sections of Chapter 14"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Four strategy dropdowns",
+      "Show Alignment Matrix button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Mapping task with generated matrix",
+    "keyQuestions": [
+      "Align storytelling objectives with business strategy by selecting appropriate storytelling initiatives for different strategic priorities."
+    ],
+    "commonMisconceptions": [
+      "Any story supports any strategy.",
+      "Strategy doesn't affect storytelling.",
+      "Alignment is one-time."
+    ],
+    "assessmentOpportunities": [
+      "All four initiatives mapped correctly.",
+      "Learner can explain why alignment must be revisited as strategy changes."
+    ]
+  },
+  "chapter": "14-story-planning-metrics-alignment"
+}

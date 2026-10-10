@@ -57,12 +57,16 @@ Innovation can take many forms: new story structures, unexpected narrative angle
 
 #### Diagram: Story Innovation Explorer
 
+
+<iframe src="../../sims/story-innovation-explorer/main.html" width="100%" height="762px" scrolling="no"></iframe>
+[Run Story Innovation Explorer Fullscreen](../../sims/story-innovation-explorer/main.html)
+
 <details markdown="1">
 <summary>Story Innovation Explorer</summary>
 Type: infographic
 **sim-id:** story-innovation-explorer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Create<br/>
 **Bloom Verb:** innovate<br/>
 **Learning Objective:** The learner will innovate a new storytelling approach by selecting unconventional story elements (structure, angle, format, example) that differentiate from standard approaches.
@@ -134,12 +138,16 @@ Brand alignment requires understanding your brand strategy and translating it in
 
 #### Diagram: Brand Alignment Checker
 
+
+<iframe src="../../sims/brand-alignment-checker/main.html" width="100%" height="762px" scrolling="no"></iframe>
+[Run Brand Alignment Checker Fullscreen](../../sims/brand-alignment-checker/main.html)
+
 <details markdown="1">
 <summary>Brand Alignment Checker</summary>
 Type: infographic
 **sim-id:** brand-alignment-checker<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Evaluate<br/>
 **Bloom Verb:** evaluate<br/>
 **Learning Objective:** The learner will evaluate a story against brand attributes (innovation, reliability, customer focus, technical excellence) and identify alignment or misalignment.
@@ -291,12 +299,16 @@ Pre-designate spokespersons and train them in crisis storytelling. Crisis respon
 
 #### Diagram: Crisis Response Simulator
 
+
+<iframe src="../../sims/crisis-response-simulator/main.html" width="100%" height="762px" scrolling="no"></iframe>
+[Run Crisis Response Simulator Fullscreen](../../sims/crisis-response-simulator/main.html)
+
 <details markdown="1">
 <summary>Crisis Response Simulator</summary>
 Type: infographic
 **sim-id:** crisis-response-simulator<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** respond<br/>
 **Learning Objective:** The learner will respond to a crisis scenario by selecting appropriate crisis storytelling elements (acknowledgment, transparency, accountability, solution-focus) and avoiding defensive behaviors.

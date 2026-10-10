@@ -1,0 +1,64 @@
+{
+  "title": "Story Process Flow",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners click eight shuffled story creation stages into order, name the criteria for three key gates, and see the complete process flow drawn with gates and a revision loop.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Story Process Flow",
+    "learningObjectives": [
+      "Explain the story creation process by identifying the correct sequence of stages and the gate criteria between stages."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "bloomVerb": "explain",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Story Creation Process section of Chapter 12"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 720
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Stage buttons",
+      "Placed-stage list",
+      "Check Sequence button",
+      "Clear button",
+      "Gate criteria dropdowns",
+      "Check Gates button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Sequencing practice with generated diagram",
+    "keyQuestions": [
+      "Explain the story creation process by identifying the correct sequence of stages and the gate criteria between stages."
+    ],
+    "commonMisconceptions": [
+      "Stages can be skipped.",
+      "Testing is optional.",
+      "Deployment is the end."
+    ],
+    "assessmentOpportunities": [
+      "Correct sequence of all eight stages.",
+      "Correct criteria for all three gates."
+    ]
+  },
+  "chapter": "12-story-creation-templates"
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Immersive Experience Designer",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners choose VR, AR, or MR and three experience elements for a production-line showcase aimed at remote prospects, and get a specification with a technology-environment consistency check.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Immersive Experience Designer",
+    "learningObjectives": [
+      "Design an immersive storytelling experience by selecting the appropriate technology (VR, AR, MR) and defining the experience elements for a given scenario."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "design",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Story Virtual Reality, Story Augmented Reality, and Story Mixed Reality sections of Chapter 16"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 720
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Technology buttons",
+      "Environment buttons",
+      "Interaction buttons",
+      "Story focus buttons",
+      "Generate Specification button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Design task with generated specification",
+    "keyQuestions": [
+      "Design an immersive storytelling experience by selecting the appropriate technology (VR, AR, MR) and defining the experience elements for a given scenario."
+    ],
+    "commonMisconceptions": [
+      "All immersive tech is the same.",
+      "VR is always best.",
+      "Immersive is just visual."
+    ],
+    "assessmentOpportunities": [
+      "Recommended technology and elements chosen, with no consistency conflicts.",
+      "Learner can explain when AR is a better choice than VR."
+    ]
+  },
+  "chapter": "16-advanced-ai-immersive-experiences"
+}

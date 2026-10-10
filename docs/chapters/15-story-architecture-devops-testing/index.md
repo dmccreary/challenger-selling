@@ -65,12 +65,16 @@ Story Architecture is the technical foundation that enables storytelling systems
 
 #### Diagram: Architecture Layer Designer
 
+
+<iframe src="../../sims/architecture-layer-designer/main.html" width="100%" height="742px" scrolling="no"></iframe>
+[Run Architecture Layer Designer Fullscreen](../../sims/architecture-layer-designer/main.html)
+
 <details markdown="1">
 <summary>Architecture Layer Designer</summary>
 Type: infographic
 **sim-id:** architecture-layer-designer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** design<br/>
 **Learning Objective:** The learner will design a storytelling system architecture by selecting appropriate components for each layer (integration, data, security, scalability).
@@ -298,12 +302,16 @@ Implement CI/CD incrementally. Start with automated testing, then add automated 
 
 #### Diagram: CI/CD Pipeline Builder
 
+
+<iframe src="../../sims/cicd-pipeline-builder/main.html" width="100%" height="762px" scrolling="no"></iframe>
+[Run CI/CD Pipeline Builder Fullscreen](../../sims/cicd-pipeline-builder/main.html)
+
 <details markdown="1">
 <summary>CI/CD Pipeline Builder</summary>
 Type: infographic
 **sim-id:** cicd-pipeline-builder<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** design<br/>
 **Learning Objective:** The learner will design a CI/CD pipeline by selecting appropriate stages (build, test, deploy) and defining the automated actions for each stage.
@@ -367,12 +375,16 @@ Document the testing strategy and communicate it to the team. Everyone should un
 
 #### Diagram: Testing Strategy Selector
 
+
+<iframe src="../../sims/testing-strategy-selector/main.html" width="100%" height="562px" scrolling="no"></iframe>
+[Run Testing Strategy Selector Fullscreen](../../sims/testing-strategy-selector/main.html)
+
 <details markdown="1">
 <summary>Testing Strategy Selector</summary>
 Type: infographic
 **sim-id:** testing-strategy-selector<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** select<br/>
 **Learning Objective:** The learner will select appropriate testing types (unit, integration, system, UAT) for different testing scenarios and objectives.

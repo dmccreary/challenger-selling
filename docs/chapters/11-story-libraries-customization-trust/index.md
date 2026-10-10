@@ -62,12 +62,16 @@ Effective story libraries are comprehensive, searchable, and systematically main
 
 #### Diagram: Story Library Organizer
 
+
+<iframe src="../../sims/story-library-organizer/main.html" width="100%" height="702px" scrolling="no"></iframe>
+[Run Story Library Organizer Fullscreen](../../sims/story-library-organizer/main.html)
+
 <details markdown="1">
 <summary>Story Library Organizer</summary>
 Type: infographic
 **sim-id:** story-library-organizer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** organize<br/>
 **Learning Objective:** The learner will organize a story library by categorizing stories according to different dimensions (industry, persona, objection, stage, product).
@@ -126,12 +130,16 @@ Build industry-specific stories by researching each target industry's challenges
 
 #### Diagram: Industry Story Translator
 
+
+<iframe src="../../sims/industry-story-translator/main.html" width="100%" height="662px" scrolling="no"></iframe>
+[Run Industry Story Translator Fullscreen](../../sims/industry-story-translator/main.html)
+
 <details markdown="1">
 <summary>Industry Story Translator</summary>
 Type: infographic
 **sim-id:** industry-story-translator<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** adapt<br/>
 **Learning Objective:** The learner will adapt a base story for different industries by selecting industry-specific language, challenges, and regulatory references.
@@ -228,12 +236,16 @@ Customization ranges from light adaptation (changing industry references) to dee
 
 #### Diagram: Story Customizer
 
+
+<iframe src="../../sims/story-customizer/main.html" width="100%" height="702px" scrolling="no"></iframe>
+[Run Story Customizer Fullscreen](../../sims/story-customizer/main.html)
+
 <details markdown="1">
 <summary>Story Customizer</summary>
 Type: infographic
 **sim-id:** story-customizer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** adapt<br/>
 **Learning Objective:** The learner will adapt a base story for different customers by selecting customization elements (industry reference, persona language, specific examples) and adjusting the level of personalization.
@@ -393,12 +405,16 @@ Build trust by choosing stories that demonstrate these qualities and by deliveri
 
 #### Diagram: Trust Story Selector
 
+
+<iframe src="../../sims/trust-story-selector/main.html" width="100%" height="542px" scrolling="no"></iframe>
+[Run Trust Story Selector Fullscreen](../../sims/trust-story-selector/main.html)
+
 <details markdown="1">
 <summary>Trust Story Selector</summary>
 Type: infographic
 **sim-id:** trust-story-selector<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** select<br/>
 **Learning Objective:** The learner will select the appropriate trust story type (Credibility, Authority, Vulnerability, Authenticity) for different customer trust concerns.

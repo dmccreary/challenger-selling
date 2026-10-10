@@ -66,36 +66,58 @@ nav:
       - Graph Quality Analysis: learning-graph/quality-metrics.md
       - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
       - Mascot Test: learning-graph/mascot-test.md
+      - FAQ Quality Report: learning-graph/faq-quality-report.md
+      - FAQ Coverage Gaps: learning-graph/faq-coverage-gaps.md
 
   - MicroSims:
     - List of MicroSims: sims/index.md
     - A/B Test Designer: sims/ab-test-designer/index.md
     - Adaptive Learning Path Designer: sims/adaptive-learning-path-designer/index.md
+    - AI Capability Selector: sims/ai-capability-selector/index.md
+    - Architecture Layer Designer: sims/architecture-layer-designer/index.md
+    - Brand Alignment Checker: sims/brand-alignment-checker/index.md
     - Challenger Principles Explorer: sims/challenger-principles-explorer/index.md
     - Channel Story Adapter: sims/channel-story-adapter/index.md
+    - CI/CD Pipeline Builder: sims/cicd-pipeline-builder/index.md
     - Cognitive Bias Simulator: sims/cognitive-bias-simulator/index.md
+    - Crisis Response Simulator: sims/crisis-response-simulator/index.md
     - Customer Priority Map Builder: sims/customer-priority-map-builder/index.md
     - Dialogue Flow Designer: sims/dialogue-flow-designer/index.md
     - Framework Comparison Chart: sims/framework-comparison-chart/index.md
     - Graph Data Model Visualizer: sims/graph-data-model-visualizer/index.md
     - Graph Traversal Explorer: sims/graph-traversal-explorer/index.md
     - Hero's Journey Interactive Map: sims/heros-journey-interactive-map/index.md
+    - Immersive Experience Designer: sims/immersive-experience-designer/index.md
+    - Industry Story Translator: sims/industry-story-translator/index.md
     - Insight Personalizer: sims/insight-personalizer/index.md
     - Insight Type Selector: sims/insight-type-selector/index.md
     - Integration Architect: sims/integration-architect/index.md
     - Learning Graph Viewer: sims/graph-viewer/index.md
     - Learning Graph Visualizer: sims/learning-graph-visualizer/index.md
     - Memory Retention Experiment: sims/memory-retention-experiment/index.md
+    - Metrics Cascade Designer: sims/metrics-cascade-designer/index.md
     - Metrics Selector: sims/metrics-selector/index.md
     - MicroSim Type Explorer: sims/microsim-type-explorer/index.md
     - Objection Story Selector: sims/objection-story-selector/index.md
     - Persona Matcher: sims/persona-matcher/index.md
     - Prompt Engineering Workshop: sims/prompt-engineering-workshop/index.md
+    - ROI Calculator: sims/roi-calculator/index.md
     - Sales Profiles Comparison: sims/sales-profiles-comparison/index.md
+    - Sentiment Analyzer: sims/sentiment-analyzer/index.md
     - Stakeholder Mapping Tool: sims/stakeholder-mapping-tool/index.md
     - Story Arc Builder: sims/story-arc-builder/index.md
     - Story Component Builder: sims/story-component-builder/index.md
+    - Story Customizer: sims/story-customizer/index.md
+    - Story Draft Builder: sims/story-draft-builder/index.md
+    - Story Innovation Explorer: sims/story-innovation-explorer/index.md
+    - Story Library Organizer: sims/story-library-organizer/index.md
+    - Story Process Flow: sims/story-process-flow/index.md
+    - Story Tester: sims/story-tester/index.md
+    - Strategic Alignment Mapper: sims/strategic-alignment-mapper/index.md
+    - Template Component Assembler: sims/template-component-assembler/index.md
+    - Testing Strategy Selector: sims/testing-strategy-selector/index.md
     - Training Program Designer: sims/training-program-designer/index.md
+    - Trust Story Selector: sims/trust-story-selector/index.md
     - Use Case Matcher: sims/graph-use-case-matcher/index.md
     - Vertical Insight Tailorer: sims/vertical-insight-tailorer/index.md
     - xAPI Statement Builder: sims/xapi-statement-builder/index.md
@@ -110,6 +132,7 @@ nav:
   - Contact: contact.md
   - Diagram Summary: diagram-summary.md
   - Glossary: glossary.md
+  - FAQ: faq.md
 
 # Theme configuration
 theme:

@@ -56,12 +56,16 @@ A well-defined process includes ideation, drafting, refinement, testing, approva
 
 #### Diagram: Story Process Flow
 
+
+<iframe src="../../sims/story-process-flow/main.html" width="100%" height="722px" scrolling="no"></iframe>
+[Run Story Process Flow Fullscreen](../../sims/story-process-flow/main.html)
+
 <details markdown="1">
 <summary>Story Process Flow</summary>
 Type: infographic
 **sim-id:** story-process-flow<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Understand<br/>
 **Bloom Verb:** explain<br/>
 **Learning Objective:** The learner will explain the story creation process by identifying the correct sequence of stages and the gate criteria between stages.
@@ -138,12 +142,16 @@ Drafting tips: start with the hook to grab attention, be specific about the prob
 
 #### Diagram: Story Draft Builder
 
+
+<iframe src="../../sims/story-draft-builder/main.html" width="100%" height="762px" scrolling="no"></iframe>
+[Run Story Draft Builder Fullscreen](../../sims/story-draft-builder/main.html)
+
 <details markdown="1">
 <summary>Story Draft Builder</summary>
 Type: infographic
 **sim-id:** story-draft-builder<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** construct<br/>
 **Learning Objective:** The learner will construct a story draft by writing content for each story component (hook, problem, agitation, solution, social proof, call to action) following drafting best practices.
@@ -217,12 +225,16 @@ Use testing data to make final adjustments. Don't deploy a story until testing s
 
 #### Diagram: Story Tester
 
+
+<iframe src="../../sims/story-tester/main.html" width="100%" height="762px" scrolling="no"></iframe>
+[Run Story Tester Fullscreen](../../sims/story-tester/main.html)
+
 <details markdown="1">
 <summary>Story Tester</summary>
 Type: infographic
 **sim-id:** story-tester<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Evaluate<br/>
 **Bloom Verb:** evaluate<br/>
 **Learning Objective:** The learner will evaluate a story against testing criteria (clarity, relevance, effectiveness, authenticity) and provide feedback for improvement.
@@ -322,12 +334,16 @@ Templates should be flexible enough to accommodate different contexts while stru
 
 #### Diagram: Template Component Assembler
 
+
+<iframe src="../../sims/template-component-assembler/main.html" width="100%" height="762px" scrolling="no"></iframe>
+[Run Template Component Assembler Fullscreen](../../sims/template-component-assembler/main.html)
+
 <details markdown="1">
 <summary>Template Component Assembler</summary>
 Type: infographic
 **sim-id:** template-component-assembler<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** assemble<br/>
 **Learning Objective:** The learner will assemble a complete story by selecting and arranging modular story components (hook, problem, agitation, solution, social proof, call to action) from a component library.

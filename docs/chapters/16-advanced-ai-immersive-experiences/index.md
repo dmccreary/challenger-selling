@@ -63,12 +63,16 @@ Advanced AI technologies are transforming storytelling from a human art to an au
 
 #### Diagram: AI Capability Selector
 
+
+<iframe src="../../sims/ai-capability-selector/main.html" width="100%" height="542px" scrolling="no"></iframe>
+[Run AI Capability Selector Fullscreen](../../sims/ai-capability-selector/main.html)
+
 <details markdown="1">
 <summary>AI Capability Selector</summary>
 Type: infographic
 **sim-id:** ai-capability-selector<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** select<br/>
 **Learning Objective:** The learner will select appropriate AI capabilities (NLP, Speech Recognition, Sentiment AI, Emotion AI) for different storytelling use cases.
@@ -171,12 +175,16 @@ Applications include: analyzing customer reactions to stories during calls, opti
 
 #### Diagram: Sentiment Analyzer
 
+
+<iframe src="../../sims/sentiment-analyzer/main.html" width="100%" height="692px" scrolling="no"></iframe>
+[Run Sentiment Analyzer Fullscreen](../../sims/sentiment-analyzer/main.html)
+
 <details markdown="1">
 <summary>Sentiment Analyzer</summary>
 Type: infographic
 **sim-id:** sentiment-analyzer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Evaluate<br/>
 **Bloom Verb:** analyze<br/>
 **Learning Objective:** The learner will analyze the sentiment of story excerpts and customer responses by identifying emotional tone (positive, negative, neutral) and explaining the sentiment indicators.
@@ -317,12 +325,16 @@ Immersive technologies create engaging, memorable storytelling experiences that 
 
 #### Diagram: Immersive Experience Designer
 
+
+<iframe src="../../sims/immersive-experience-designer/main.html" width="100%" height="722px" scrolling="no"></iframe>
+[Run Immersive Experience Designer Fullscreen](../../sims/immersive-experience-designer/main.html)
+
 <details markdown="1">
 <summary>Immersive Experience Designer</summary>
 Type: infographic
 **sim-id:** immersive-experience-designer<br/>
 **Library:** html<br/>
-**Status:** Specified<br/>
+**Status:** Built<br/>
 **Bloom Level:** Apply<br/>
 **Bloom Verb:** design<br/>
 **Learning Objective:** The learner will design an immersive storytelling experience by selecting the appropriate technology (VR, AR, MR) and defining the experience elements for a given scenario.
