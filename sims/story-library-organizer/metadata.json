@@ -1,0 +1,62 @@
+{
+  "title": "Story Library Organizer",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners tag six customer stories by industry, persona, objection, deal stage, and product, and see each story become a searchable library card.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Story Library Organizer",
+    "learningObjectives": [
+      "Organize a story library by categorizing stories according to different dimensions (industry, persona, objection, stage, product)."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "organize",
+    "duration": "12 minutes",
+    "prerequisites": [
+      "Story Libraries, Industry-Specific Stories, and Persona-Specific Stories sections of Chapter 11"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Five tag dropdowns",
+      "Submit button",
+      "Next button",
+      "Start Over button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classification practice with generated output",
+    "keyQuestions": [
+      "Organize a story library by categorizing stories according to different dimensions (industry, persona, objection, stage, product)."
+    ],
+    "commonMisconceptions": [
+      "Stories fit only one category.",
+      "Categorization is optional.",
+      "All dimensions are equally important."
+    ],
+    "assessmentOpportunities": [
+      "All five tags correct for all six stories.",
+      "Learner can explain why one story can carry several tags."
+    ]
+  },
+  "chapter": "11-story-libraries-customization-trust"
+}

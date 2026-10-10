@@ -1,0 +1,64 @@
+{
+  "title": "Industry Story Translator",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners adapt one story template for healthcare, financial services, and manufacturing by choosing industry language, the challenge that industry measures, and its regulatory reference.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Industry Story Translator",
+    "learningObjectives": [
+      "Adapt a base story for different industries by selecting industry-specific language, challenges, and regulatory references."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "bloomVerb": "adapt",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Industry-Specific Stories section of Chapter 11"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 660
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Language dropdown",
+      "Challenge dropdown",
+      "Regulatory Reference dropdown",
+      "Submit button",
+      "Next button",
+      "Start Over button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Adaptation practice with generated output",
+    "keyQuestions": [
+      "Adapt a base story for different industries by selecting industry-specific language, challenges, and regulatory references."
+    ],
+    "commonMisconceptions": [
+      "The same story works across industries.",
+      "Industry terminology is superficial.",
+      "Regulatory references are optional."
+    ],
+    "assessmentOpportunities": [
+      "Correct language, challenge, and regulation for all three industries.",
+      "Learner can explain why SOX and GDPR are wrong for the healthcare story."
+    ]
+  },
+  "chapter": "11-story-libraries-customization-trust"
+}

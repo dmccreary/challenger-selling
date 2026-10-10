@@ -1,0 +1,63 @@
+{
+  "title": "Story Innovation Explorer",
+  "creator": "Dan McCreary",
+  "subject": "Challenger Selling",
+  "description": "Learners reinvent a standard \"we cut costs 20%\" story by choosing an unconventional structure, angle, format, and example, and see the resulting story concept.",
+  "date": "2026-10-09",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "audience": "Sales professionals",
+    "subjectArea": "Sales storytelling",
+    "topic": "Story Innovation Explorer",
+    "learningObjectives": [
+      "Innovate a new storytelling approach by selecting unconventional story elements (structure, angle, format, example) that differentiate from standard approaches."
+    ],
+    "bloomsTaxonomy": "Create",
+    "bloomVerb": "innovate",
+    "duration": "12 minutes",
+    "prerequisites": [
+      "Story Innovation and Story Differentiation sections of Chapter 13"
+    ]
+  },
+  "technical": {
+    "framework": "html",
+    "version": "1.0",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 760
+    },
+    "responsive": true,
+    "dependencies": [],
+    "accessibility": {
+      "hasAltText": false,
+      "keyboardNavigable": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      "Structure buttons",
+      "Angle buttons",
+      "Format buttons",
+      "Example buttons",
+      "Build My Story Concept button"
+    ]
+  },
+  "pedagogical": {
+    "teachingStrategy": "Creative design with formative feedback",
+    "keyQuestions": [
+      "Innovate a new storytelling approach by selecting unconventional story elements (structure, angle, format, example) that differentiate from standard approaches."
+    ],
+    "commonMisconceptions": [
+      "Innovation means random changes.",
+      "Standard approaches are bad.",
+      "Any difference is innovation."
+    ],
+    "assessmentOpportunities": [
+      "A concept that is differentiated on all four dimensions.",
+      "Learner can explain why innovation must serve the insight, not just change the format."
+    ]
+  },
+  "chapter": "13-story-innovation-strategy-crisis"
+}
